@@ -362,6 +362,7 @@ header h1 {
 }
 
 #testimonials {
+  margin-bottom: 110px;
   padding: 30px 0 20px 0;
   position: relative;
 }
@@ -445,8 +446,90 @@ header h1 {
   margin: 0 auto -40px;
 }
 
+/*
++----------------------------------------------------------------+
+  What is startup dev
++----------------------------------------------------------------+
+*/
 
+#what-is-startup-dev{}
+#what-is-startup-dev h2,
+#what-is-startup-dev h3 {
+  text-align: center;
+}
 
+#what-is-startup-dev h3 {
+  margin-bottom: 50px;
+}
 
+#what-is-startup-dev .description {
+  float: left;
+  width: 540px;
+}
+
+#what-is-startup-dev .team {
+  float: right;
+  width: 320px;
+}
+
+#what-is-startup-dev .team nav {
+  margin-bottom: 30px;
+}
+
+#what-is-startup-dev .team nav a {
+  color: #FFF;
+  display: block;
+  font-size: 1.4em;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 46px;
+  text-align: right;
+}
+
+#what-is-startup-dev .team nav a span {
+  background: url("../images/yellow-arrow.png") right top;
+  display: block;
+  float: right;
+  height: 40px;
+  margin-left: 10px;
+  text-indent: -9000px;
+  width: 41px;
+}
+
+#what-is-startup-dev h4 {
+  color: #FED247;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: 69px;
+}
+
+#what-is-startup-dev h4 span {
+  background: url("../images/workflow-details.png") no-repeat -10px -10px;
+  display: block;
+  float: left;
+  margin-right: 3px;
+  height: 65px;
+  width: 71px;
+}
+
+#what-is-startup-dev ol {
+  color: #FED247;
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-left: 58px;
+}
+
+#what-is-startup-dev ol li {
+  padding-left: 15px;
+  vertical-align: middle;
+}
+
+#what-is-startup-dev ol p {
+  color: #fff;
+  font-size: 0.4em;
+  font-weight: normal;
+}
 
 

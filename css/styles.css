@@ -484,6 +484,7 @@ header h1 {
 }
 
 #what-is-startup-dev article nav {
+  float: right;
   margin-bottom: 30px;
 }
 
@@ -526,8 +527,6 @@ header h1 {
   width: 320px;
 }
 
-
-
 #tell-us-your-idea ol {
   color: #FED247;
   font-size: 3.5em;
@@ -562,7 +561,6 @@ header h1 {
 }
 
 #what-is-startup-dev article#developing-applications nav {
-  float: right;
   margin: 30px 0 50px;
 }
 
@@ -628,3 +626,114 @@ header h1 {
 #developing-applications li a:hover {
   text-decoration: none;
 }
+
+/*
++----------------------------------------------------------------+
+  Meeting
++----------------------------------------------------------------+
+*/
+
+#meeting {}
+#what-is-startup-dev article#meeting h1 {
+  float: left;
+  margin-bottom: 10px;
+}
+
+#what-is-startup-dev article#meeting nav {
+  margin: 10px 0 0;
+}
+
+#meeting p {
+  clear: both;
+  font-size: 1.6em;
+}
+
+#meeting h2 {
+  color: #FFF;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+  text-align: left;
+  text-transform: none;
+}
+
+#meeting ul {
+  background: url("../images/icones-reuniao.png") no-repeat left top;
+  list-style: none;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+#meeting li {
+  display: block;
+  float: left;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 110px 60px 0 0;
+  width: 95px;
+  text-transform: uppercase;
+}
+
+#meeting li#flow {
+  margin-right: 40px;
+  width: 110px;
+}
+#meeting li#draw {
+  margin-right: 55px;
+}
+#meeting li#writer{
+  margin-right: 60px;
+}
+#meeting li#define {
+  margin-right: 40px;
+}
+
+#meeting li#scope {
+  width: 125px;
+}
+
+#dev-2-days {
+  background: url("../images/48horas-category.png") no-repeat left top;
+  height: 307px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 155px 110px 0 0;
+  position: relative;
+  width: 473px;
+}
+
+#dev-2-days h3 {
+  color: #FED247;
+  font-size: 2.8em;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+#dev-2-days h4 {
+ font-size: 2em;
+}
+
+#dev-2-days p {
+  margin-bottom: 10px;
+}
+
+#dev-2-days a {
+  color: #5E4E15;
+  display: block;
+  font-size: 1.8em;
+  padding: 70px 0 0;
+  position: absolute;
+  right: 9px;
+  top: 120px;
+  text-decoration: none;
+  width: 176px;
+  height: 134px;
+}
+
+#dev-2-days a span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+

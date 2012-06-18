@@ -508,6 +508,27 @@ header h1 {
   width: 41px;
 }
 
+#what-is-startup-dev article hgroup {
+  float: left;
+}
+
+#what-is-startup-dev article hgroup h1 {
+  margin-bottom: 0;
+}
+
+#what-is-startup-dev article hgroup h1 span {
+  background-position: -90px -10px;
+}
+
+#what-is-startup-dev article hgroup h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: -18px 0 0 78px;
+  text-transform: none;
+  text-align: left;
+}
+
 /*
 +----------------------------------------------------------------+
   Tell us your idea
@@ -556,29 +577,8 @@ header h1 {
   padding: 20px;
 }
 
-#developing-applications hgroup {
-  float: left;
-}
-
 #what-is-startup-dev article#developing-applications nav {
   margin: 30px 0 50px;
-}
-
-#what-is-startup-dev article#developing-applications h1 {
-  margin-bottom: 0;
-}
-
-#what-is-startup-dev article#developing-applications h1 span {
-  background-position: -90px -10px;
-}
-
-#developing-applications h2 {
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin: -18px 0 0 78px;
-  text-transform: none;
-  text-align: left;
 }
 
 #developing-applications ul {
@@ -734,6 +734,58 @@ header h1 {
   text-transform: uppercase;
 }
 
+/*
++----------------------------------------------------------------+
+  Invest
++----------------------------------------------------------------+
+*/
 
+#invest {
+  overflow: hidden;
+  padding: 20px;
+}
 
+#what-is-startup-dev article#invest nav {
+  margin: 30px 0 30px;
+  float: none;
+}
 
+#what-is-startup-dev article#invest h1 span {
+  background-position: -165px -10px;
+}
+
+#column-1,
+#column-2 {
+  float: left;
+  font-size: 1.4em;
+  width: 305px;
+}
+#column-1 {
+  margin-left: 30px;
+}
+#column-2 {
+  text-align: right;
+}
+
+#better-of-all {
+  background: url("../images/melhor-de-tudo.png") no-repeat left top;
+  float: left;
+  margin-top: 20px;
+  padding: 98px 0 0;
+  height: 188px;
+  width: 286px;
+}
+
+#better-of-all h3 {
+  color: #FED247;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+#better-of-all h4 {
+  color: #FFF;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}

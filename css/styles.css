@@ -146,6 +146,7 @@ header h1 {
 .button-talk-to-us {
   background: url("../images/bg-botao-fale-conosco.png");
   color: #5E4E15;
+  font-weight: bold;
   height: 61px;
   width: 232px;
   line-height: 61px;
@@ -849,3 +850,47 @@ header h1 {
   left: 190px;
   bottom: 18px;
 }
+
+/*
++----------------------------------------------------------------+
+  Talk to us
++----------------------------------------------------------------+
+*/
+
+#talk-to-us {
+  margin: 150px auto 120px;
+  width: 552px;
+}
+
+#talk-to-us h2 {
+ font-size: 3.1em;
+ letter-spacing: 0.01em;
+}
+
+#talk-to-us form {}
+#talk-to-us label,
+#talk-to-us input {
+  font-size: 2.1em;
+  display: block;
+}
+#talk-to-us label {
+  margin-bottom: 20px;
+}
+#talk-to-us input {
+  border: 0;
+  background: url("../images/text-area.png") no-repeat left bottom;
+  font-size: 1em;
+  margin-top: 5px;
+  padding: 10px;
+  width: 550px;
+}
+
+#talk-to-us .button-talk-to-us {
+  background: url("../images/bg-botao-quero-aplicativo.png") no-repeat left top;
+  border: 0;
+  font-size: 1.8em;
+  margin-top: 30px;
+  width: 577px;
+}
+
+

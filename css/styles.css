@@ -16,6 +16,7 @@ body {
   background: url("../images/line-top.png") repeat-x;
   color: #FFF;
   font: 62.5% Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 5px #061033;
 }
 
 p {
@@ -82,6 +83,7 @@ header h1 {
   position: fixed;
   left: 0;
   top: 50%;
+  text-shadow: none;
 }
 
 #menu li {
@@ -153,6 +155,7 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  text-shadow: none;
 }
 
 .button-talk-to-us,
@@ -697,6 +700,7 @@ header h1 {
   height: 307px;
   margin: 0 auto;
   text-align: center;
+  text-shadow: none;
   padding: 155px 110px 0 0;
   position: relative;
   width: 473px;
@@ -820,6 +824,7 @@ header h1 {
   background: url("../images/circle.png") no-repeat left top;
   float: right;
   margin: -90px 0 40px 40px;
+  text-shadow: none;
   padding: 50px 0 0;
   height: 138px;
   width: 188px;

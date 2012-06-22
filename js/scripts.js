@@ -10,12 +10,12 @@ $(document).ready(function(){
       margin_left = link.css("margin-left");
       link.animate({
            marginLeft: '0',
-      }, 1000);
+      }, 500);
     },
     function(){
       $(this).find("a").animate({
           marginLeft: margin_left,
-      }, 1000);
+      }, 500);
     }
   );
 });

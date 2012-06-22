@@ -891,6 +891,7 @@ header h1 {
 
 #talk-to-us .button-talk-to-us {
   background: url("../images/bg-botao-quero-aplicativo.png") no-repeat left top;
+  padding: 0;
   border: 0;
   font-size: 1.8em;
   margin-top: 30px;

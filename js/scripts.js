@@ -18,4 +18,10 @@ $(document).ready(function(){
       }, 500);
     }
   );
+  $("#testimonials .container").jCarouselLite({
+    btnNext: "#testimonial-next",
+    btnPrev: "#testimonial-previous",
+    visible: 1,
+    speed: 1000
+  });
 });

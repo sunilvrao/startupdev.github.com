@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  $('nav').localScroll({
+    duration: 1000,
+    axis: 'y'
+  });
 
   $("#menu li").hover(
     function(){

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('nav').localScroll({
+  $('nav, .call-to-action').localScroll({
     duration: 1000,
     axis: 'y'
   });

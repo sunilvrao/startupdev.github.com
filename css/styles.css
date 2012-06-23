@@ -408,7 +408,14 @@ header h1 {
   margin-bottom: 20px;
   padding: 0 80px 0 100px;
   position: relative;
-  height: 130px;
+}
+
+#testimonials .slider-container .slider {
+  height: 160px;
+}
+
+#testimonials ul {
+  list-style-type: none;
 }
 
 .testimonial p {
@@ -448,10 +455,6 @@ header h1 {
 
 #testimonials .button-talk-to-us {
   margin: 0 auto -40px;
-}
-
-#testimonials ul {
-  list-style-type: none;
 }
 
 /*

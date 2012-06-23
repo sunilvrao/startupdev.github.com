@@ -18,7 +18,7 @@ $(document).ready(function(){
       }, 500);
     }
   );
-  $("#testimonials .container").jCarouselLite({
+  $("#testimonials .slider-container").jCarouselLite({
     btnNext: "#testimonial-next",
     btnPrev: "#testimonial-previous",
     visible: 1,

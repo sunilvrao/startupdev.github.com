@@ -31,9 +31,15 @@ $(document).ready(function(){
     }
   });
 
+  $("#projects-slider-navigation a").click(function(){
+    $("#projects-slider-navigation a").removeClass("selected");
+    $(this).addClass("selected");
+  });
+
   $("#developed-projects-slider div").jCarouselLite({
       btnNext: "#slider-next",
       btnPrev: "#slider-previous",
-      visible: 1
+      visible: 1,
+      btnGo: ["#projects-slider-navigation .1", "#projects-slider-navigation .2"]
   });
 });

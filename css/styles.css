@@ -325,20 +325,22 @@ header h1 {
 }
 
 #slider-previous {
-  left: -70px;
+  left: -110px;
 }
 
-#developed-projects-slider ul {
-  list-style: none;
+#developed-projects-slider li {
   margin: 0 auto;
   overflow:hidden;
   width: 890px;
 }
 
-#developed-projects-slider li {
+#developed-projects-slider li div {
   float: left;
-  margin: 0 30px 30px 0;
+  margin: 0 37px 30px 0;
   text-align: center;
+}
+#developed-projects-slider li div.last {
+  margin-right: 0;
 }
 
 #developed-projects-slider li h3 {
@@ -347,7 +349,9 @@ header h1 {
   margin-bottom: 4px;
   text-transform: uppercase;
 }
-
+#developed-projects-slider li img {
+  display: block;
+}
 #developed-projects-slider li a {
   padding: 3px;
   display: block;

@@ -24,4 +24,10 @@ $(document).ready(function(){
     visible: 1,
     speed: 1000
   });
+
+  $("#developed-projects-slider div").jCarouselLite({
+      btnNext: "#slider-next",
+      btnPrev: "#slider-previous",
+      visible: 1
+  });
 });

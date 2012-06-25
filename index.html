@@ -474,19 +474,25 @@ layout: default
 <article id="talk-to-us" class="container">
   <a name="contact-section"></a>
   <h2>Será um prazer atender você!</h2>
-  <form action="#">
+  <form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://startupdev.wufoo.com/forms/m7x3s5/#public">
     <label for="name">
       Nome
-      <input type="text" name="name" id="name" />
+      <input type="text" name="Field11" id="name" />
     </label>
     <label for="phone">
       Telefone (com DDD)
-      <input type="text" name="phone" id="phone" />
+      <input type="text" name="Field4" id="phone" />
     </label>
     <label for="email">
       Email
-      <input type="text" name="email" id="email" />
+      <input type="email" name="Field5" id="email" />
     </label>
+    <div class="hide">
+      <!-- Wufoo token -->
+      <label for="comment">Comment</label>
+      <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+      <input type="hidden" id="idstamp" name="idstamp" value="QpFvH7GbxxJXxS7suVUY1YC13WHd99TCq6I55yl2Ty4=" />
+    </div>
     <input class="button-talk-to-us" type="submit" value="Quero desenvolver um aplicativo">
   </form>
 </article>

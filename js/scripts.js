@@ -7,15 +7,18 @@ $(document).ready(function(){
   $("#menu li").hover(
     function(){
       var link = $(this).find("a");
-      margin_left = link.css("margin-left");
+      if (link.data('original-margin') == undefined) {
+        link.data('original-margin', link.css("margin-left"));
+      }
       link.animate({
            marginLeft: '0',
-      }, 500);
+      }, 250);
     },
     function(){
-      $(this).find("a").animate({
-          marginLeft: margin_left,
-      }, 500);
+      var link = $(this).find("a");
+      link.animate({
+          marginLeft: link.data('original-margin'),
+      }, 250);
     }
   );
   $("#testimonials .slider-container").jCarouselLite({

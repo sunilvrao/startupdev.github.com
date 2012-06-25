@@ -560,7 +560,6 @@ header h1 {
   color: #fff;
   font: 1.6em Helvetica;
   font-weight: bold;
-  margin: -18px 0 0 78px;
   text-transform: none;
   text-align: left;
 }
@@ -714,8 +713,9 @@ ol li:before {
 #meeting ul {
   background: url("../images/icones-reuniao.png") no-repeat left top;
   list-style: none;
-  margin-bottom: 60px;
+  margin:0 auto 60px;
   overflow: hidden;
+  width:870px;
 }
 
 #meeting li {
@@ -744,13 +744,14 @@ ol li:before {
 }
 
 #meeting li#scope {
-  width: 125px;
+  margin-right: 0;
+  width: 120px;
 }
 
 #dev-2-days {
   background: url("../images/48horas-category.png") no-repeat left top;
   height: 307px;
-  margin: 0 auto;
+  margin: 0 0 0 240px;
   text-align: center;
   text-shadow: none;
   padding: 155px 110px 0 0;
@@ -866,7 +867,6 @@ ol li:before {
 #app-online .description {
   background: url("../images/bg-overlay-hard.png");
   font-size: 1.3em;
-  margin: 0 25px;
   padding: 30px 30px 100px;
   position: relative;
   clear: both;

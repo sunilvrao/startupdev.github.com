@@ -112,6 +112,12 @@ header h1 {
   text-shadow: none;
 }
 
+@media all and (max-width: 1024px) {
+  #menu {
+    display:none;
+  }
+}
+
 #menu li {
   background: url("../images/bg-nav.jpg") left bottom;
   display: block;

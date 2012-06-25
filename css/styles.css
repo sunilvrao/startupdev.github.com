@@ -330,13 +330,14 @@ header h1 {
 
 #developed-projects-slider li {
   margin: 0 auto;
+  height: 450px;
   overflow:hidden;
   width: 890px;
 }
 
 #developed-projects-slider li div {
   float: left;
-  margin: 0 37px 30px 0;
+  margin: 0 36px 30px 0;
   text-align: center;
 }
 #developed-projects-slider li div.last {
@@ -344,7 +345,7 @@ header h1 {
 }
 
 #developed-projects-slider li h3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 4px;
   text-transform: uppercase;

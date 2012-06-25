@@ -949,7 +949,8 @@ ol li:before {
 }
 
 #must-be-maintained h4 {
-  font-weight: bold;
+  font-size: 1.7em;
+  font-family: HelveticaNeueCondensedBold;
   text-align: center;
   text-transform: uppercase;
 }

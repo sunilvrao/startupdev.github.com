@@ -814,6 +814,7 @@ ol li:before {
 
 #dev-2-days h3 {
   color: #FED247;
+  font-family: HelveticaNeueCondensedBold;
   font-size: 2.8em;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -842,6 +843,8 @@ ol li:before {
 
 #dev-2-days a span {
   font-weight: bold;
+  font-size: 1.1em;
+  font-family: HelveticaNeueCondensedBold;
   text-transform: uppercase;
 }
 

@@ -907,7 +907,10 @@ ol li:before {
 +----------------------------------------------------------------+
 */
 
-#app-online {}
+#app-online {
+  padding: 30px 0 100px 0;
+
+}
 
 #what-is-startup-dev article#app-online h1 span {
   background-position: -245px -10px;

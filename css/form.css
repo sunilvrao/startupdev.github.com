@@ -1,49 +1,24 @@
 /* WUFOO FORM */
-
-label,
-input {
+body{
+  font: Helvetica;
+}
+form.wufoo input.field, .wufoo label.desc {
   font-size: 2.1em;
   display: block;
 }
-label {
-  margin-bottom: 20px;
+form.wufoo {background-color: #000}
+.wufoo label.desc {
+  color: #fff;
+  font: 2.1em Helvetica;
 }
-input {
+
+form.wufoo input.field {
   border: 0;
-  background: url("/images/text-area.png") no-repeat left bottom;
+  background: url("https://github.com/Helabs/startupdev.github.com/raw/site-2012/images/text-area.png") no-repeat left bottom;
   font-size: 1em;
   margin-top: 5px;
   padding: 10px;
+  font-size: 1em;
+  display: block;
   width: 550px;
-}
-
-
-form {
-  color: #fff !important;
-}
-
-
-form textarea,
-form textarea.textarea,
-form textarea.medium {
-  padding: 0;
-}
-
-
-
-form input[type="submit"] {
-  color: #fff !important;
-  padding: 10px 20px;
-  background: url("/images/bg-botao-quero-aplicativo.png") no-repeat left top;
-  font-size: 1.8em;
-  margin-top: 30px;
-  width: 577px;
-  border: none !important;
-  text-shadow: none !important;
-}
-
-form input[type="submit"]:active {
-  -moz-box-shadow: inset 0 1px 2px #000;
-  -webkit-box-shadow: inset 0 1px 2px #000;
-  box-shadow: inset 0 1px 2px #000;
 }

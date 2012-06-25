@@ -113,6 +113,7 @@ header h1 {
   left: 0;
   top: 50%;
   text-shadow: none;
+  z-index: 3;
 }
 
 @media all and (max-width: 1024px) {
@@ -162,7 +163,7 @@ header h1 {
 #menu li#contact a {
   background-position: 132px -159px;
   padding-right: 61px;
-  margin-left: -119px;
+  margin-left: -122px;
 }
 
 #menu li#home a:hover,

@@ -22,7 +22,13 @@ $(document).ready(function(){
     btnNext: "#testimonial-next",
     btnPrev: "#testimonial-previous",
     visible: 1,
-    speed: 1000
+    speed: 1000,
+    beforeStart: function(e){
+      $(e).animate({opacity:0});
+      // We need both to be updated because the user can go either left or right.
+      $(e).prev().css({opacity: 100})
+      $(e).next().css({opacity: 100})
+    }
   });
 
   $("#developed-projects-slider div").jCarouselLite({

@@ -353,7 +353,7 @@ header h1 {
   display:block;
   height: 70px;
   position: absolute;
-  top: 200px;
+  top: 110px;
   text-indent: -9000px;
   width: 71px;
 }
@@ -396,17 +396,23 @@ header h1 {
   margin-bottom: 4px;
   text-transform: uppercase;
 }
+
 #developed-projects-slider li img {
   display: block;
+  border: 3px solid #88ABC0;
 }
-#developed-projects-slider div  li a {
-  padding: 3px;
+
+#developed-projects-slider div li a {
+  border: 3px solid #1C4969;
   display: block;
+}
+
+#developed-projects-slider div li a img {
+  border: none;
 }
 
 #developed-projects-slider li a:hover {
  border: 3px solid #FED247;
- padding: 0;
 }
 
 #projects-slider-navigation {
@@ -493,7 +499,7 @@ header h1 {
 }
 
 #testimonials .slider-container .slider {
-  height: 160px;
+  height: 200px;
 }
 
 #testimonials ul {
@@ -502,6 +508,11 @@ header h1 {
 
 .testimonial p {
   font-size: 1.4em;
+}
+
+.testimonial-content {
+  margin-top: 0;
+  font-size: 1.7em !important;
 }
 
 .testimonial-author,

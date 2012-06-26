@@ -6,17 +6,13 @@ form.wufoo input {
   display: block;
 }
 
-form.wufoo label {
-  margin-bottom: 20px;
-}
-
 form.wufoo input.field {
   border: 0;
-  background: url("http://startupdev.com.br/images/text-area.png") no-repeat left bottom;
+  background: #fff url("http://startupdev.com.br/images/text-area.png") no-repeat left bottom;
   font-size: 1em;
   margin-top: 5px;
   padding: 10px;
-  width: 500px;
+  width: 540px;
 }
 
 form.wufoo .btTxt {
@@ -33,7 +29,6 @@ form.wufoo .btTxt {
   text-shadow: none;
   display: block;
   font-size: 2em;
-  font-size: 1.8em;
   margin-top: 30px;
   width: 577px;
 }

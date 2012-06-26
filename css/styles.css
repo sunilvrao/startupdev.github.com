@@ -342,6 +342,7 @@ header h1 {
 }
 
 #developed-projects-slider {
+  margin-left: 35px;
   position: relative;
   margin-left: 30px;
 }
@@ -366,11 +367,11 @@ header h1 {
 
 #slider-next {
   background-position: top right;
-  right: -70px;
+  right: -50px;
 }
 
 #slider-previous {
-  left: -110px;
+  left: -90px;
 }
 
 #developed-projects-slider div li {

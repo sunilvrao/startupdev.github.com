@@ -499,7 +499,7 @@ header h1 {
 }
 
 #testimonials .slider-container .slider {
-  height: 160px;
+  height: 200px;
 }
 
 #testimonials ul {
@@ -508,6 +508,11 @@ header h1 {
 
 .testimonial p {
   font-size: 1.4em;
+}
+
+.testimonial-content {
+  margin-top: 0;
+  font-size: 1.7em !important;
 }
 
 .testimonial-author,

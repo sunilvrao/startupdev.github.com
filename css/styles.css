@@ -777,7 +777,8 @@ ol li:before {
 #meeting li {
   display: block;
   float: left;
-  font: 1.2em Helvetica;
+  font-size: 1.2em;
+  font-family: Helvetica, arial, sans-serif;
   font-weight: bold;
   text-align: center;
   margin: 110px 60px 0 0;

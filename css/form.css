@@ -8,7 +8,7 @@ form.wufoo input {
 
 form.wufoo input.field {
   border: 0;
-  background: #fff url("http://startupdev.com.br/images/text-area.png") no-repeat left bottom;
+  background: transparent url("http://startupdev.com.br/images/text-area.png") no-repeat left bottom;
   font-size: 1em;
   margin-top: 5px;
   padding: 10px;
@@ -28,7 +28,7 @@ form.wufoo .btTxt {
   text-decoration: none;
   text-shadow: none;
   display: block;
-  font-size: 2em;
+  font-size: 1.6em;
   margin-top: 30px;
   width: 577px;
 }

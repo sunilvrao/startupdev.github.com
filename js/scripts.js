@@ -45,6 +45,6 @@ $(document).ready(function(){
       btnNext: "#slider-next",
       btnPrev: "#slider-previous",
       visible: 1,
-      btnGo: ["#projects-slider-navigation .1", "#projects-slider-navigation .2"]
+      btnGo: ["#projects-slider-navigation .1", "#projects-slider-navigation .2", "#projects-slider-navigation .3"]
   });
 });

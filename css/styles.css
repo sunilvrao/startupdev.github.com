@@ -418,7 +418,7 @@ header h1 {
 #projects-slider-navigation {
   display: none;
   margin: 30px auto;
-  width: 64px;
+  width: 96px;
 }
 
 @media all and (max-width: 1024px) {
@@ -1222,7 +1222,7 @@ footer {
 footer a,
 footer a:hover,
 footer a:visited {
- color: #fff; 
+ color: #fff;
  text-decoration: none;
  border-bottom: 1px dotted #fff;
 }

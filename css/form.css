@@ -1,4 +1,9 @@
 /* WUFOO FORM */
+
+form.wufoo .focused {
+  background: #88ABC0;
+}
+
 form.wufoo label,
 form.wufoo input {
   margin-bottom: 0;

@@ -930,6 +930,11 @@ ol li:before {
 
 }
 
+#app-online div.description p a {
+  font-weight: bold;
+  color: #fff;
+}
+
 #what-is-startup-dev article#app-online h1 span {
   background-position: -245px -10px;
 }

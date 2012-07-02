@@ -161,9 +161,9 @@ header h1 {
 }
 
 #menu li#contact a {
-  background-position: 132px -159px;
-  padding-right: 61px;
-  margin-left: -122px;
+  background-position: 139px -159px;
+  width: 159px;
+  margin-left: -127px;
 }
 
 #menu li#home a:hover,

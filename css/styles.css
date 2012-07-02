@@ -1008,6 +1008,42 @@ ol li:before {
 
 /*
 +----------------------------------------------------------------+
+  Partners
++----------------------------------------------------------------+
+*/
+
+#partners {
+  margin-bottom: 90px;
+}
+#partners table {
+  background-color: #FFF;
+  border: none;
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  -o-border-radius: 10px / 10px;
+  -ms-border-radius: 10px / 10px;
+  -khtml-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  width: 100%;
+}
+
+#partners td {
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#partners td.last {
+  border-right: 0;
+}
+
+#partners tr.last td {
+  border-bottom: 0;
+}
+/*
++----------------------------------------------------------------+
   Schedule
 +----------------------------------------------------------------+
 */
@@ -1017,7 +1053,8 @@ ol li:before {
 }
 
 #schedule h2,
-#talk-to-us h2 {
+#talk-to-us h2,
+#partners h2 {
   margin-bottom: 30px;
   text-align: center;
 }

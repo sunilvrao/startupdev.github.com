@@ -90,14 +90,14 @@ table {
 +----------------------------------------------------------------+
 */
 header {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   text-align: center;
 }
 
 header h1 {
   background: url("../images/startup-dev.png");
   height: 150px;
-  margin: 60px auto 50px;
+  margin: 60px auto 0px;
   text-indent: -9000px;
   width: 680px;
 }
@@ -293,7 +293,7 @@ header h1 {
 #presentation {
   clear: both;
   overflow: hidden;
-  margin-bottom: 110px;
+  margin-bottom: 90px;
   padding-bottom: 50px;
 }
 
@@ -333,7 +333,7 @@ header h1 {
 */
 
 #developed-projects {
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 
 #developed-projects h2 {
@@ -566,7 +566,7 @@ header h1 {
 }
 
 #what-is-startup-dev article {
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 
 #what-is-startup-dev article h1 {
@@ -926,7 +926,7 @@ ol li:before {
 */
 
 #app-online {
-  padding: 30px 0 100px 0;
+  padding: 30px 0 85px 0;
 
 }
 
@@ -995,7 +995,7 @@ ol li:before {
 */
 
 #schedule {
-  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 #schedule h2 {
@@ -1171,7 +1171,7 @@ ol li:before {
 */
 
 #talk-to-us {
-  margin: 150px auto 120px;
+  margin: 0 auto 120px;
   width: 552px;
 }
 

@@ -998,7 +998,8 @@ ol li:before {
   margin-bottom: 100px;
 }
 
-#schedule h2 {
+#schedule h2,
+#talk-to-us h2 {
   margin-bottom: 30px;
   text-align: center;
 }
@@ -1172,12 +1173,14 @@ ol li:before {
 
 #talk-to-us {
   margin: 0 auto 120px;
-  width: 552px;
 }
 
 #talk-to-us h2 {
- font-size: 3.1em;
- letter-spacing: 0.01em;
+}
+
+#talk-to-us #form {
+  margin: 0 auto;
+  width: 552px;
 }
 
 #talk-to-us form {}

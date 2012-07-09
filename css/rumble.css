@@ -1,0 +1,47 @@
+/*
++----------------------------------------------------------------+
+  Common
++----------------------------------------------------------------+
+*/
+
+html {
+  background: url('../images/rumble/pattern.jpg');
+}
+
+/*
++----------------------------------------------------------------+
+  header
++----------------------------------------------------------------+
+*/
+header h1 {
+  background: url('../images/rumble/startup-dev-rumble-logo.png') no-repeat;
+  width: 673px;
+  height: 233px;
+}
+
+/*
++----------------------------------------------------------------+
+  Content
++----------------------------------------------------------------+
+*/
+
+article h1 {
+  color: #FED247;
+  font: 4.1em HelveticaNeueCondensedBold;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/*
++----------------------------------------------------------------+
+  Footer
++----------------------------------------------------------------+
+*/
+
+footer {
+  margin-top: 100px;
+}

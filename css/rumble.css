@@ -31,6 +31,25 @@ article h2 {
   text-align: center;
 }
 
+article h3 {
+  color: #FED247;
+  margin: 1.5em 0 0em;
+}
+
+article p {
+  font-size: 1.4em;
+  margin-bottom: 0.7em;
+}
+
+article a {
+  color: #fff;
+  border-bottom: 1px solid #FED247;
+  text-decoration: none;
+}
+article a:hover {
+  border-bottom: none;
+}
+
 /*
 +----------------------------------------------------------------+
   Rumble
@@ -78,6 +97,9 @@ article h2 {
 +----------------------------------------------------------------+
 */
 
+.dark-background {
+  background: #183309;
+}
 footer {
   margin-top: 100px;
 }

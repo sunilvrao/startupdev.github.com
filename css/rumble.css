@@ -17,6 +17,7 @@ header h1 {
   background: url('../images/rumble/startup-dev-rumble-logo.png') no-repeat;
   width: 673px;
   height: 233px;
+  margin-bottom: 60px;
 }
 
 /*
@@ -25,15 +26,38 @@ header h1 {
 +----------------------------------------------------------------+
 */
 
-article h1 {
-  color: #FED247;
-  font: 4.1em HelveticaNeueCondensedBold;
-  font-weight: normal;
-  letter-spacing: 0.05em;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+article h2 {
   margin-bottom: 30px;
   text-align: center;
+}
+
+/*
++----------------------------------------------------------------+
+  Rumble
++----------------------------------------------------------------+
+*/
+
+#select-language {
+  overflow: hidden;
+}
+#select-language ul {
+  margin: 0 auto;
+  width: 400px;
+}
+#select-language ul li {
+  display: block;
+  font-size: 3.5em;
+  float: left;
+  margin-right: 50px;
+}
+
+#select-language a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#select-language a:hover {
+  text-decoration: underline;
 }
 
 /*

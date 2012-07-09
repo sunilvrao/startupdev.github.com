@@ -961,6 +961,11 @@ ol li:before {
   margin-bottom: 20px;
 }
 
+#what-is-startup-dev article#app-online hgroup h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
 #app-online .description {
   background: url("../images/bg-overlay-hard.png");
   font-size: 1.3em;

@@ -1012,10 +1012,12 @@ ol li:before {
 +----------------------------------------------------------------+
 */
 
-#partners {
+#partners,
+#support {
   margin-bottom: 90px;
 }
-#partners table {
+#partners table,
+#support table {
   background-color: #FFF;
   border: none;
   -webkit-border-radius: 10px 10px;
@@ -1027,7 +1029,8 @@ ol li:before {
   width: 100%;
 }
 
-#partners td {
+#partners td,
+#support td {
   border-right: 1px solid #E5E5E5;
   border-bottom: 1px solid #E5E5E5;
   padding: 20px;
@@ -1035,11 +1038,13 @@ ol li:before {
   vertical-align: middle;
 }
 
-#partners td.last {
+#partners td.last,
+#support td.last {
   border-right: 0;
 }
 
-#partners tr.last td {
+#partners tr.last td,
+#support tr.last td {
   border-bottom: 0;
 }
 /*

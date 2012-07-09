@@ -36,9 +36,16 @@ article h3 {
   margin: 1.5em 0 0em;
 }
 
-article p {
+article p,
+article li {
   font-size: 1.4em;
   margin-bottom: 0.7em;
+}
+article ul {
+  margin-left: 30px;
+}
+article li {
+  margin-bottom: 0.5em;
 }
 
 article a {
@@ -71,6 +78,7 @@ article a:hover {
 }
 
 #select-language a {
+  border: none;
   color: #fff;
   text-decoration: none;
 }

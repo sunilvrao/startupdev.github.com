@@ -65,20 +65,20 @@ header h1 a {
 }
 
 #menu li#rules a {
-  background-position: 118px 12px;
+  background-position: 118px -226px;
   padding-right: 62px;
   margin-left: -107px;
 }
 
 
 #menu li#faq a {
-  background-position: 70px 12px;
+  background-position: 70px -176px;
   padding-right: 62px;
   margin-left: -58px;
 }
 
 #menu li#prizes a {
-  background-position: 125px 12px;
+  background-position: 125px -79px;
   padding-right: 62px;
   margin-left: -114px;
 }

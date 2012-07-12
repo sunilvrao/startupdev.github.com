@@ -125,6 +125,18 @@ article a:hover {
   border-bottom: none;
 }
 
+/* Startup DEV rumble Rio info */
+#startupdevrumble-rioinfo {
+}
+
+#startupdevrumble-rioinfo p {
+  text-align: center;
+}
+
+#startupdevrumble-rioinfo a {
+  border: none;
+}
+
 /*
 +----------------------------------------------------------------+
   Rumble

@@ -54,6 +54,33 @@ header h1 a {
 
 /*
 +----------------------------------------------------------------+
+  Menu
++----------------------------------------------------------------+
+*/
+
+#menu li#home a {
+  background-position: 94px 12px;
+  padding-right: 62px;
+  margin-left: -80px;
+}
+
+#menu li#rules a {
+  background-position: 118px 12px;
+  padding-right: 62px;
+  margin-left: -107px;
+}
+
+
+#menu li#faq a {
+  background-position: 70px 12px;
+  padding-right: 62px;
+  margin-left: -58px;
+}
+
+
+
+/*
++----------------------------------------------------------------+
   Content
 +----------------------------------------------------------------+
 */

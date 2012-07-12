@@ -77,6 +77,11 @@ header h1 a {
   margin-left: -58px;
 }
 
+#menu li#prizes a {
+  background-position: 125px 12px;
+  padding-right: 62px;
+  margin-left: -114px;
+}
 
 
 /*

@@ -13,6 +13,9 @@ html {
   header
 +----------------------------------------------------------------+
 */
+header {
+  position: relative;
+}
 header h1 {
   background: url('../images/rumble/startup-dev-rumble-logo.png') no-repeat;
   width: 673px;
@@ -24,6 +27,29 @@ header h1 a {
   display: block;
   width: 673px;
   height: 233px;
+}
+
+#language-selector {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  width: 150px;
+}
+
+#language-selector ul {
+  list-style: none;
+}
+
+#language-selector li a {
+  color: #fff;
+  display: block;
+  font-size: 1.4em;
+  float: left;
+  margin-right: 10px;
+}
+
+#language-selector li a:hover {
+  text-decoration: none;
 }
 
 /*

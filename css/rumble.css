@@ -59,28 +59,32 @@ header h1 a {
 */
 
 #menu li#home a {
-  background-position: 94px 12px;
+  background-position: 96px 12px;
   padding-right: 62px;
-  margin-left: -80px;
+  margin-left: -84px;
+  width: 70px;
 }
 
 #menu li#rules a {
-  background-position: 118px -226px;
+  background-position: 120px -226px;
   padding-right: 62px;
-  margin-left: -107px;
+  margin-left: -109px;
+  width: 95px;
 }
 
 
 #menu li#faq a {
-  background-position: 70px -176px;
+  background-position: 74px -176px;
   padding-right: 62px;
-  margin-left: -58px;
+  margin-left: -64px;
+  width: 50px;
 }
 
 #menu li#prizes a {
-  background-position: 125px -79px;
+  background-position: 127px -79px;
   padding-right: 62px;
-  margin-left: -114px;
+  margin-left: -116px;
+  width: 102px;
 }
 
 

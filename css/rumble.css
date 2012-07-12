@@ -85,6 +85,10 @@ header h1 a {
 +----------------------------------------------------------------+
 */
 
+article {
+  padding-bottom: 30px;
+}
+
 article h2 {
   margin-bottom: 30px;
   text-align: center;

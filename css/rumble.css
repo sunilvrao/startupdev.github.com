@@ -20,6 +20,12 @@ header h1 {
   margin-bottom: 60px;
 }
 
+header h1 a {
+  display: block;
+  width: 673px;
+  height: 233px;
+}
+
 /*
 +----------------------------------------------------------------+
   Content

@@ -5,7 +5,7 @@
 */
 
 html {
-  background: url('../images/rumble/pattern.jpg');
+  background: url('/images/rumble/pattern.jpg');
 }
 
 /*
@@ -17,7 +17,7 @@ header {
   position: relative;
 }
 header h1 {
-  background: url('../images/rumble/startup-dev-rumble-logo.png') no-repeat;
+  background: url('/images/rumble/startup-dev-rumble-logo.png') no-repeat;
   width: 673px;
   height: 233px;
   margin-bottom: 60px;

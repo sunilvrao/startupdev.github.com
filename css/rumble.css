@@ -72,7 +72,6 @@ header h1 a {
   width: 95px;
 }
 
-
 #menu li#faq a {
   background-position: 74px -176px;
   padding-right: 62px;
@@ -87,6 +86,19 @@ header h1 a {
   width: 102px;
 }
 
+#en #menu li#rules a {
+  background-position: 100px -226px;
+  padding-right: 57px;
+  margin-left: -89px;
+  width: 80px;
+}
+
+#en #menu li#prizes a {
+  background-position: 108px -79px;
+  padding-right: 65px;
+  margin-left: -95px;
+  width: 78px;
+}
 
 /*
 +----------------------------------------------------------------+

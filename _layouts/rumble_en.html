@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='en'>
+  {% include rumble/head.html %}
+  <body id="en">
+    <section id='wrapper'>
+      <header id="home-section" class="container">
+        <h1><a href="/rumble" title="Startup DEV RUMBLE">Startup DEV RUMBLE</a></h1>
+        {% include rumble/language_selector.html %}
+      </header>
+      {% include rumble/menu_en.html %}
+      <section>
+        {{ content }}
+      </section>
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

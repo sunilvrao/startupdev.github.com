@@ -1,214 +1,362 @@
-/*
-+----------------------------------------------------------------+
-  Common
-+----------------------------------------------------------------+
-*/
+/* MAIN */
 
 html {
-  background: url('/images/rumble/pattern.jpg');
+  background: #4a6224 url("/images/rumble/pattern.jpg");
 }
 
-/*
-+----------------------------------------------------------------+
-  header
-+----------------------------------------------------------------+
-*/
-header {
-  position: relative;
-}
-header h1 {
-  background: url('/images/rumble/startup-dev-rumble-logo.png') no-repeat;
-  width: 673px;
-  height: 233px;
-  margin-bottom: 60px;
-}
-
-header h1 a {
-  display: block;
-  width: 673px;
-  height: 233px;
-}
-
-#language-selector {
-  position: absolute;
-  right: 0;
-  top: -50px;
-  width: 150px;
-}
-
-#language-selector ul {
-  list-style: none;
-}
-
-#language-selector li a {
+body {
+  font-size: 75%;
+  line-height: 1.25;
+  font-family: Helvetica, Arial, sans-serif;
+  background: transparent url("/images/rumble/bg-head.png") no-repeat center top;
   color: #fff;
+}
+
+a, a:visited {
+  color: #fff;
+  border-bottom: 1px solid #ffd40c;
+}
+
+a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+nav:after {
+  visibility: hidden;
   display: block;
-  font-size: 1.4em;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+/* HEADING */
+
+h1 {
+  color: #ffd40c;
+  text-transform: uppercase;
+  text-shadow: 0 2px 2px #000;
+  text-shadow: 0 2px 2px rgba(0,0,0,.5);
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+h2 {
+  margin: 2em 0 0;
+  color: #ffd40c;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 1.2em;
+}
+
+h1 + h2 {
+  margin: 0;
+}
+
+/* HEADER */
+
+header {
+  width: 960px;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+header nav ul li {
   float: left;
-  margin-right: 10px;
 }
 
-#language-selector li a:hover {
-  text-decoration: none;
+nav#language-selector {
+  padding-top: 20px;
+  float: right;
 }
 
-/*
-+----------------------------------------------------------------+
-  Menu
-+----------------------------------------------------------------+
-*/
-
-#menu li#home a {
-  background-position: 96px 12px;
-  padding-right: 62px;
-  margin-left: -84px;
-  width: 70px;
+nav#language-selector a,
+nav#language-selector a:visited {
+  border-bottom: 1px solid #fff;
 }
 
-#menu li#rules a {
-  background-position: 120px -226px;
-  padding-right: 62px;
-  margin-left: -109px;
-  width: 95px;
+nav#language-selector a:hover {
+  border-bottom: 1px solid #ffd40c;
 }
 
-#menu li#faq a {
-  background-position: 74px -176px;
-  padding-right: 62px;
-  margin-left: -64px;
-  width: 50px;
+nav#language-selector ul li:before {
+  margin-left: 10px;
+  padding-right: 10px;
+  content: "|";
 }
 
-#menu li#prizes a {
-  background-position: 127px -79px;
-  padding-right: 62px;
-  margin-left: -116px;
-  width: 102px;
+nav#language-selector ul li:first-child:before {
+  content: "";
 }
 
-#en #menu li#rules a {
-  background-position: 100px -226px;
-  padding-right: 57px;
-  margin-left: -89px;
-  width: 80px;
+nav#menu {
+  float: left;
 }
 
-#en #menu li#prizes a {
-  background-position: 108px -79px;
-  padding-right: 65px;
-  margin-left: -95px;
-  width: 78px;
+nav#menu ul li {
+  margin: 0 5px;
+  height: 94px;
 }
 
-/*
-+----------------------------------------------------------------+
-  Content
-+----------------------------------------------------------------+
-*/
-
-article {
-  padding-bottom: 30px;
+nav#menu ul li.current {
+  background: transparent url("/images/rumble/sprites.png") no-repeat 0 -385px;
 }
 
-article h2 {
-  margin-bottom: 30px;
+nav#menu ul li a {
+  display: block;
+  padding: 25px 25px 20px 55px;
+  text-transform: uppercase;
+  border-bottom: none;
+  font-size: .9em;
+  background-repeat: no-repeat;
+  background-image: url("/images/rumble/sprites.png");
+}
+
+nav#menu ul li#home a {
+  background-position: 0 -168px;
+}
+
+nav#menu ul li#rules a {
+  background-position: 0 -258px;
+}
+
+nav#menu ul li#faq a {
+  background-position: 0 -77px;
+}
+
+nav#menu ul li#prizes a {
+  background-position: 0 12px;
+}
+
+nav#menu ul li a:hover {
+  background-color: rgba(0,0,0,.1);
+}
+
+#logo {
+  padding: 25px 0 0 0;
+  width: 352px;
+  height: 122px;
+  clear: left;
+}
+
+#logo a {
+  display: block;
+  width: 352px;
+  height: 122px;
+  background: url("/images/rumble/startupdev-rumble-logo.png") no-repeat 0 0;
+  text-indent: -9999px;
+  border: none;
+}
+
+#logo a:hover {
+  opacity: .8;
+}
+
+#info {
+  margin-top: -145px;
+  width: 525px;
+  font-weight: bold;
+  float: right;
+}
+
+#info a {
+  display: block;
+  width: 164px;
+  height: 164px;
+  border-bottom: none;
+  text-indent: -9999px;
+  float: right;
+}
+
+#info a#join-badge-pt {
+  background: url("/images/rumble/bt-faca-sua-inscricao.png") no-repeat 0 0;
+}
+
+#info a#join-badge-en {
+  background: url("/images/rumble/bt-make-your-subscription.png") no-repeat 0 0;
+}
+
+#info a#join-badge-pt:hover,
+#info a#join-badge-en:hover {
+  opacity: .8;
+}
+
+#info #when {
+  padding: 40px 180px 20px 5px;
+  color: #ffd40c;
+  font-size: 1.8em;
+  text-shadow: 0 2px 2px #000;
+  text-shadow: 0 2px 2px rgba(0,0,0,.5);
+}
+
+#info #preamble {
+  padding: 0 195px 0 0;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  text-align: center;
+  text-shadow: 0 2px 2px #000;
+  text-shadow: 0 2px 2px rgba(0,0,0,.5);
+}
+
+#info #preamble span {
+  display: block;
+  font-size: 1.3em;
+}
+
+/* MASTHEAD */
+
+#masthead.fixed {
+  width: 920px;
+  padding: 0 30px 0 10px;
+  position: fixed;
+  background: transparent url("/images/rumble/bg-masthead.png") no-repeat 0 -2px;
+}
+
+#masthead:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+/* CONTAINER */
+
+#container {
+  margin: 40px 0;
+  padding: 40px 0;
+  background: transparent url("/images/rumble/bg-content.png");
+  text-shadow: 0 2px 2px #000;
+  text-shadow: 0 2px 2px rgba(0,0,0,.5);
+  clear: both;
+}
+
+/* SECTION */
+
+#container section {
+  width: 880px;
+  margin: auto;
+  font-size: 1.4em;
+  line-height: 1.4;
+}
+
+#container section p,
+#container section li {
+  margin: 1.4em 0;
+}
+
+#container section h1 {
+  margin: .5em 0;
+  text-align: center;
+  font-size: 2em;
+}
+
+#container section.home {
+  width: 660px;
   text-align: center;
 }
 
-article h3 {
-  color: #FED247;
-  margin: 1.5em 0 0em;
-  font-size: 3.0em;
+#container section.language h1 {
+  font-size: 1.2em;
+  letter-spacing: 0;
 }
 
-article p,
-article li {
+#container section.language h1 span {
+  padding: 0 20px;
+}
+
+#container section.language ul {
+  padding-right: 75px;
+  text-align: center;
+}
+
+#container section.language ul li {
+  display: inline;
+  padding: 0 40px;
+}
+
+a#bt-join-now-pt,
+a#bt-join-now-en {
+  display: block;
+  margin: 0 auto 60px;
+  width: 248px;
+  height: 67px;
+  border-bottom: none;
+  text-indent: -9999px;
+}
+
+a#bt-join-now-pt:hover,
+a#bt-join-now-en:hover {
+  opacity: .8;
+}
+
+a#bt-join-now-pt {
+  background: url("/images/rumble/bt-inscreva-se.png") no-repeat 0 0;
+}
+
+a#bt-join-now-en {
+  background: url("/images/rumble/bt-subscribe.png") no-repeat 0 0;
+}
+
+/* COMPLEMENTARY CONTENT */
+
+section#startupdevrumble-rioinfo {
+  margin: auto;
+  width: 948px;
+  height: 164px;
+  background: url("/images/rumble/rioinfo-banner.png") no-repeat 0 0;
+}
+
+section#startupdevrumble-rioinfo h1 {
+  font-size: 2.5em;
+  padding: 50px 420px 0 130px;
+}
+
+/* SUPPORT */
+
+section#support {
+  margin: 40px 0 20px;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgba(0,0,0,.2);
+}
+
+section#support h1 {
+  margin: .5em 0;
   font-size: 2em;
-  margin-bottom: 0.7em;
-}
-article ul {
-  margin-left: 30px;
-}
-article li {
-  margin-bottom: 0.5em;
+  letter-spacing: -1px;
 }
 
-article a {
-  color: #fff;
-  border-bottom: 1px solid #FED247;
-  text-decoration: none;
+section#support nav ul li {
+  padding: 40px;
+  display: inline;
 }
-article a:hover {
+
+section#support nav {
+  padding: 20px 0;
+  background-color: #fff;
+  background-color: rgba(255,255,255,.7);
+}
+
+section#support a {
   border-bottom: none;
 }
 
-/* Startup DEV rumble Rio info */
-#startupdevrumble-rioinfo {
+section#support a img {
+  vertical-align: middle;
 }
 
-#startupdevrumble-rioinfo p {
-  text-align: center;
+section#support a:hover {
+  opacity: .9;
 }
 
-#startupdevrumble-rioinfo a {
-  border: none;
-}
+/* FOOTER */
 
-/*
-+----------------------------------------------------------------+
-  Rumble
-+----------------------------------------------------------------+
-*/
-
-#select-language {
-  overflow: hidden;
-}
-#select-language ul {
-  margin: 0 auto;
-  width: 400px;
-}
-#select-language ul li {
-  display: block;
-  font-size: 3.5em;
-  float: left;
-  margin-right: 50px;
-}
-
-#select-language a {
-  border: none;
-  color: #fff;
-  text-decoration: none;
-}
-
-#select-language a:hover {
-  text-decoration: underline;
-}
-
-/*
-+----------------------------------------------------------------+
-  Support
-+----------------------------------------------------------------+
-*/
-
-#support {}
-#support td {
-  height: 100px;
-  width: 25%;
-}
-
-#support a {
-  border: none;
-}
-
-/*
-+----------------------------------------------------------------+
-  Footer
-+----------------------------------------------------------------+
-*/
-
-.dark-background {
-  background: #183309;
-}
 footer {
-  margin-top: 100px;
+  padding: 20px 0;
+  text-align: center;
 }

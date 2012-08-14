@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang='en'>
   {% include rumble/head.html %}
-  <body id="en">
-    <section id='wrapper'>
-      <header id="home-section" class="container">
-        <h1><a href="/rumble" title="Startup DEV RUMBLE">Startup DEV RUMBLE</a></h1>
+  <article>
+    <header>
+      <div id="masthead">
+        {% include rumble/menu_en.html %}
         {% include rumble/language_selector.html %}
-      </header>
-      {% include rumble/menu_en.html %}
-      <section>
-        {{ content }}
-      </section>
+      </div>
+
+      <div id="logo"><a href="/rumble" title="Startup DEV RUMBLE">Startup DEV RUMBLE</a></div>
+
+      <div id="info">
+        <a href="http://helabs.wufoo.com/forms/startup-dev-rumble/" id="join-badge-en">
+          Make your subscription
+        </a>
+        <div id="when">
+          September, 1 and 2 &bull; 2012
+        </div>
+        <div id="preamble">
+          Mount a team and make <span>your app in 48h</span>
+        </div>
+      </div>
+    </header>
+    <div id="container">
+      {{ content }}
+    </div>
+    <section id="startupdevrumble-rioinfo">
+      <h1>Startup Dev Rumble is part of Rio Info</h1>
+    </section>
+
+    <section id="support">
+      <h1>Proudly brought to you by</h1>
+      <nav id="support">
+        <ul>
+          <li><a href="http://www.rioinfo.com.br/" title="Rio info dez anos" rel="external"><img src="/images/rumble/support/rio-info.png" width="124" height="63" alt="Rio info dez anos"></a></li>
+          <li><a href="http://helabs.com.br" title="HE:labs" rel="external"><img src="/images/rumble/support/helabs.png" width="188" height="70" alt="HE:labs"></a></li>
+          <li><a href="http://startupdev.com.br" title="Startup DEV" rel="external"><img src="/images/rumble/support/startup-dev.png" width="162" height="32" alt="Startup DEV"></a></li>
+        </ul>
+      </nav>
     </section>
     {% include footer.html %}
-  </body>
+  </article>
 </html>

@@ -191,7 +191,7 @@ nav#menu ul li a:hover {
   text-shadow: 0 2px 2px rgba(0,0,0,.5);
 }
 
-#info #when #numeral {
+#info #when .numeral {
   font-size: 0.6em;
   vertical-align: top;
 }

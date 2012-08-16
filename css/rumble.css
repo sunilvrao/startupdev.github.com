@@ -309,16 +309,22 @@ a#bt-join-now-en {
 
 /* COMPLEMENTARY CONTENT */
 
-section#startupdevrumble-rioinfo {
+section#banner {
   margin: auto;
-  width: 948px;
-  height: 164px;
-  background: url("/images/rumble/rioinfo-banner.png") no-repeat 0 0;
+  width: 800px;
+  height: 134px;
+  padding: 30px 30px 0 120px;
+  background: url("/images/rumble/bg-banner.png") no-repeat 0 0;
 }
 
-section#startupdevrumble-rioinfo h1 {
+section#banner h1 {
   font-size: 2.5em;
-  padding: 50px 420px 0 130px;
+}
+
+section#banner p {
+  margin: .6em 0 0;
+  line-height: 1.4;
+  font-size: 1.4em;
 }
 
 /* SUPPORT */

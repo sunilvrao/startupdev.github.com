@@ -240,7 +240,6 @@ header.fixed #masthead {
 
 #container {
   margin: 40px 0;
-  padding: 40px 0;
   background: transparent url("/images/rumble/bg-content.png");
   text-shadow: 0 2px 2px #000;
   text-shadow: 0 2px 2px rgba(0,0,0,.5);
@@ -252,6 +251,7 @@ header.fixed #masthead {
 #container section {
   width: 880px;
   margin: auto;
+  padding: 40px 0;
   font-size: 1.4em;
   line-height: 1.4;
 }
@@ -268,8 +268,26 @@ header.fixed #masthead {
 }
 
 #container section.home {
-  width: 660px;
-  text-align: center;
+  position: relative;
+  width: 540px;
+  padding: 20px 510px 20px 110px;
+  background: transparent url("/images/rumble/bg-kindle.png") no-repeat right top;
+}
+
+#container section.home p {
+  margin-right: 90px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: .9em;
+}
+
+#container section.home h1 {
+  text-align: left;
+  font-size: 1.8em;
+}
+
+#container section.home + #container section.home {
+  background: none;
 }
 
 #container section.language h1 {
@@ -291,12 +309,39 @@ header.fixed #masthead {
   padding: 0 40px;
 }
 
+#call-to-action {
+  position: absolute;
+  width: 500px;
+  top: 160px;
+  right: 40px;
+  text-shadow: 0 2px 2px #000;
+}
+
+#call-to-action p strong {
+  font-size: 1.8em;
+}
+
+p#remote-info-pt,
+p#remote-info-en {
+  width: 353px;
+  height: 44px;
+  text-indent: -9999px;
+}
+
+p#remote-info-pt {
+  background: url("/images/rumble/participacao-remota.png") no-repeat 0 0;
+}
+
+p#remote-info-en {
+  background: url("/images/rumble/remote-participation.png") no-repeat 0 0;
+}
+
 a#bt-join-now-pt,
 a#bt-join-now-en {
   display: block;
-  margin: 0 auto 60px;
-  width: 248px;
-  height: 67px;
+  margin: 0 0 40px -40px;
+  width: 425px;
+  height: 57px;
   border-bottom: none;
   text-indent: -9999px;
 }
@@ -307,11 +352,23 @@ a#bt-join-now-en:hover {
 }
 
 a#bt-join-now-pt {
-  background: url("/images/rumble/bt-inscreva-se.png") no-repeat 0 0;
+  background: url("/images/rumble/bt-inscreva-seu-time.png") no-repeat 0 0;
 }
 
 a#bt-join-now-en {
-  background: url("/images/rumble/bt-subscribe.png") no-repeat 0 0;
+  background: url("/images/rumble/bt-register-your-team.png") no-repeat 0 0;
+}
+
+/* ASIDE */
+
+aside {
+  width: 400px;
+  text-align: center;
+}
+
+aside p {
+  margin: 1em 0 !important;
+  padding: 0 !important;
 }
 
 /* COMPLEMENTARY CONTENT */
@@ -377,4 +434,21 @@ section#support a:hover {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+@media all and (max-width: 1170px) {
+  #container {
+    max-width: 1170px;
+    overflow: hidden;
+  }
+  
+  #container section.home {
+    width: 450px;
+    padding: 20px 510px 20px 0;
+    background: transparent url("/images/rumble/bg-kindle.png") no-repeat right top;
+  }
+  
+  aside {
+    width: 300px;
+  }
 }

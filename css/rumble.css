@@ -441,14 +441,18 @@ footer {
     max-width: 1170px;
     overflow: hidden;
   }
-  
+
   #container section.home {
-    width: 450px;
-    padding: 20px 510px 20px 0;
+    width: 500px;
+    padding: 20px 460px 20px 0;
     background: transparent url("/images/rumble/bg-kindle.png") no-repeat right top;
   }
-  
+
+  #container section.home p {
+    margin-right: 120px;
+  }
+
   aside {
-    width: 300px;
+    width: 320px;
   }
 }

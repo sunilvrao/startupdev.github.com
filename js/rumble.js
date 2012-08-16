@@ -3,9 +3,9 @@ $(function(){
   
   $(document).scroll(function() {
     if (window.pageYOffset > 100) {
-      $("#masthead").addClass("fixed");
+      $("header").addClass("fixed");
     } else {
-      $("#masthead").removeClass("fixed");
+      $("header").removeClass("fixed");
     }
   });
 });

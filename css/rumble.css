@@ -265,6 +265,7 @@ header.fixed #masthead {
   margin: .5em 0;
   text-align: center;
   font-size: 2em;
+  background: transparent url("/images/rumble/bg-main-heading.png") no-repeat center center;
 }
 
 #container section.home {
@@ -284,6 +285,7 @@ header.fixed #masthead {
 #container section.home h1 {
   text-align: left;
   font-size: 1.8em;
+  background: none;
 }
 
 #container section.home + #container section.home {

@@ -391,6 +391,90 @@ section#banner p {
   font-size: 1.4em;
 }
 
+section[role="complementary"] {
+  margin: 40px 0 10px;
+  background-color: #fff;
+  -moz-box-shadow: 0 0 30px rgba(0,0,0,.8);
+  -webkit-box-shadow: 0 0 30px rgba(0,0,0,.8);
+  -ms-box-shadow: 0 0 30px rgba(0,0,0,.8);
+  -o-box-shadow: 0 0 30px rgba(0,0,0,.8);
+  box-shadow: 0 0 30px rgba(0,0,0,.8);
+}
+
+section[role="complementary"] #section-content {
+  width: 960px;
+  margin: auto;
+}
+
+section[role="complementary"]:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+section[role="complementary"] h1 {
+  margin: 0 0 2em;
+  padding-left: 15px;
+  text-shadow: none;
+  color: #758067;
+  letter-spacing: 0;
+  font-size: 1.2em;
+  background: url("/images/rumble/heading-bullet.png") no-repeat 0 3px;
+}
+
+section[role="complementary"] a {
+  border-bottom: none;
+  opacity: .9;
+}
+
+section[role="complementary"] a img {
+  vertical-align: middle;
+}
+
+section[role="complementary"] a:hover {
+  opacity: 1;
+}
+
+section[role="complementary"] ul li {
+  display: inline;
+  margin: 0 30px 0 0;
+  height: 90px;
+}
+
+section[role="complementary"] nav.column {
+  padding: 40px 20px 50px;
+  float: left;
+}
+
+section[role="complementary"] nav#infrastructure,
+section[role="complementary"] nav#sponsors {
+  background: url("/images/rumble/shadow.png") no-repeat top right;
+  min-height: 110px;
+}
+
+section[role="complementary"] nav#infrastructure {
+  padding-right: 60px;
+}
+
+section[role="complementary"] nav#sponsors {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+section[role="complementary"] nav#support {
+  padding: 30px 20px 50px;
+  border-top: 1px solid #e6e6e6;
+  clear: both;
+}
+
+section[role="complementary"] nav#support h1 {
+  margin: 0 0 1em;
+}
+
 /* SUPPORT */
 
 section#support {

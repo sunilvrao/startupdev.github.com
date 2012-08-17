@@ -130,6 +130,10 @@ nav#menu ul li#prizes a {
   background-position: 0 12px;
 }
 
+nav#menu ul li#evaluators a {
+  background-position: 0 -495px;
+}
+
 nav#menu ul li a:hover {
   background-color: rgba(0,0,0,.1);
 }

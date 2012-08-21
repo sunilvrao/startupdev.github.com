@@ -379,6 +379,50 @@ aside p {
 
 /* COMPLEMENTARY CONTENT */
 
+section#advices {
+  margin: auto;
+  width: 960px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+#dates {
+  background-color: #293f10;
+  width: 320px;
+  float: left;
+  padding: 30px;
+}
+
+#remember {
+  background-color: #293f10;
+  width: 490px;
+  float: right;
+  padding: 30px;
+}
+
+#dates h1 {
+  font-size: 1.8em;
+}
+
+#dates p {
+  margin: .6em 0 0;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+#remember h1 {
+  font-size: 1.8em;
+}
+
+#remember li {
+  background: url("/images/rumble/bullet.png") no-repeat 0 5px;
+  padding-left: 15px;
+  margin: .6em 0 0;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+
 section#banner {
   margin: auto;
   width: 800px;

@@ -624,6 +624,19 @@ section#prizes h2#pt-third-place {
 section#prizes h2#pt-fourth-place {
   background: transparent url("/images/rumble/prizes/pt_04.png") no-repeat right top;
 }
+section#prizes h2#en-first-place {
+  margin-top: 2em;
+  background: transparent url("/images/rumble/prizes/en_01.png") no-repeat right top;
+}
+section#prizes h2#en-second-place {
+  background: transparent url("/images/rumble/prizes/en_02.png") no-repeat right top;
+}
+section#prizes h2#en-third-place {
+  background: transparent url("/images/rumble/prizes/en_03.png") no-repeat right top;
+}
+section#prizes h2#en-fourth-place {
+  background: transparent url("/images/rumble/prizes/en_04.png") no-repeat right top;
+}
 
 section#prizes li {
   background: url("/images/rumble/bullet.png") no-repeat 0 5px;

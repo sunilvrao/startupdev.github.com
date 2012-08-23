@@ -604,6 +604,25 @@ section#support a:hover {
   opacity: .9;
 }
 
+section#prizes h2 {
+  width: 880px;
+  height: 159px;
+  text-indent: -9000px;
+}
+
+section#prizes h2#pt-first-place {
+  background: transparent url("/images/rumble/prizes/pt_01.png") no-repeat right top;
+}
+section#prizes h2#pt-second-place {
+  background: transparent url("/images/rumble/prizes/pt_02.png") no-repeat right top;
+}
+section#prizes h2#pt-third-place {
+  background: transparent url("/images/rumble/prizes/pt_03.png") no-repeat right top;
+}
+section#prizes h2#pt-fourth-place {
+  background: transparent url("/images/rumble/prizes/pt_04.png") no-repeat right top;
+}
+
 /* FOOTER */
 
 footer {

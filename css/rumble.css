@@ -608,9 +608,11 @@ section#prizes h2 {
   width: 880px;
   height: 159px;
   text-indent: -9000px;
+  margin-top: 4em;
 }
 
 section#prizes h2#pt-first-place {
+  margin-top: 2em;
   background: transparent url("/images/rumble/prizes/pt_01.png") no-repeat right top;
 }
 section#prizes h2#pt-second-place {
@@ -621,6 +623,13 @@ section#prizes h2#pt-third-place {
 }
 section#prizes h2#pt-fourth-place {
   background: transparent url("/images/rumble/prizes/pt_04.png") no-repeat right top;
+}
+
+section#prizes li {
+  background: url("/images/rumble/bullet.png") no-repeat 0 5px;
+  padding-left: 15px;
+  margin: .6em 0 0 1em;
+  line-height: 1.4;
 }
 
 /* FOOTER */

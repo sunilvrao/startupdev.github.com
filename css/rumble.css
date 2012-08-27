@@ -68,7 +68,9 @@ header nav ul li {
 }
 
 nav#language-selector {
-  padding-top: 20px;
+  padding: 22px 20px 0 0;
+  background-color: #1d3206;
+  height: 40px;
   float: right;
 }
 
@@ -96,7 +98,7 @@ nav#menu {
 }
 
 nav#menu ul li {
-  margin: 0 5px;
+  margin: 0 3px;
   height: 94px;
 }
 
@@ -106,7 +108,7 @@ nav#menu ul li.current {
 
 nav#menu ul li a {
   display: block;
-  padding: 25px 25px 20px 55px;
+  padding: 25px 15px 20px 52px;
   text-transform: uppercase;
   border-bottom: none;
   font-size: .9em;
@@ -132,6 +134,10 @@ nav#menu ul li#prizes a {
 
 nav#menu ul li#evaluators a {
   background-position: 0 -495px;
+}
+
+nav#menu ul li#issues a {
+  background-position: 0 -582px;
 }
 
 nav#menu ul li a:hover {
@@ -221,9 +227,9 @@ header.fixed {
 }
 
 header.fixed #masthead {
-  width: 928px;
+  width: 948px;
   margin-left: -4px;
-  padding: 0 30px 0 10px;
+  padding: 0 10px;
   position: fixed;
   top: 0;
   background: transparent url("/images/rumble/bg-masthead.png") no-repeat 0 0;

@@ -587,11 +587,6 @@ section#support h1 {
   letter-spacing: -1px;
 }
 
-section#support nav ul li {
-  padding: 40px;
-  display: inline;
-}
-
 
 section#support nav ul li {
   padding: 40px;
@@ -603,6 +598,26 @@ section#support nav {
   background-color: #fff;
   background-color: rgba(255,255,255,.7);
 }
+
+
+
+
+#support table {
+  border: medium none;
+  width: 920px;
+}
+
+
+#support td {
+  height: 100px;
+  width: 185px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+
 
 section#support a {
   border-bottom: none;

@@ -603,7 +603,7 @@ section[role="complementary"] nav#support h1 {
 
 #teams-content ul li {
   width: 220px;
-  height: 80px;
+  min-height: 200px;
   font-size: .8em;
   float: left;
   background-color: #526e25;
@@ -619,6 +619,8 @@ section[role="complementary"] nav#support h1 {
   -ms-box-shadow: 0 0 10px rgba(0,0,0,.6);
   -o-box-shadow: 0 0 10px rgba(0,0,0,.6);
   box-shadow: 0 0 10px rgba(0,0,0,.6);
+  width: 120px;
+  height: 120px;
 }
 
 #teams-content ul li h2 {
@@ -641,7 +643,11 @@ section[role="complementary"] nav#support h1 {
   color: #ffd40c;
 }
 
-
+#space {
+  color: #526E25;
+  text-align: center;
+  text-shadow: none;
+}
 
 
 
@@ -771,3 +777,5 @@ footer {
     width: 320px;
   }
 }
+
+

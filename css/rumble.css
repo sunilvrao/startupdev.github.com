@@ -618,8 +618,7 @@ section#support nav {
 
 
 
-
-section#support a {
+#support a {
   border-bottom: none;
 }
 
@@ -627,8 +626,8 @@ section#support a img {
   vertical-align: middle;
 }
 
-section#support a:hover {
-  opacity: .9;
+#support a:hover {
+  opacity: .8;
 }
 
 section#prizes h2 {

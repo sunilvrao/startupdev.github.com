@@ -592,6 +592,12 @@ section#support nav ul li {
   display: inline;
 }
 
+
+section#support nav ul li {
+  padding: 40px;
+  display: inline;
+}
+
 section#support nav {
   padding: 20px 0;
   background-color: #fff;

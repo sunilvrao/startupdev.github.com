@@ -68,10 +68,10 @@ header nav ul li {
 }
 
 nav#language-selector {
-  padding: 22px 20px 0 0;
-  background-color: #1d3206;
+  margin-top: 20px;
   height: 40px;
   float: right;
+  font-size: 12px;
 }
 
 nav#language-selector a,
@@ -95,6 +95,7 @@ nav#language-selector ul li:first-child:before {
 
 nav#menu {
   float: left;
+  font-size: 13px;
 }
 
 nav#menu ul li {
@@ -134,6 +135,10 @@ nav#menu ul li#prizes a {
 
 nav#menu ul li#evaluators a {
   background-position: 0 -495px;
+}
+
+nav#menu ul li#teams a {
+  background-position: 0 12px;
 }
 
 nav#menu ul li#issues a {

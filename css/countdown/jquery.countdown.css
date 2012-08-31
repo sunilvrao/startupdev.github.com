@@ -4,7 +4,8 @@
 	font: 40px/1.5 'Open Sans Condensed',sans-serif;
 	text-align:center;
 	letter-spacing:-3px;
-		margin-left: -30px;
+	margin-left: -70px;
+	margin-top: 20px;
 }
 
 .position{
@@ -51,8 +52,9 @@
  * of the countdown that you don't need.
  */
 
-.countDays{ /* display:none !important;*/ }
-.countDiv0{ /* display:none !important;*/ }
+.countDays{ /* display:none !important;*/ display: none; }
+
+.countDiv0{ /* display:none !important;*/  }
 .countHours{}
 .countDiv1{}
 .countMinutes{}

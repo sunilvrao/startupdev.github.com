@@ -287,7 +287,7 @@ header.fixed #masthead {
   position: relative;
   width: 540px;
   padding: 20px 510px 20px 110px;
-  background: transparent url("/images/rumble/bg-kindle.png") no-repeat right top;
+
 }
 
 #container section.home p {
@@ -807,4 +807,16 @@ a#bt-check-now-pt {
 
 a#bt-check-now-en {
   background: url("/images/rumble/bt-register-your-team.png") no-repeat 0 0;
+}
+
+
+
+
+
+#twitter-list {
+  position: absolute;
+  width: 500px;
+  top: 0px;
+  right: 0px;
+  text-shadow: none;
 }

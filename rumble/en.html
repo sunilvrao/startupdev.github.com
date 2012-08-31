@@ -4,12 +4,37 @@ title: Web Application development contest
 slug: home
 ---
 <section class="home">
-  <div id="call-to-action">
-    <p><strong>1 Kindle Touch 3G for each member in the winning team.</strong></p>
-    <p>Remote-controlled helicopters, iTunes Gift cards and more...</p>
-    <p>
-      <a href="http://helabs.wufoo.com/forms/startup-dev-rumble/" id="bt-join-now-en">Register your team now!</a>
-    </p>
+  <div id="twitter-list">
+   <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '#StartupDevRumble',
+      interval: 30000,
+      title: 'StartupDevRumble',
+      subject: '',
+      width: 400,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#293f10',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#1985b5'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: true,
+        live: true,
+        behavior: 'default'
+      }
+    }).render().start();
+    </script>
   </div>
 
   <h1>What is Startup DEV Rumble?</h1>

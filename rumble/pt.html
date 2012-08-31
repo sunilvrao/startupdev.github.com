@@ -4,12 +4,37 @@ title: Competição de desenvolvimento de aplicativos
 slug: home
 ---
 <section class="home">
-  <div id="call-to-action">
-    <p><strong>1 Kindle Touch 3G para cada participante vencedor.</strong></p>
-    <p>Helicópteros de controle remoto, iTunes gift cards e mais...</p>
-    <p>
-      <a href="http://helabs.wufoo.com/forms/startup-dev-rumble/" id="bt-join-now-pt">Inscreva seu time agora!</a>
-    </p>
+  <div id="twitter-list">
+   <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '#StartupDevRumble',
+      interval: 30000,
+      title: 'StartupDevRumble',
+      subject: '',
+      width: 400,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#293f10',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#1985b5'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: true,
+        live: true,
+        behavior: 'default'
+      }
+    }).render().start();
+    </script>
   </div>
 
   <h1>O que é o Startup DEV Rumble?</h1>

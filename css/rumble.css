@@ -783,3 +783,28 @@ footer {
 }
 
 
+
+
+
+a#bt-check-now-pt,
+a#bt-check-now-en {
+  display: block;
+  margin: 245px 0 40px 210px;
+  width: 425px;
+  height: 57px;
+  border-bottom: none;
+  text-indent: -9999px;
+}
+
+a#bt-check-now-pt:hover,
+a#bt-check-now-en:hover {
+  opacity: .8;
+}
+
+a#bt-check-now-pt {
+  background: url("/images/rumble/bt-acompanhe-projeto.png") no-repeat 0 0;
+}
+
+a#bt-check-now-en {
+  background: url("/images/rumble/bt-register-your-team.png") no-repeat 0 0;
+}

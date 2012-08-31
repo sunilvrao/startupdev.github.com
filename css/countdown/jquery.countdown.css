@@ -54,7 +54,7 @@
 
 .countDays{ /* display:none !important;*/ display: none; }
 
-.countDiv0{ /* display:none !important;*/  }
+.countDiv0{ /* display:none !important;*/ display: none; }
 .countHours{}
 .countDiv1{}
 .countMinutes{}

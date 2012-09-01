@@ -23,10 +23,10 @@ $(function(){
 			message += seconds + " second" + ( seconds==1 ? '':'s' ) + " <br />";
 			
 			if(newYear){
-				message += "left until the new year!";
+				message += "";
 			}
 			else {
-				message += "left to 10 days from now!";
+				message += "";
 			}
 			
 			note.html(message);

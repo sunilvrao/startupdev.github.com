@@ -865,10 +865,8 @@ a#bt-check-now-en {
 
 
 #projects-content #project {
-  background-color: #526E25;
-  height: 300px;
+  height: 360px;
   width: 880px;
-  margin-bottom: 200px;
 }
 
 
@@ -888,33 +886,21 @@ a#bt-check-now-en {
 #projects-content .right {
   background-color: #526E25;
   width: 580px;
+  min-height: 230px;
   float: right;
   padding: 10px 20px;
 }
 
-#projects-content p {
+#projects-content .project-description {
   color: #fff;
   font-size: 14px;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 30px;
+
 }
 
 
-
-#projects-content .team-group {
-  width: 560px;
-}
-
-
-#projects-content .team-group h4 {
-  background: url("/images/rumble/team-bg-heading.png") no-repeat scroll center bottom transparent;
-  font-size: 0.8em;
-  color: #FFD40C;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-  text-align: left;
-}
 
 #projects-content .team-member {
   background-color: red;
@@ -937,21 +923,24 @@ a#bt-check-now-en {
 #projects-content .left {
   width: 230px;
   float: left;
-  padding: 20px 10px 10px 20px;
+  padding: 0px 10px 10px 20px;
 }
 
 
-#projects-content .image {
-  background-color: white;
+#projects-content img {
   height: 200px;
-  width: 100%;
-  border-radius: 4px;
+  width: 230px;
+
 }
+
+
+
 
 
 #projects-content .lunch {
   height: 60px;
   width: 230px;
+  margin-top: -10px;
 }
 
 
@@ -978,94 +967,39 @@ a#bt-check-now-en {
 }
 
 
-#projects-content .meta {
+#projects-content .meta-infos {
   background-color: #455f1c;
   height: 20px;
-  width: 100%;
   border-radius: 4px;
   padding: 10px;
   font-size: 13px;
+  margin-top: -10px;
 }
 
-#projects-content .linguagem {
 
-  width: 20%;
+#projects-content .position-comp {
+  float: left;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+#projects-content .language {
   float: left;
   margin-right: 30px;
 }
 
 #projects-content .commits {
-  background-color: orange;
-  width: 20%;
   float: left;
 }
 
-
-
-
-
-
-
-
-
-#projects-content h6 {
-  color: #000;
-  margin: .4em 0 0;
-  background: url("/images/rumble/head-team3.png") no-repeat 0 5px;
-  margin-bottom: -20px;
-  padding: 15px;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-size: 18px;
-}
-
-
-#projects-content ul li {
-  width: 220px;
-  min-height: 200px;
-  font-size: .8em;
-  float: left;
-  background-color: #526e25;
-  opacity: 0.9;
-  padding-top: 30px;
-  text-align: center;
-}
-
-
-#projects-content ul li img {
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  -ms-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  box-shadow: 0 0 10px rgba(0,0,0,.6);
-  width: 120px;
-  height: 120px;
-}
-
-#projects-content ul li h2 {
-  color: #fff;
-  text-transform: capitalize;
-  font-weight: normal;
-  margin: .4em 0 0;
-  letter-spacing: 0;
-
+#projects-content .team-members {
+  color: #aaba92;
+  text-shadow: 0 1px 1px rgba(1, 1, 1, 0.6);
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 
 
-#projects-content ul li p {
-  margin: 0 0 .4em;
-}
 
-#projects-content a {
-  color: #ffd40c;
-}
-
-#space {
-  color: #526E25;
-  text-align: center;
-  text-shadow: none;
-}
 

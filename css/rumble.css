@@ -848,9 +848,6 @@ a#bt-check-now-en {
 
 
 
-
-
-
 /* PROJECTS */
 
 #projects-content:after {
@@ -865,7 +862,7 @@ a#bt-check-now-en {
 
 
 #projects-content #project {
-  height: 360px;
+  height: 400px;
   width: 880px;
 }
 
@@ -907,15 +904,10 @@ a#bt-check-now-en {
   height: 60px;
   width: 60px;
   float: left;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   margin-right: 20px;
-  border-radius: 6px;
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  -ms-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,.6);
-  box-shadow: 0 0 10px rgba(0,0,0,.6);
+  border-radius: none;
 }
 
 
@@ -998,8 +990,6 @@ a#bt-check-now-en {
   font-size: 14px;
   margin-top: 20px;
 }
-
-
 
 
 

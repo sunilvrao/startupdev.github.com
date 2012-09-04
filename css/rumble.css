@@ -850,7 +850,7 @@ a#bt-check-now-en {
 
 /* PROJECTS */
 
-#projects-content:after {
+#projects-content .project:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -861,13 +861,14 @@ a#bt-check-now-en {
 }
 
 
-#projects-content #project {
-  height: 400px;
+#projects-content .project {
   width: 880px;
+  margin-bottom: 40px;
+  clear: left;
 }
 
 
-#projects-content #project-title {
+#projects-content .project-title {
   background: url("/images/rumble/head-team3.png") no-repeat 0 0;
   height: 44px;
   color: #fff;
@@ -894,15 +895,11 @@ a#bt-check-now-en {
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 30px;
-
 }
 
-
-
 #projects-content .team-member {
-  background-color: red;
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 62px;
   float: left;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -910,7 +907,28 @@ a#bt-check-now-en {
   border-radius: none;
 }
 
+#projects-content .team-member a {
+  display: block;
+  border-bottom: none;
+  width: 62px;
+  line-height: 1;
+}
 
+#projects-content .team-member a img {
+  border: 1px solid #455F1C;
+}
+
+#projects-content .team-member a:hover img {
+  border: 1px solid #FFD40C;
+}
+
+#projects-content .team-member p {
+  margin: .2em 0;
+  line-height: 1.2;
+  font-size: .7em;
+  text-align: center !important;
+  overflow: hidden;
+}
 
 #projects-content .left {
   width: 230px;
@@ -919,17 +937,12 @@ a#bt-check-now-en {
 }
 
 
-#projects-content img {
+#projects-content .image img {
   height: 200px;
   width: 230px;
-
 }
 
-
-
-
-
-#projects-content .lunch {
+#projects-content .launch {
   height: 60px;
   width: 230px;
   margin-top: -10px;
@@ -937,7 +950,8 @@ a#bt-check-now-en {
 
 
 
-#projects-content .btn-lunch {
+#projects-content .btn-launch {
+  display: block;
   color: #5e4d00;
   font-weight: bold;
   letter-spacing: 0.01em;
@@ -980,8 +994,10 @@ a#bt-check-now-en {
   margin-right: 30px;
 }
 
-#projects-content .commits {
+#projects-content .commits,
+#projects-content .team {
   float: left;
+  margin-right: 30px;
 }
 
 #projects-content .team-members {

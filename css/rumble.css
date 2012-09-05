@@ -987,6 +987,8 @@ a#bt-check-now-en {
   float: left;
   margin-right: 30px;
   margin-left: 10px;
+  color: #FFD40C;
+  font-weight: bold;
 }
 
 #projects-content .language {

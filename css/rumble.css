@@ -164,6 +164,10 @@ nav#menu ul li#teams a {
   background-position: 0 -670px;
 }
 
+nav#menu ul li#projects a {
+  background-position: 0 -748px;
+}
+
 nav#menu ul li#issues a {
   background-position: 0 -582px;
 }
@@ -1007,6 +1011,14 @@ a#bt-check-now-en {
   text-shadow: 0 1px 1px rgba(1, 1, 1, 0.6);
   font-size: 14px;
   margin-top: 20px;
+}
+
+#projects-content #footnote {
+  margin: 2em 0;
+  color: #000;
+  opacity: .4;
+  font-weight: bold;
+  text-align: center;
 }
 
 

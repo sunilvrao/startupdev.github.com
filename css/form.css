@@ -12,16 +12,12 @@ form.wufoo input {
 }
 
 form.wufoo .floated {
-  height: 78px;
+  height: 85px;
 }
 
 form.wufoo .floated > span {
   width: 255px;
   float: left;
-}
-
-form.wufoo .floated > span + span {
-  margin-left: 10px;
 }
 
 form.wufoo .floated > span label {
@@ -40,7 +36,7 @@ form.wufoo input.field {
 
 form.wufoo input.fn,
 form.wufoo input.ln {
-  width: 255px;
+  width: 260px;
 }
 
 form.wufoo .btTxt {

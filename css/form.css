@@ -16,7 +16,7 @@ form.wufoo .floated {
 }
 
 form.wufoo .floated > span {
-  width: 255px;
+  width: 258px;
   float: left;
 }
 
@@ -36,7 +36,7 @@ form.wufoo input.field {
 
 form.wufoo input.fn,
 form.wufoo input.ln {
-  width: 260px;
+  width: 258px;
 }
 
 form.wufoo .btTxt {

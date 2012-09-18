@@ -1242,7 +1242,7 @@ ol li:before {
 */
 
 #talk-to-us {
-  margin: 0 auto 120px;
+  margin: 0 auto;
 }
 
 #talk-to-us h2 {
@@ -1280,6 +1280,23 @@ ol li:before {
   width: 577px;
 }
 
+/*
++----------------------------------------------------------------+
+  Party
++----------------------------------------------------------------+
+*/
+
+#party {
+  margin-bottom: 20px;
+  padding: 40px 0 60px;
+}
+
+#party h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 3em;
+}
+
 
 /*
 +----------------------------------------------------------------+
@@ -1289,7 +1306,7 @@ ol li:before {
 
 footer {
   font-size: 1.6em;
-  padding: 15px;
+  padding: 15px 0 30px;
   text-align: center;
 }
 footer a,

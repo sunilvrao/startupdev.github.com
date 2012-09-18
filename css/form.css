@@ -12,7 +12,7 @@ form.wufoo input {
 }
 
 form.wufoo .floated {
-  height: 85px;
+  min-height: 85px;
 }
 
 form.wufoo .floated > span {

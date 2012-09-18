@@ -57,6 +57,15 @@ table {
   width: 960px;
 }
 
+iframe.video {
+  margin-left: 3px;
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,.8);
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,.8);
+  -ms-box-shadow: 0 0 20px rgba(0,0,0,.8);
+  -o-box-shadow: 0 0 20px rgba(0,0,0,.8);
+  box-shadow: 0 0 20px rgba(0,0,0,.8);
+}
+
 @font-face {
   font-family: Helvetica;
   src: url(/fonts/helvetica-normal.ttf);

@@ -489,7 +489,7 @@ header h1 {
   margin: 0 0 20px 103px;
 }
 
-#testimonials nav {
+#testimonials nav#controls {
   position: absolute;
   right: 0;
   top: 30px;
@@ -509,12 +509,12 @@ header h1 {
   background-position: right top;
 }
 
-#testimonials nav a,
-#testimonials nav span {
+#testimonials nav#controls a,
+#testimonials nav#controls span {
   float: left;
   margin-right: 3px;
 }
-#testimonials nav span {
+#testimonials nav#controls span {
   font: 1.4em HelveticaNeueCondensedBold;
   margin: 15px 15px 0 0;
 }
@@ -575,6 +575,47 @@ header h1 {
 
 #testimonials .button-talk-to-us {
   margin: 0 auto -40px;
+}
+
+#more-testimonials {
+  margin: auto;
+  width: 760px;
+}
+
+#more-testimonials h3 {
+  color: #FED247;
+  font: 2em HelveticaNeueCondensedBold;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+nav#video-testimonials ul {
+  height: 180px;
+}
+
+nav#video-testimonials ul li {
+  width: 136px;
+  margin: 0 40px 0 0;
+  float: left;
+}
+
+nav#video-testimonials a {
+  color: #fff;
+  font: 1.2em HelveticaNeueCondensedBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav#video-testimonials a img {
+  border: 3px solid #1C4969;
+  display: block;
+}
+
+nav#video-testimonials a:hover img {
+  border: 3px solid #FED247;
 }
 
 /*

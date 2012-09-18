@@ -6,6 +6,18 @@ $(document).ready(function(){
     axis: 'y'
   });
 
+  $(".fancybox").fancybox({
+    'width'           : 800,
+    'height'          : 449,
+    'scrolling'       : 'no',
+    'autoScale'       : false,
+    'transitionIn'    : 'none',
+    'transitionOut'   : 'none',
+    'type'            : 'iframe',
+    'overlayColor'    : "#000000",
+    'overlayOpacity'  : 0.6
+  });
+
   $("#menu li").hover(
     function(){
       var link = $(this).find("a");

@@ -646,49 +646,12 @@ nav#video-testimonials a:hover img {
   line-height: 69px;
 }
 
-#what-is-startup-dev article h1 span {
-  background: url("../images/workflow-details.png") no-repeat -10px -10px;
-  display: block;
-  float: left;
-  margin-right: 3px;
-  height: 65px;
-  width: 71px;
-}
-
-#what-is-startup-dev article nav {
-  margin-bottom: 30px;
-}
-
-#what-is-startup-dev article nav a {
-  color: #FFF;
-  display: block;
-  font: 1.4em HelveticaNeueCondensedBold;
-  text-decoration: none;
-  text-transform: uppercase;
-  line-height: 46px;
-  text-align: right;
-}
-
-#what-is-startup-dev article nav a span {
-  background: url("../images/yellow-arrow.png") right top;
-  display: block;
-  float: right;
-  height: 40px;
-  margin-left: 10px;
-  text-indent: -9000px;
-  width: 41px;
-}
-
 #what-is-startup-dev article hgroup {
   float: left;
 }
 
 #what-is-startup-dev article hgroup h1 {
   margin-bottom: 0;
-}
-
-#what-is-startup-dev article hgroup h1 span {
-  background-position: -90px -10px;
 }
 
 #what-is-startup-dev article hgroup h2 {

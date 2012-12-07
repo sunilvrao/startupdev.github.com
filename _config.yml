@@ -2,3 +2,53 @@ server: true
 auto: true
 exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
 permalink: :pretty
+
+schedule:
+  year: 2012
+  data:
+    -
+      month: Novembro
+      weeks:
+        -
+          date: 05/11
+          content: --
+          status:
+        -
+          date: 12/11
+          content: Memo
+          status:
+        -
+          date: 19/11
+          content: Não disponível.
+          status: unavailable
+        -
+          date: 26/11
+          content: Livre :)
+          status: current
+        -
+          date:
+          content: --
+          status:
+    -
+      month: Dezembro
+      weeks:
+        -
+          date: 03/12
+          content: Livre :)
+          status: current
+        -
+          date: 10/12
+          content: Livre :)
+          status: current
+        -
+          date: 17/12
+          content: Livre :)
+          status: current
+        -
+          date: 24/12
+          content: Livre :)
+          status: current
+        -
+          date: 31/12
+          content: Livre :)
+          status: current

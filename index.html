@@ -420,95 +420,27 @@ layout: default
     <div id="calendar">
       <table>
       <tbody>
-        <tr>
-          <th>
-            <div class="day">Novembro 2012</div>
-            <div>
-            </div>
-          </th>
-          <td>
-            <div class="day">Semana de 05/11</div>
-            <div class="day-content">
-              <strong>
-                --
-              </strong>
-            </div>
-          </td>
-          <td>
-            <div class="day">Semana de 12/11</div>
-            <div class="day-content">
-              <strong>
-                Memo
-              </strong>
-            </div>
-          </td>
-          <td class="unavailable">
-            <div class="day">Semana de 19/11</div>
-            <div class="day-content">
-              <strong>
-                Não disponível.
-              </strong>
-            </div>
-          </td>
-          <td class="current">
-            <div class="day">Semana de 26/11</div>
-            <div class="day-content">
-              <strong>
-                Livre :)
-              </strong>
-            </div>
-          </td>
-          <td>
-            <div class="day-content">--</div>
-          </td>
-        </tr>
-        <tr>
-          <th>
-            <div class="day">Dezembro 2012</div>
-            <div>
-            </div>
-          </th>
-          <td class="current">
-            <div class="day">Semana de 03/12</div>
-            <div class="day-content">
-              <strong>
-                Livre :)
-              </strong>
-            </div>
-          </td>
-          <td class="current">
-            <div class="day">Semana de 10/12</div>
-            <div class="day-content">
-              <strong>
-                Livre :)
-              </strong>
-            </div>
-          </td>
-          <td class="current">
-            <div class="day">Semana de 17/12</div>
-            <div class="day-content">
-              <strong>
-                Livre :)
-              </strong>
-            </div>
-          </td>
-          <td class="current">
-            <div class="day">Semana de 24/12</div>
-            <div class="day-content">
-              <strong>
-                Livre :)
-              </strong>
-            </div>
-          </td>
-          <td class="current">
-            <div class="day">Semana de 31/12</div>
-            <div class="day-content">
-              <strong>
-                Livre :)
-              </strong>
-            </div>
-          </td>
-        </tr>
+        {% for data in site.schedule.data %}
+          <tr>
+            <th>
+              <div class="day">{{ data.month }} {{ site.schedule.year }}</div>
+              <div>
+              </div>
+            </th>
+            {% for week in data.weeks %}
+              <td class="{{ week.status }}" >
+                {% if week.date %}
+                  <div class="day">Semana de {{ week.date }}</div>
+                {% endif %}
+                <div class="day-content">
+                  <strong>
+                    {{ week.content }}
+                  </strong>
+                </div>
+              </td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
       </tbody>
     </table>
     </div>

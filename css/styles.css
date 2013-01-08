@@ -48,13 +48,17 @@ h3 {
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .container {
   margin: 0 auto;
   width: 960px;
+}
+
+#video-container {
+ padding: 30px 0; 
 }
 
 iframe.video {
@@ -64,6 +68,10 @@ iframe.video {
   -ms-box-shadow: 0 0 20px rgba(0,0,0,.8);
   -o-box-shadow: 0 0 20px rgba(0,0,0,.8);
   box-shadow: 0 0 20px rgba(0,0,0,.8);
+}
+article {
+  padding: 30px 0;
+  margin: 4em 0;
 }
 
 @font-face {
@@ -82,6 +90,11 @@ iframe.video {
   font-family: HelveticaNeueCondensedBold;
   src: url(/fonts/helvetica-neue-condensed-bold.ttf);
   font-weight: normal;
+}
+
+.call-to-action {
+  margin: 30px auto 0;
+  width: 230px;
 }
 
 /*
@@ -199,6 +212,17 @@ header h1 {
 #menu li#contact a:hover {
 }
 
+
+
+#schedule h2,
+#developed-projects h2,
+#talk-to-us h2,
+#partners h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
 /*
 +----------------------------------------------------------------+
   Content
@@ -230,6 +254,7 @@ header h1 {
 }
 
 .dark-background {
+  margin: 60px 0;
   background: url("../images/background-presentation.png");
 }
 
@@ -247,7 +272,7 @@ header h1 {
   clear: both;
   list-style: none;
   overflow: hidden;
-  margin:60px 30px 50px;
+  margin: 60px 30px 20px;
 }
 
 #workflow li {
@@ -320,7 +345,6 @@ header h1 {
 #presentation {
   clear: both;
   overflow: hidden;
-  margin-bottom: 90px;
   padding-bottom: 50px;
 }
 
@@ -330,7 +354,6 @@ header h1 {
 }
 
 #presentation .call-to-action {
-  margin: 30px auto;
   width: 440px;
 }
 
@@ -358,15 +381,6 @@ header h1 {
   Developed projects
 +----------------------------------------------------------------+
 */
-
-#developed-projects {
-  margin-bottom: 80px;
-}
-
-#developed-projects h2 {
-  margin-bottom: 60px;
-  text-align: center;
-}
 
 #developed-projects-slider {
   margin-left: 35px;
@@ -480,8 +494,6 @@ header h1 {
 */
 
 #testimonials {
-  margin-bottom: 110px;
-  padding: 30px 0 20px 0;
   position: relative;
 }
 
@@ -520,7 +532,6 @@ header h1 {
 }
 
 .testimonial {
-  margin-bottom: 20px;
   padding: 0 80px 0 100px;
   position: relative;
 }
@@ -574,7 +585,7 @@ header h1 {
 }
 
 #testimonials .button-talk-to-us {
-  margin: 0 auto -40px;
+  margin: 0 auto -60px;
 }
 
 #more-testimonials {
@@ -629,20 +640,11 @@ nav#video-testimonials a:hover img {
   text-align: center;
 }
 
-#what-is-startup-dev h3 {
-  margin-bottom: 50px;
-}
-
-#what-is-startup-dev article {
-  margin-bottom: 90px;
-}
-
 #what-is-startup-dev article h1 {
   color: #FED247;
   font: 3em HelveticaNeueCondensedBold;
   font-weight: lighter;
   text-transform: uppercase;
-  margin-bottom: 30px;
   line-height: 69px;
 }
 
@@ -721,9 +723,18 @@ ol li:before {
 +----------------------------------------------------------------+
 */
 
+
 #developing-applications {
   overflow: hidden;
-  padding: 20px;
+}
+
+#developing-applications h2,
+#developing-applications h3 {
+  text-align: center;
+}
+
+#developing-applications h3 {
+  margin-bottom: 30px;
 }
 
 #what-is-startup-dev article#developing-applications nav {
@@ -802,7 +813,6 @@ ol li:before {
   color: #FFF;
   font: 1.7em Helvetica;
   font-weight: bold;
-  margin-bottom: 30px;
   letter-spacing: 0.1em;
   text-align: left;
   text-transform: none;
@@ -1030,10 +1040,6 @@ ol li:before {
 +----------------------------------------------------------------+
 */
 
-#partners,
-#support {
-  margin-bottom: 90px;
-}
 #partners table,
 #support table {
   background-color: #FFF;
@@ -1064,18 +1070,6 @@ ol li:before {
   Schedule
 +----------------------------------------------------------------+
 */
-
-#schedule {
-  margin-bottom: 100px;
-  padding: 40px 0 60px;
-}
-
-#schedule h2,
-#talk-to-us h2,
-#partners h2 {
-  margin-bottom: 30px;
-  text-align: center;
-}
 
 #calendar {
   background-color: #FFF;

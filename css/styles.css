@@ -1203,7 +1203,7 @@ ol li:before {
   border-right: 1px solid #b3d6eb;
 }
 
-#calendar table tr td.current {
+#calendar table tr td.free {
   background-color: #CCFFCC;
 }
 
@@ -1227,6 +1227,9 @@ ol li:before {
   text-align: center;
 }
 
+#calendar table tr td.unavailable {
+  background-color: #FFC5CA;
+}
 #calendar table tr td.unavailable .day-content {
   color: #c66;
 }

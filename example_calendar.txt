@@ -1,8 +1,3 @@
-server: true
-auto: true
-exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
-permalink: :pretty
-
 schedule:
   year: 2013
   data:
@@ -46,29 +41,6 @@ schedule:
           status: free
         -
           date: 25/02
-          content: 
-          status: free
-        -
-          date: 
-          content: 
-          status: 
-    -
-      month: Março
-      weeks:
-        -
-          date: 04/03
-          content: 
-          status: free
-        -
-          date: 11/03
-          content: 
-          status: free
-        -
-          date: 18/03
-          content: 
-          status: free
-        -
-          date: 25/03
           content: 
           status: free
         -

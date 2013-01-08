@@ -1,3 +1,5 @@
+Status: unavailable, client, reserved, free
+
 schedule:
   year: 2013
   data:
@@ -6,11 +8,9 @@ schedule:
       weeks:
         -
           date: 01/01
-          client: 
           status: unavailable
         -
           date: 07/01
-          client: 
           status: unavailable
         -
           date: 14/01
@@ -29,21 +29,16 @@ schedule:
       weeks:
         -
           date: 04/02
-          content: 
           status: reserved
         -
           date: 11/02
-          content: 
           status: unavailable
         -
           date: 18/02
-          content: 
           status: free
         -
           date: 25/02
-          content: 
           status: free
         -
           date: 
-          content: 
           status: 

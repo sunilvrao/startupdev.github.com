@@ -164,52 +164,52 @@ header h1 {
   text-transform: uppercase;
 }
 
-#menu li#home a {
+#menu li.home a {
   background-position: 94px 12px;
   padding-right: 62px;
-  margin-left: -82px;
+  margin-left: -81px;
 }
 
-#menu li#video a {
+#menu li.video a {
   background-position: 94px -30px;
   padding-right: 62px;
   margin-left: -83px;
 }
 
-#menu li#projects a {
+#menu li.projects a {
   background-position: 148px -79px;
   padding-right: 64px;
   margin-left: -137px;
 }
 
-#menu li#statements a {
+#menu li.statements a {
   background-position: 190px -129px;
   padding-right: 64px;
   margin-left: -180px;
 }
 
-#menu li#what-is-it a {
-  background-position: 138px -176px;
+#menu li.what-is-it a {
+  background-position: 220px -176px;
   padding-right: 63px;
-  margin-left: -127px;
+  margin-left: -206px;
 }
 
-#menu li#agenda a {
+#menu li.agenda a {
   background-position: 124px -226px;
   padding-right: 65px;
   margin-left: -113px;
 }
 
-#menu li#contact a {
+#menu li.contact a {
   background-position: 139px -271px;
   width: 159px;
   margin-left: -127px;
 }
 
-#menu li#home a:hover,
-#menu li#projects a:hover,
-#menu li#what-is-it a:hover,
-#menu li#contact a:hover {
+#menu li.home a:hover,
+#menu li.projects a:hover,
+#menu li.what-is-it a:hover,
+#menu li.contact a:hover {
 }
 
 

@@ -33,6 +33,7 @@ schedule:
         -
           date: 04/02
           status: Yasmin Cunha
+          status: client
         -
           date: 11/02
           status: unavailable

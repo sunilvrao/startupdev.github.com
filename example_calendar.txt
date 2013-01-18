@@ -18,7 +18,7 @@ schedule:
           status: client
         -
           date: 21/01
-          client: Bianca Milesi
+          client: Taynah Reis
           status: client
         -
           date: 28/01
@@ -29,7 +29,7 @@ schedule:
       weeks:
         -
           date: 04/02
-          status: reserved
+          status: Yasmin Cunha
         -
           date: 11/02
           status: unavailable

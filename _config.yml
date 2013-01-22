@@ -39,10 +39,11 @@ schedule:
           status: unavailable
         -
           date: 18/02
-          status: reserved
+          client: Marcello Caheté
+          status: client
         -
           date: 25/02
-          status: free
+          status: reserved
         -
           date: 
           status: 

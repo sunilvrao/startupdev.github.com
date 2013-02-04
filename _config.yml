@@ -39,11 +39,10 @@ schedule:
           status: unavailable
         -
           date: 18/02
-          client: Wallace Fontes
-          status: client
+          status: reserved
         -
           date: 25/02
-          status: reserved
+          status: free
         -
           date: 
           status: 

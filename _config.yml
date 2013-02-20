@@ -42,7 +42,8 @@ schedule:
           status: reserved
         -
           date: 25/02
-          status: free
+          client: Bianca Milesi
+          status: client
         -
           date: 
           status: 
@@ -51,7 +52,7 @@ schedule:
       weeks:
         -
           date: 04/03
-          status: free
+          status: reserved
         -
           date: 11/03
           status: free

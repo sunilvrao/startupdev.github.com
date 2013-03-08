@@ -56,10 +56,12 @@ schedule:
           status: client
         -
           date: 11/03
-          status: free
+          client: George Lavor
+          status: client
         -
           date: 18/03
-          status: free
+          client: Mauro Ribeiro
+          status: client
         -
           date: 25/03
           status: free

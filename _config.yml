@@ -64,7 +64,8 @@ schedule:
           status: client
         -
           date: 25/03
-          status: free
+          client: Marcos Andrade
+          status: client
         -
           date: 
           status: 

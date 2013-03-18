@@ -57,13 +57,13 @@ schedule:
           status: client
         -
           date: 08/04
-          status: available
+          status: free
         -
           date: 15/04
-          status: available
+          status: free
         -
           date: 22/04
-          status: available
+          status: free
         -
           date: 29/04
-          status: available
+          status: free

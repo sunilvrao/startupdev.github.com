@@ -7,27 +7,6 @@ schedule:
   year: 2013
   data:
     -
-      month: Janeiro
-      weeks:
-        -
-          date: 01/01
-          status: unavailable
-        -
-          date: 07/01
-          status: unavailable
-        -
-          date: 14/01
-          client: Ronaldo Setti
-          status: client
-        -
-          date: 21/01
-          client: Taynah Reis
-          status: client
-        -
-          date: 28/01
-          client: Marcello Caheté
-          status: client
-    -
       month: Fevereiro
       weeks:
         -
@@ -69,3 +48,22 @@ schedule:
         -
           date: 
           status: 
+  -
+      month: Abril
+      weeks:
+        -
+          date: 01/04
+          client: Mateus Bastos
+          status: client
+        -
+          date: 08/04
+          status: available
+        -
+          date: 15/04
+          status: available
+        -
+          date: 22/03
+          status: available
+        -
+          date: 29/03
+          status: available

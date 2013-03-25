@@ -57,7 +57,8 @@ schedule:
           status: client
         -
           date: 08/04
-          status: free
+          client: Lucas Lima
+          status: client
         -
           date: 15/04
           status: free

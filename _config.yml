@@ -63,7 +63,7 @@ schedule:
           status: free
         -
           date: 22/04
-          status: unavailable
+          status: free
         -
           date: 29/04
           status: free

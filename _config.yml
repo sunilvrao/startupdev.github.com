@@ -7,26 +7,6 @@ schedule:
   year: 2013
   data:
     -
-      month: Fevereiro
-      weeks:
-        -
-          date: 04/02
-          client: Yasmin Cunha
-          status: client
-        -
-          date: 11/02
-          status: unavailable
-        -
-          date: 18/02
-          status: reserved
-        -
-          date: 25/02
-          client: Bianca Milesi
-          status: client
-        -
-          date: 
-          status: 
-    -
       month: Março
       weeks:
         -
@@ -69,3 +49,21 @@ schedule:
         -
           date: 29/04
           status: unavailable
+    -
+      month: Maio
+      weeks:
+        -
+          date: 06/05
+          status: free
+        -
+          date: 13/05
+          status: free
+        -
+          date: 20/05
+          status: free
+        -
+          date: 27/05
+          status: free
+        -
+          date: 
+          status: 

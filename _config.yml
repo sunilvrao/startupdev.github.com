@@ -60,10 +60,12 @@ schedule:
           status: free
         -
           date: 15/04
-          status: free
+          client: César Augusto
+          status: client
         -
           date: 22/04
-          status: free
+          client: André Coutrim
+          status: client
         -
           date: 29/04
-          status: free
+          status: unavailable

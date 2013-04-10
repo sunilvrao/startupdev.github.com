@@ -54,7 +54,8 @@ schedule:
       weeks:
         -
           date: 06/05
-          status: free
+          client: Thiago Gomes
+          status: client
         -
           date: 13/05
           status: free

@@ -1,0 +1,477 @@
+---
+layout: default
+---
+<a href="http://helabs.com.br/workshops/startupdev" class="tag"><img src="images/tag-startup-dev.png"></a>
+<div id="presentation-holder">
+  <article id="presentation" class="container">
+    <h2>Your web startup ready to be launched</h2>
+     <h3> We are pioneers and creators of this unique model for web development work. <br/> 
+            In a year of work developed over 35 projects.</h3>
+    <ul id="workflow">
+      <li id="idea">
+        <div></div>
+        <p>Your<br />idea</p>
+      </li>
+      <li class="plus">
+        <div></div>
+      </li>
+      <li id="team">
+        <div></div>
+        <p>2 developers<br />E 1 designer</p>
+      </li>
+      <li class="plus">
+        <div></div>
+      </li>
+      <li id="time">
+        <div></div>
+        <p>2 Days <br />Work</p>
+      </li>
+      <li class="plus">
+        <div></div>
+      </li>
+      <li id="investment">
+        <div></div>
+        <p> Investiment <br />for R$ 12 mil</p>
+      </li>
+      <li id="equals">
+        <div></div>
+      </li>
+      <li id="online-app">
+        <div></div>
+        <p>App online and<br/>Happy Customer!!</p>
+      </li>
+    </ul>
+    <div id="video-container">
+      <iframe id="presentation-video" class="video" width="953" height="535" src="http://embed.videolog.tv/v/index.php?id_video=796308&amp;width=953&amp;height=535&amp;related=&amp;hd=&amp;color1=&amp;color2=&amp;color3=&amp;slideshow=&amp;config_url=http://startupdev.com.br/videolog.xml" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
+    <div class="call-to-action">
+      <a href="#talk-to-us" class="button-talk-to-us" title="Fale conosco !">Contact Us !</a>
+      <span>or</span>
+      <a href="#what-is-startup-dev" class="button-learn-more" title="Saiba mais">Learn More</a>
+    </div>
+  </article>
+</div>
+<article id="schedule" class="container">
+  <h2>See when your project can roll ...</h2>
+  <div id="calendar">
+    <table>
+    <tbody>
+      {% for data in site.schedule.data %}
+        <tr>
+          <th>
+            <div class="day">{{ data.month }} {{ site.schedule.year }}</div>
+            <div>
+            </div>
+          </th>
+          {% for week in data.weeks %}
+            <td class="{{ week.status }}" >
+              {% if week.date %}
+                <div class="day">Semana do dia {{ week.date }}</div>
+              {% endif %}
+              <div class="day-content">
+                <strong>
+                  {% if week.status == 'client' %}
+                    {{ week.client }}
+                  {% elsif week.status == 'free' %}
+                    Livre :)
+                  {% elsif week.status == 'reserved' %}
+                    Reservado
+                  {% elsif week.status == 'unavailable' %}
+                    Indisponível
+                  {% else %}
+                    --
+                  {% endif %}
+                </strong>
+              </div>
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</article>
+<div class="dark-background">
+  <article id="testimonials" class="container">
+    <h2>Customer Testimonials</h2>
+    <nav id="controls">
+      <a href="#" id="testimonial-previous" title="Anterior">Anterior</a> <a href="#" id="testimonial-next" title="Próximo">Próximo</a>
+    </nav>
+    <div class="testimonial">
+      <blockquote>
+        <span class="begin-quote">"</span>
+        <div class="slider-container">
+          <ul>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">The service provided by Startup DEV exceeded our expectations. We just prioritize the most important points in this first step. We make sure that products developed with quality and agility was a great first step for our project! Thanks for the experience.</p>
+                <p class="testimonial-author">Matheus Diaz e Ronnie Possatti</p>
+                <p class="testimonial-project">Horus</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">Só temos a agradecer ao Startup DEV. A equipe de desenvolvimento foi extremamente profissional e conseguiu superar todas expectativas. Em 48 horas ter um protótipo completamente funcional com um design de primeira linha é algo monstruoso. Parabéns!</p>
+                <p class="testimonial-author">Rodrigo Soares</p>
+                <p class="testimonial-project">Hintask</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">Minha experiência com o Startup DEV foi ótima. O trabalho foi objetivo, entregue dentro do prazo e com qualidade.  Além do mais, os aconselhamentos técnicos fizeram toda a diferença, pois a sensação ao final foi de ter recebido mais do que havia sido planejado e contratado.</p>
+                <p class="testimonial-author">José Roberto H. da Gama</p>
+                <p class="testimonial-project">NetAdvocacia</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">Desenvolver nosso projeto através do Startup DEV foi a forma mais rápida que encontrei de colocar o projeto que idealizamos no ar. Além de sair satisfeito com meu projeto no ar em  apenas 3 dias, o processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software. Recomendo e tenho certeza que vou recorrer em breve a outras rodadas.</p>
+                <p class="testimonial-author">Kauê Linden</p>
+                <p class="testimonial-project">Game Guiz</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">O trabalho desenvolvido pela equipe do Startup DEV é fantástico. O conhecimento técnico e a habilidade do time em entender o projeto e desenhar o MVP não só garante a entrega do projeto dentro do prazo excepcional como torna o produto mais inteligente. Aprovadíssimo!</p>
+                <p class="testimonial-author">Amure Pinho</p>
+                <p class="testimonial-project">Amigo Não Se Compra / SyncMobile</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">Com a ajuda do pessoal do Startup DEV, a Conversion conseguiu lançar no mercado uma ferramenta de SEO inovadora, simples e muito funcional. Nossa ferramenta teve milhões de pageviews, o que foi muito importante para nós.</p>
+                <p class="testimonial-author">Diego Ivo</p>
+                <p class="testimonial-project">Rank Monitor</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">A equipe do Startup DEV não tráz somente o software amado em 3 dias, neste período eles nos ensinam na prática o que é um projeto LEAN de verdade, tocado com muita qualidade e capricho.</p>
+                <p class="testimonial-author">Andre Diamand</p>
+                <p class="testimonial-project">Zupty / VentureOne</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">A experiência da Sidetech com o Startup DEV foi muito boa. O formato proposto é bem produtivo, pois utiliza técnicas durante a reunião inicial que permite ter uma visão geral do projeto, antes mesmo de iniciar. O sistema de pontos te dá flexibilidade para definir o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo seu projeto.<br>A equipe é super competente e o trabalho de desenvolvimento realmente foi feito em 48 horas.</p>
+                <p class="testimonial-author">Pablo Braga</p>
+                <p class="testimonial-project">Safetracking / Sidetech</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">O pessoal do Startup DEV foi essencial para a realização do ContaCal. Eles não só manjam muito de desenvolvimento de software como têm bastante experiência de negócios web, o que os torna ótimos parceiros para criação de MVP.</p>
+                <p class="testimonial-author">Joaquim Torres</p>
+                <p class="testimonial-project">ContaCal</p>
+              </div>
+            </li>
+            <li>
+              <div class="slider">
+                <p class="testimonial-content">Posso afirmar que o Startup DEV são pessoas extremamente experientes prestando um excelente serviço para pessoas que desejam empreender na internet e não possuem o conhecimento tecnológico. Contudo, a metodologia utilizada é bastante eficiente para empreendedores que já possuam o MVP bem definido, para que de fato, a ideia possa ser transformada em um protótipo a ser testado.</p>
+                <p class="testimonial-author">Mario Sousa de Alencar</p>
+                <p class="testimonial-project">Shopping Passion</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <span class="end-quote">"</span>
+      </blockquote>
+    </div>
+    <div id="more-testimonials">
+      <h3>Mais depoimentos</h3>
+
+      <nav id="video-testimonials">
+        <ul>
+          <li>
+            <a href="/videos/arthur-granado/" class="fancybox">
+              <img src="/images/testimonials/arthur-granado.png" alt="Arthur Granado" />
+              <p>Arthur Granado</p>
+            </a>
+          </li>
+          <li>
+            <a href="/videos/amure-pinho/" class="fancybox">
+              <img src="/images/testimonials/amure-pinho.png" alt="Amure Pinho" />
+              <p>Amure Pinho</p>
+            </a>
+          </li>
+          <li>
+            <a href="/videos/cezar-souza/" class="fancybox">
+              <img src="/images/testimonials/cezar-souza.png" alt="Cezar Souza" />
+              <p>Cezar Souza</p>
+            </a>
+          </li>
+          <li>
+            <a href="/videos/juan-bernabo/" class="fancybox">
+              <img src="/images/testimonials/juan-bernabo.png" alt="Juan Bernabó" />
+              <p>Juan Bernabó</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="call-to-action">
+      <a href="#talk-to-us" class="button-talk-to-us" title="Fale conosco !">Contact Us !</a>
+    </div>
+  </article>
+</div>
+<article id="developed-projects" class="container">
+  <h2>MORE THAN 40 PROJECTS SUCCESSFUL!</h2>
+  <div id="developed-projects-slider">
+    <a href="#" id="slider-next" title="Próximo">Próximo</a>
+    <a href="#" id="slider-previous" title="Anterior">Anterior</a>
+    <div>
+      <ul>
+        <li>
+          <div>
+            <h3>Tempo Eh Dinheiro</h3>
+            <a href="http://www.tempoehdinheiro.com.br/" rel="external" title="Tempo Eh Dinheiro"><img src="/images/projetos/tempo-eh-dinheiro.png" width="142" height="100" alt="Tempo Eh Dinheiro" /></a>
+          </div>
+          <div>
+            <h3>Click&amp;Movimento</h3>
+            <a href="http://www.clickemovimento.com.br" rel="external" title="Click&amp;Movimento"><img src="/images/projetos/clickemovimento.png" width="142" height="100" alt="Click&amp;Movimento" /></a>
+          </div>
+          <div>
+            <h3>MIIDAH</h3>
+            <a href="http://app.miidah.com" rel="external" title="MIIDAH.COM"><img src="/images/projetos/miidah.png" width="142" height="100" alt="MIIDAH.COM" /></a>
+          </div>
+          <div>
+            <h3>GiftBar</h3>
+            <a href="http://app.giftbar.com.br/" rel="external" title="GiftBar"><img src="/images/projetos/giftbar.png" width="142" height="100" alt="GiftBar" /></a>
+          </div>
+          <div class="last">
+            <h3>Xtools</h3>
+            <img src="/images/projetos/xtools.png" width="142" height="100" alt="Xtools" />
+          </div>
+          <div>
+            <h3>Cuponizando</h3>
+            <a href="http://ofertas.cuponizando.com.br/" rel="external" title="Cuponizando"><img src="/images/projetos/cuponizando.png" width="142" height="100" alt="Cuponizando" /></a>
+          </div>
+          <div>
+            <h3>Innterpretti</h3>
+            <a href="http://www.innterpretti.com.br/" rel="external" title="Innterpretti"><img src="/images/projetos/innterpretti.png" width="142" height="100" alt="Innterpretti" /></a>
+          </div>
+          <div>
+            <h3>Orçamento Rápido</h3>
+            <a href="http://app.orcamentorapido.com.br/" rel="external" title="Orçamento Rápido"><img src="/images/projetos/orcamento-rapido.png" width="142" height="100" alt="Orçamento Rápido" /></a>
+          </div>
+          <div>
+            <h3>Incrível MEMO</h3>
+            <a href="http://incrivelmemo.com.br/" rel="external" title="Incrível MEMO"><img src="/images/projetos/memo.png" width="142" height="100" alt="Incrível MEMO" /></a>
+          </div>
+          <div class="last">
+            <h3>Mo Recipes</h3>
+            <a href="http://morecipes.com.br/" rel="external" title="Mo Recipes"><img src="/images/projetos/morecipes.png" width="142" height="100" alt="Mo Recipes"></a>
+          </div>
+          <div>
+            <h3>Horus</h3>
+            <img src="/images/projetos/horus.png" width="142" height="100" alt="Horus">
+          </div>
+          <div>
+            <h3>managerbook</h3>
+            <a href="http://managerbook.com.br/" rel="external" title="managerbook"><img src="/images/projetos/managerbook.png" width="142" height="100" alt="managerbook"></a>
+          </div>
+          <div>
+            <h3>Feedback Machine</h3>
+            <a href="http://app.feedback-machine.com/" rel="external" title="Feedback Machine"><img src="/images/projetos/feedback-machine.png" width="142" height="100" alt="Feedback Machine"></a>
+          </div>
+          <div>
+            <h3>Hintask</h3>
+            <a href="http://hintask.com/" rel="external" title="Hintask"><img src="/images/projetos/hintask.png" width="142" height="100" alt="Hintask"></a>
+          </div>
+          <div class="last">
+            <h3>Shop My Shop</h3>
+            <img src="/images/projetos/shopmyshop.png" width="142" height="100" alt="Shop My Shop">
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>SMB Challenge</h3>
+            <a href="http://smbchallenge.com/" rel="external" title="SMB Challenge"><img src="/images/projetos/smbchallenge.png" width="142" height="100" alt="SMB Challenge"></a>
+          </div>
+          <div>
+            <h3>neighbourz</h3>
+            <a href="http://app.neighbourz.com" rel="external" title="neighbourz"><img src="/images/projetos/neighbourz.png" width="142" height="100" alt="neighbourz"></a>
+          </div>
+          <div>
+            <h3>hospedfácil</h3>
+            <img src="/images/projetos/hospedfacil.png" width="142" height="100" alt="hospedfácil">
+          </div>
+          <div>
+            <h3>Landing Commerce</h3>
+            <a href="http://www.landingcommerce.com.br/" rel="external" title="Landing Commerce"><img src="/images/projetos/landing-commerce.png" width="142" height="100" alt="Landing Commerce"></a>
+          </div>
+          <div class="last">
+            <h3>Mamãe eu Kero</h3>
+            <a href="http://www.mamaeeukero.com.br/" rel="external" title="Mamãe eu Kero"><img src="/images/projetos/mamaeeukero.png" width="142" height="100" alt="Mamãe eu Kero"></a>
+          </div>
+          <div>
+            <h3>WEBSIMULADO</h3>
+            <a href="http://www.websimulado.com.br/" rel="external" title="WEBSIMULADO"><img src="/images/projetos/websimulado.png" width="142" height="100" alt="WEBSIMULADO"></a>
+          </div>
+          <div>
+            <h3>Alik</h3>
+            <a href="http://www.alik.com.br/" rel="external" title="Alik"><img src="/images/projetos/alik.png" width="142" height="100" alt="Alik"></a>
+          </div>
+          <div>
+            <h3>NoTrombone</h3>
+            <a href="http://www.notrombone.com/" rel="external" title="No Trombone"><img src="/images/projetos/no-trombone.png" width="143" height="100" alt="No Trombone"></a>
+          </div>
+          <div>
+            <h3>Editora TIL</h3>
+            <img src="/images/projetos/no-screen.png" width="142" height="100" alt="Editora TIL">
+          </div>
+          <div class="last">
+            <h3>Game Quiz</h3>
+            <a href="http://apps.facebook.com/gamequizbr/" rel="external" title="Game Quiz"><img src="/images/projetos/gamequiz.png" width="142" height="100" alt="Game Quiz"></a>
+          </div>
+          <div>
+            <h3>Given 2 You</h3>
+            <a href="http://www.gv2u.com.br/" rel="external" title="Given 2 you"><img src="/images/projetos/given2you.png" width="142" height="100" alt="Given 2 you"></a>
+          </div>
+          <div>
+            <h3>Sparkel</h3>
+            <img src="/images/projetos/sparkel.png" alt="Sparkel">
+          </div>
+          <div>
+            <h3>Estou Jogando</h3>
+            <a href="http://estoujogando.com.br/" rel="external" title="Estou Jogando"><img src="/images/projetos/estou-jogando.png" width="142" height="100" alt="Estou Jogando"></a>
+          </div>
+          <div>
+            <h3>Shopping Passion</h3>
+            <img src="/images/projetos/shopping-passion.png" width="145" height="100" alt="Shopping Passion">
+          </div>
+          <div class="last">
+            <h3>LetsEvo</h3>
+            <a href="http://www.designoteca.com/" rel="external" title="Letsevo"><img src="/images/projetos/letsevo.png" width="142" height="100" alt="Letsevo"></a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Netadvocacia</h3>
+            <a href="http://www.netadvocacia.com.br/" rel="external" title="Netadvocacia"><img src="/images/projetos/netadvocacia.png" width="142" height="100" alt="Netadvocacia"></a>
+          </div>
+          <div>
+            <h3>Ultrapasse</h3>
+            <img src="/images/projetos/ultrapasse.png" width="142" height="100" alt="Ultrapasse">
+          </div>
+          <div>
+            <h3>Publication of Labels</h3>
+            <img src="/images/projetos/pol.png" width="142" height="100" alt="Publication of Labels">
+          </div>
+          <div>
+            <h3>Turbotaxi</h3>
+            <img src="/images/projetos/turbotaxi.png" width="142" height="100" alt="Turbotaxi">
+          </div>
+          <div class="last">
+            <h3>Propsharely</h3>
+            <img src="/images/projetos/propsharely.png" width="142" height="100" alt="Propsharely">
+          </div>
+          <div>
+            <h3>LMT</h3>
+            <a href="https://www.likemytip.com.br/" rel="external" title="LMT"><img src="/images/projetos/likemytip.png" width="142" height="100" alt="LMT"></a>
+          </div>
+          <div>
+            <h3>Zupty</h3>
+            <a href="http://www.zupty.com/" rel="external" title="Zupty"><img src="/images/projetos/zupty.png" width="142" height="100" alt="Zupty"></a>
+          </div>
+          <div>
+            <h3>Amigo não se Compra</h3>
+            <a href="http://www.amigonaosecompra.com.br/" rel="external" title="Amigo Nao Se Compra"><img src="/images/projetos/amigo-nao-se-compra.png" width="142" height="100" alt="Amigo Nao Se Compra"></a>
+          </div>
+          <div>
+            <h3>Sabtudo</h3>
+            <img src="/images/projetos/sabtudo.png" width="142" height="100" alt="Sabtudo">
+          </div>
+          <div class="last">
+            <h3>Safe Tracking</h3>
+            <a href="http://safetracking.com.br/" rel="external" title="Safe Tracking"><img src="/images/projetos/safe-tracking.png" width="143" height="100" alt="Safe Tracking"></a>
+          </div>
+          <div>
+            <h3>ContaCal</h3>
+            <a href="http://app.contacal.com.br/" rel="external" title="Contacal"><img src="/images/projetos/contacal.png" width="142" height="100" alt="Contacal"></a>
+          </div>
+          <div>
+            <h3>Rank Monitor</h3>
+            <img src="/images/projetos/rank-monitor.png" width="142" height="100" alt="Rank Monitor">
+          </div>
+          <div>
+            <h3>Ideias</h3>
+            <img src="/images/projetos/ideias.png" width="142" height="100" alt="Idéias">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="call-to-action">
+    <a href="#talk-to-us" class="button-talk-to-us" title="Fale conosco !">Contact Us!</a>
+  </div>
+</article>
+<div class="dark-background">
+  <article id="what-is-startup-dev">
+    <h2>HOW DOES THE STARTUP DEV?</h2>
+      <h3>We conducted a working meeting where we understand your need
+        and assemble the project scope.<br> After all developed in 2 days..</h3>
+    <article id="meeting" class="container">
+      <ul>
+        <li>Know<br />The project</li>
+        <li id="draw">Draw<br />screen</li>
+        <li id="flow">Mounting <br />the navigation flow</li>
+        <li id="writer">Writing <br />Tasks</li>
+        <li id="define">Setting<br />Priority</li>
+        <li id="scope">Close<br />the project scope</li>
+      </ul>
+      <div id="dev-2-days">
+     <h3> 2 days of development <br/> </h3>
+         <p> We deliver within 2 days <br/> a scope which is usually done within 15 working days. </p>
+         <h4> deliver the system <br/> online and ready to be released! </h4>
+         <a href="http://www.videolog.tv/helabsoficial" title="Para saber mais sobre essa etapa assista vídeos">To learn more<br/>This step of<br/><span>Watch the videos</span></a>
+      </div>
+    </article>
+  </articl>
+</div>
+<article id="partners" class="container">
+  <h2>our Partners</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="http://startupfarm.com.br" title="Startupfarm"><img src="/images/parceiros/startupfarm.jpg" width="148" height="33" alt="Startupfarm"></a></td>
+        <td><a href="http://www.fiap.com.br" title="FIAP"><img src="/images/parceiros/fiap.jpg" width="119" height="30" alt="FIAP"></a></td>
+        <td><a href="http://circuitostartup.com" title="Circuito Startup"><img src="/images/parceiros/circuito.jpg" width="157" height="55" alt="Circuito Startup"></a></td>
+        <td class="last"><a href="http://21212.com" title="21212"><img src="/images/parceiros/21212.jpg" width="102" height="91" alt="21212"></a></td>
+      </tr>
+      <tr class="last">
+        <td><a href="http://workshop.bootstrappers.com.br" title="Bootstrappers"><img src="/images/parceiros/bootstrapper.jpg" width="135" height="72" alt="Bootstrappers"></a></td>
+        <td><a href="http://www.ventureone.com.br" title="VentureOne"><img src="/images/parceiros/venture.jpg" width="162" height="41" alt="VentureOne"></a></td>
+        <td><a href="http://papayaventures.com/" title="Papaya Ventures"><img src="/images/parceiros/papaya.png" width="180" height="36" alt="Papaya Ventures"></a></td>
+        <td class="last"><a href="http://www.izupt.com/" title="iZupt connected ideas"><img src="/images/parceiros/izupt.png" alt="iZupt connected ideas"></a></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+<div class="dark-background">
+  <article id="talk-to-us" class="container">
+    <h2>It will be a pleasure to meet you!</h2>
+
+    <script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+    <div id="form">
+      <script type="text/javascript">
+      var z7x3k1 = new WufooForm();
+      z7x3k1.initialize({
+      'userName':'helabs',
+      'formHash':'z7p9p1',
+      'autoResize':false,
+      'height':'600',
+      'ssl':false,
+      'header':'hide'});
+      z7x3k1.display();
+      </script>
+    </div>
+  </article>
+</div>
+<a name="video1ano"></a>
+<article id="party" class="container">
+  <h2>A year of successful projects!</h2>
+
+  <iframe class="video" width="953" height="535" src="http://embed.videolog.tv/v/index.php?id_video=808061&amp;width=953&amp;height=535&amp;related=&amp;hd=&amp;color1=&amp;color2=&amp;color3=&amp;slideshow=" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</article>

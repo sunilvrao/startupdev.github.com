@@ -48,7 +48,7 @@ schedule:
           status: client
         -
           date: 29/04
-          status: unavailable
+          status: free
     -
       month: Maio
       weeks:

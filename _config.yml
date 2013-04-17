@@ -70,3 +70,71 @@ schedule:
         -
           date: 
           status: 
+
+schedule_en:
+year: 2013
+data:
+  -
+    month: Março
+    weeks:
+      -
+        date:
+        client: 
+        status: 
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date: 
+        status: 
+  -
+    month: Abril
+    weeks:
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date: 
+        client: 
+        status:
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date: 
+        status: 
+  -
+    month: Maio
+    weeks:
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date: 
+        status: 
+      -
+        date: 
+        client: 
+        status: 
+      -
+        date:
+        status: 
+      -
+        date: 
+        status: 

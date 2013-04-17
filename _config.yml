@@ -37,7 +37,8 @@ schedule:
           status: client
         -
           date: 08/04
-          status: free
+          client: Pleimo
+          status: client
         -
           date: 15/04
           client: César Augusto
@@ -61,7 +62,8 @@ schedule:
           status: free
         -
           date: 20/05
-          status: free
+          client: Lucas Boscacci
+          status: client
         -
           date: 27/05
           status: free

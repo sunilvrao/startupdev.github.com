@@ -49,7 +49,8 @@ schedule:
           status: client
         -
           date: 29/04
-          status: free
+          client: Humberto Ribeiro
+          status: client
     -
       month: Maio
       weeks:
@@ -59,7 +60,8 @@ schedule:
           status: client
         -
           date: 13/05
-          status: free
+          client: Milton Menezes
+          status: client
         -
           date: 20/05
           client: Lucas Boscacci

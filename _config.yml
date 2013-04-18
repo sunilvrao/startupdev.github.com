@@ -74,66 +74,66 @@ schedule_en:
   year: 2013
   data:
     -
-      month: Março
+      month: 
       weeks:
         -
-          date: 04/03
-          client: Bianca Milesi
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 11/03
-          client: George Lavor
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 18/03
-          client: Mauro Ribeiro
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 25/03
-          client: Marcos Andrade
-          status: client
+          date: 
+          client: 
+          status:
         -
           date: 
           status: 
     -
-      month: Abril
+      month: 
       weeks:
         -
-          date: 01/04
-          client: Mateus Bastos
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 08/04
-          client: Pleimo
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 15/04
-          client: César Augusto
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 22/04
-          client: André Coutrim
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 29/04
-          status: free
+          date: 
+          status: 
     -
-      month: Maio
+      month: 
       weeks:
         -
-          date: 06/05
-          client: Thiago Gomes
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 13/05
-          status: free
+          date:
+          status: 
         -
-          date: 20/05
-          client: Lucas Boscacci
-          status: client
+          date: 
+          client: 
+          status: 
         -
-          date: 27/05
-          status: free
+          date: 
+          status: 
         -
           date: 
           status: 

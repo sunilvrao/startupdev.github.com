@@ -18,7 +18,7 @@ $(document).ready(function(){
     'overlayOpacity'  : 0.6
   });
 
-  $(".js-menu li").hover(
+  $("#menu li").hover(
     function(){
       var link = $(this).find("a");
       if (link.data('original-margin') == undefined) {

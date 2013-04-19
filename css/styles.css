@@ -58,7 +58,7 @@ table {
 }
 
 #video-container {
- padding: 30px 0;
+ padding: 30px 100px;
 }
 
 iframe.video {
@@ -222,6 +222,103 @@ header h1 {
   margin-bottom: 60px;
 }
 
+/*
++----------------------------------------------------------------+
+  Menu-en
++----------------------------------------------------------------+
+*/
+
+#menu-en {
+  position: fixed;
+  left: 0;
+  top: 80px;
+  text-shadow: none;
+  z-index: 3;
+}
+
+@media all and (max-width: 1024px) {
+  #menu-en {
+    display:none;
+  }
+}
+
+#menu-en li {
+  background: url("../images/bg-nav.jpg") left bottom;
+  display: block;
+  margin-bottom: 2px;
+  float:left;
+  clear: left;
+  overflow: hidden;
+}
+
+#menu-en li a {
+  background: url("../images/menu.png") no-repeat;
+  color: #5F4C13;
+  display: block;
+  text-decoration: none;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+#menu-en li.home a {
+  background-position: 94px 12px;
+  padding-right: 62px;
+  margin-left: -78px;
+}
+
+#menu-en li.video a {
+  background-position: 94px -30px;
+  padding-right: 62px;
+  margin-left: -83px;
+}
+
+#menu-en li.projects a {
+  background-position: 148px -79px;
+  padding-right: 64px;
+  margin-left: -133px;
+}
+
+#menu-en li.statements a {
+  background-position: 190px -129px;
+  padding-right: 64px;
+  margin-left: -177px;
+}
+
+#menu-en li.what-is-it a {
+  background-position: 220px -176px;
+  padding-right: 63px;
+  margin-left: -180px;
+}
+
+#menu-en li.agenda a {
+  background-position: 124px -226px;
+  padding-right: 65px;
+  margin-left: -139px;
+}
+
+#menu-en li.contact a {
+  background-position: 139px -271px;
+  width: 159px;
+  margin-left: -125px;
+}
+
+#menu-en li.home a:hover,
+#menu-en li.projects a:hover,
+#menu-en li.what-is-it a:hover,
+#menu-en li.contact a:hover {
+}
+
+
+
+#schedule h2,
+#developed-projects h2,
+#talk-to-us h2,
+#partners h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
 
 /*
 +----------------------------------------------------------------+

@@ -429,11 +429,12 @@ header h1 {
   width: 36px;
 }
 
-#workflow #online-app div {
+#workflow #online-apps div {
   background-position: -464px -10px;
   height: 79px;
   margin-bottom: 13px;
   width: 91px;
+  
   
 }
 

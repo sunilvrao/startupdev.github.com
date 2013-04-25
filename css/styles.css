@@ -384,7 +384,7 @@ header h1 {
   display: block;
   font: 1.3em HelveticaNeueCondensedBold;
   float: left;
-  margin-right: 42px;
+  margin-right: 38px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -435,7 +435,7 @@ header h1 {
   width: 36px;
 }
 
-#workflow #online-apps div {
+#workflow #online-app div {
   background-position: -464px -10px;
   height: 79px;
   margin-bottom: 13px;

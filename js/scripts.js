@@ -48,6 +48,15 @@ $(document).ready(function(){
     }
   });
 
+  var $c = $('#developed-projects-slider ul');
+  while ($c.children('div').length) {
+    $c.children('div:lt(15)').wrapAll('<li>');
+  }
+
+  $("#developed-projects-slider ul div:nth-child(5)").addClass("last")
+  $("#developed-projects-slider ul div:nth-child(10)").addClass("last")
+  $("#developed-projects-slider ul div:nth-child(15)").addClass("last")
+
   $("#projects-slider-navigation a").click(function(){
     $("#projects-slider-navigation a").removeClass("selected");
     $(this).addClass("selected");

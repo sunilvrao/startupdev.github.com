@@ -5,6 +5,10 @@ permalink: :pretty
 
 projects:
   -
+    name: Vita Corporativa
+    url: "#"
+    image: /images/projetos/vitacorporativa.png
+  -
     name: Alugue Campo e Praia
     url: http://www.aluguecampoepraia.com.br/
     image: /images/projetos/alugue-campo-e-praia.png

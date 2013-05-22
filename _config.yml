@@ -197,28 +197,6 @@ schedule:
   year: 2013
   data:
     -
-      month: Março
-      weeks:
-        -
-          date: 04/03
-          client: Bianca Milesi
-          status: client
-        -
-          date: 11/03
-          client: George Lavor
-          status: client
-        -
-          date: 18/03
-          client: Mauro Ribeiro
-          status: client
-        -
-          date: 25/03
-          client: Marcos Andrade
-          status: client
-        -
-          date: 
-          status: 
-    -
       month: Abril
       weeks:
         -
@@ -258,10 +236,30 @@ schedule:
           status: client
         -
           date: 27/05
+          client: Vinicius Gonçalves
+          status: client
+        -
+          date: 
+          status: 
+-
+      month: Junho
+      weeks:
+        -
+          date: 04/06
+          status: free
+        -
+          date: 11/06
+          status: free
+        -
+          date: 18/06
+          status: free
+        -
+          date: 25/06
           status: free
         -
           date: 
           status: 
+          
 schedule_en:
   year: 2013
   data:

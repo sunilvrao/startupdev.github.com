@@ -246,7 +246,8 @@ schedule:
       weeks:
         -
           date: 04/06
-          status: free
+          client: BRtrax
+          status: client
         -
           date: 11/06
           status: free

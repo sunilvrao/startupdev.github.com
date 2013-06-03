@@ -5,6 +5,10 @@ permalink: :pretty
 
 projects:
   -
+    name: RIO EM FOCO
+    url: http://www.rioemfoco.com.br
+    image: /images/projetos/rioemfoco.png
+  -
     name: Dunno
     url: http://www.dunno.vc
     image: /images/projetos/dunno.png
@@ -243,8 +247,8 @@ schedule:
           client: Vinicius Gonçalves
           status: client
         -
-          date: 
-          status: 
+          date:
+          status:
     -
       month: Junho
       weeks:
@@ -262,74 +266,74 @@ schedule:
           date: 25/06
           status: free
         -
-          date: 
-          status: 
-          
+          date:
+          status:
+
 schedule_en:
   year: 2013
   data:
     -
-      month: 
+      month:
       weeks:
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status:
-        -
-          date: 
-          status: 
-    -
-      month: 
-      weeks:
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          status: 
-    -
-      month: 
-      weeks:
-        -
-          date: 
-          client: 
-          status: 
         -
           date:
-          status: 
+          client:
+          status:
         -
-          date: 
-          client: 
-          status: 
+          date:
+          client:
+          status:
         -
-          date: 
-          status: 
+          date:
+          client:
+          status:
         -
-          date: 
-          status: 
+          date:
+          client:
+          status:
+        -
+          date:
+          status:
+    -
+      month:
+      weeks:
+        -
+          date:
+          client:
+          status:
+        -
+          date:
+          client:
+          status:
+        -
+          date:
+          client:
+          status:
+        -
+          date:
+          client:
+          status:
+        -
+          date:
+          status:
+    -
+      month:
+      weeks:
+        -
+          date:
+          client:
+          status:
+        -
+          date:
+          status:
+        -
+          date:
+          client:
+          status:
+        -
+          date:
+          status:
+        -
+          date:
+          status:
 

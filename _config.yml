@@ -258,7 +258,8 @@ schedule:
           status: client
         -
           date: 11/06
-          status: free
+          client: Darwin Ianuskiewtz
+          status: client
         -
           date: 18/06
           status: free

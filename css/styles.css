@@ -206,6 +206,12 @@ header h1 {
   margin-left: -127px;
 }
 
+#menu li.english a {
+  margin-left: -116px; 
+  background-position: 125px -313px;
+  padding-right: 62px;
+}
+
 #menu li.home a:hover,
 #menu li.projects a:hover,
 #menu li.what-is-it a:hover,
@@ -309,6 +315,13 @@ header h1 {
   width: 159px;
   margin-left: -127px;
 }
+
+#menu-en li.portuguese a {
+  margin-left: -148px; 
+  background-position: 161px -352px;
+  padding-right: 62px;
+}
+
 
 #menu-en li.home a:hover,
 #menu-en li.projects a:hover,
@@ -1456,4 +1469,3 @@ a.tag{
   top:10px;
   right:0;
 }
-

@@ -282,67 +282,62 @@ schedule_en:
   year: 2013
   data:
     -
-      month:
+      month: June
       weeks:
         -
-          date:
-          client:
-          status:
+          date: 04/06
+          client: BRtrax
+          status: client
         -
-          date:
-          client:
-          status:
+          date: 11/06
+          client: Darwin Ianuskiewtz
+          status: client
         -
-          date:
-          client:
-          status:
+          date: 18/06
+          status: free
         -
-          date:
-          client:
-          status:
-        -
-          date:
-          status:
+          date: 25/06
+          status: free
     -
-      month:
+      month: July
       weeks:
         -
-          date:
+          date: 02/07
           client:
-          status:
+          status: free
         -
-          date:
+          date: 09/07
           client:
-          status:
+          status: free
         -
-          date:
+          date: 16/07
           client:
-          status:
+          status: free
         -
-          date:
+          date: 23/07
           client:
-          status:
+          status: free
         -
-          date:
-          status:
-    -
-      month:
-      weeks:
-        -
-          date:
-          client:
-          status:
-        -
-          date:
-          status:
-        -
-          date:
-          client:
-          status:
-        -
-          date:
-          status:
-        -
-          date:
-          status:
+          date: 30/07
+          status: free
+    # -
+    #   month:
+    #   weeks:
+    #     -
+    #       date:
+    #       client:
+    #       status:
+    #     -
+    #       date:
+    #       status:
+    #     -
+    #       date:
+    #       client:
+    #       status:
+    #     -
+    #       date:
+    #       status:
+    #     -
+    #       date:
+    #       status:
 

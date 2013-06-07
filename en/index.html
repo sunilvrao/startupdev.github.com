@@ -65,18 +65,18 @@ layout: default-en
           {% for week in data.weeks %}
             <td class="{{ week.status }}" >
               {% if week.date %}
-                <div class="day">Semana do dia {{ week.date }}</div>
+                <div class="day">Week of day {{ week.date }}</div>
               {% endif %}
               <div class="day-content">
                 <strong>
                   {% if week.status == 'client' %}
                     {{ week.client }}
                   {% elsif week.status == 'free' %}
-                    Livre :)
+                    Free :)
                   {% elsif week.status == 'reserved' %}
-                    Reservado
+                    Reserved
                   {% elsif week.status == 'unavailable' %}
-                    Indisponível
+                    Unavailable
                   {% else %}
                     --
                   {% endif %}
@@ -94,7 +94,7 @@ layout: default-en
   <article id="testimonials" class="container">
     <h2>Customer  Testimonials</h2>
     <nav id="controls">
-      <a href="#" id="testimonial-previous" title="Anterior">Anterior</a> <a href="#" id="testimonial-next" title="Próximo">Próximo</a>
+      <a href="#" id="testimonial-previous" title="Anterior">Previous</a> <a href="#" id="testimonial-next" title="Próximo">Next</a>
     </nav>
     <div class="testimonial">
       <blockquote>

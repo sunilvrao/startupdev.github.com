@@ -301,8 +301,8 @@ schedule_en:
       weeks:
         -
           date: 02/07
-          client:
-          status: free
+          client: Samba Ads
+          status: client
         -
           date: 09/07
           client:

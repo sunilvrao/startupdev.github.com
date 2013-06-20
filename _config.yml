@@ -213,29 +213,6 @@ schedule:
   year: 2013
   data:
     -
-      month: Abril
-      weeks:
-        -
-          date: 01/04
-          client: Mateus Bastos
-          status: client
-        -
-          date: 08/04
-          client: Pleimo
-          status: client
-        -
-          date: 15/04
-          client: César Augusto
-          status: client
-        -
-          date: 22/04
-          client: André Coutrim
-          status: client
-        -
-          date: 29/04
-          client: Humberto Ribeiro
-          status: client
-    -
       month: Maio
       weeks:
         -
@@ -278,6 +255,24 @@ schedule:
         -
           date:
           status:
+        -
+      month: Julho
+      weeks:
+        -
+          date: 01/07
+          status: free
+        -
+          date: 08/07
+          status: free
+        -
+          date: 15/07
+          status: free
+        -
+          date: 22/07
+          status: free
+        -
+          date: 29/07
+          status: free
 
 schedule_en:
   year: 2013

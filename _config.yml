@@ -273,7 +273,8 @@ schedule:
           status: free
         -
           date: 25/06
-          status: free
+          client: Sou do Esporte
+          status: client
         -
           date:
           status:
@@ -297,7 +298,8 @@ schedule_en:
           status: free
         -
           date: 25/06
-          status: free
+          client: Sou do Esporte
+          status: client
     -
       month: July
       weeks:

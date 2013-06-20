@@ -260,7 +260,8 @@ schedule:
       weeks:
         -
           date: 01/07
-          status: free
+          client: Samba Ads
+          status: client
         -
           date: 08/07
           status: free

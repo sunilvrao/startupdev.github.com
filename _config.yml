@@ -264,10 +264,12 @@ schedule:
           status: client
         -
           date: 08/07
-          status: free
+          client: Raciel
+          status: client
         -
           date: 15/07
-          status: free
+          client: Danielle Meneses
+          status: client
         -
           date: 22/07
           status: free

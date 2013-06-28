@@ -5,11 +5,15 @@ permalink: :pretty
 
 projects:
   -
+    name: Sou do Esporte
+    url: http://www.soudoesporte.com.br
+    image: /images/projetos/soudoesporte.png
+  -
     name: Seu Orientador
     url: http://www.seuorientador.com.br
     image: /images/projetos/seuorientador.png
   -
-    name: BRtrax 
+    name: BRtrax
     url: http://app.brtrax.com
     image: /images/projetos/brtrax.png
   -

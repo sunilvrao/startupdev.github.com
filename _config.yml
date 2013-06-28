@@ -272,8 +272,7 @@ schedule:
           status: client
         -
           date: 15/07
-          client: Danielle Meneses
-          status: client
+          status: free
         -
           date: 22/07
           status: free

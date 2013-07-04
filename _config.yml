@@ -5,6 +5,10 @@ permalink: :pretty
 
 projects:
   -
+    name: Samba Ads
+    url: "#"
+    image: /images/projetos/sambaads.png
+  -
     name: Sou do Esporte
     url: http://www.soudoesporte.com.br
     image: /images/projetos/soudoesporte.png

@@ -276,13 +276,15 @@ schedule:
           status: client
         -
           date: 15/07
-          status: free
+          client: Danielle Meneses
+          status: client
         -
           date: 22/07
           status: free
         -
           date: 29/07
-          status: free
+          client: Sala de Idéias
+          status: client
 
 schedule_en:
   year: 2013

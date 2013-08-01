@@ -5,6 +5,10 @@ permalink: :pretty
 
 projects:
   -
+    name: Sala de Ideias
+    url: "http://www.saladeideias.com.br/"
+    image: /images/projetos/saladeideias.png
+  -
     name: Niili
     url: "http://www.niili.com.br/"
     image: /images/projetos/niili.png

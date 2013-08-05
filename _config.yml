@@ -273,12 +273,12 @@ schedule:
           date: 30/07
           client: Sala de Ideias
           status: client
-    -      
+    -
       month: Agosto
       weeks:
         -
           date: 06/08
-          status: free  
+          status:
         -
           date: 13/08
           client: Alexandre Assed
@@ -288,10 +288,10 @@ schedule:
           status: free
         -
           date: 27/08
-          status: free  
+          status: free
         -
           date:
-          status:       
+          status:
 
 schedule_en:
   year: 2013
@@ -342,7 +342,7 @@ schedule_en:
       weeks:
         -
           date: 06/08
-          status: free
+          status:
         -
           date: 13/08
           client: Alexandre Assed
@@ -352,9 +352,9 @@ schedule_en:
           status: free
         -
           date: 27/08
-          status: free  
+          status: free
         -
           date:
-          status:       
+          status:
 
 

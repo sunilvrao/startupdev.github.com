@@ -229,28 +229,6 @@ schedule:
   year: 2013
   data:
     -
-      month: Maio
-      weeks:
-        -
-          date: 06/05
-          client: Thiago Gomes
-          status: client
-        -
-          date: 13/05
-          client: Milton Menezes
-          status: client
-        -
-          date: 20/05
-          client: Lucas Boscacci
-          status: client
-        -
-          date: 27/05
-          client: Vinicius Gonçalves
-          status: client
-        -
-          date:
-          status:
-    -
       month: Junho
       weeks:
         -
@@ -293,6 +271,25 @@ schedule:
           date: 29/07
           client: Sala de Idéias
           status: client
+    -      
+      month: Agosto
+      weeks:
+        -
+          date: 05/08
+          client: Alexandre Assed
+          status: client
+        -
+          date: 12/08
+          status: free
+        -
+          date: 19/08
+          status: free
+        -
+          date: 26/08
+          status: free  
+        -
+          date:
+          status:       
 
 schedule_en:
   year: 2013

@@ -40,7 +40,7 @@ projects:
     image: /images/projetos/dunno.png
   -
     name: Vita Corporativa
-    url: "#"
+    url: "http://www.vitacorporativa.com.br/"
     image: /images/projetos/vitacorporativa.png
   -
     name: Alugue Campo e Praia
@@ -180,7 +180,7 @@ projects:
     image: /images/projetos/netadvocacia.png
   -
     name: Ultrapasse
-    url: "#"
+    url: "http://www.ultrapasseweb.com/"
     image: /images/projetos/ultrapasse.png
   -
     name: Publication of Labels

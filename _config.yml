@@ -253,39 +253,39 @@ schedule:
       month: Julho
       weeks:
         -
-          date: 01/07
+          date: 02/07
           client: Samba Ads
           status: client
         -
-          date: 08/07
+          date: 09/07
           client: Raciel
           status: client
         -
-          date: 15/07
+          date: 16/07
           client: Danielle Meneses
           status: client
         -
-          date: 22/07
+          date: 23/07
           status: free
         -
-          date: 29/07
+          date: 30/07
           client: Sala de Idéias
           status: client
     -      
       month: Agosto
       weeks:
         -
-          date: 05/08
+          date: 06/08
           client: Alexandre Assed
           status: client
         -
-          date: 12/08
+          date: 13/08
           status: free
         -
-          date: 19/08
+          date: 20/08
           status: free
         -
-          date: 26/08
+          date: 27/08
           status: free  
         -
           date:
@@ -321,8 +321,8 @@ schedule_en:
           status: client
         -
           date: 09/07
-          client:
-          status: free
+          client: Raciel
+          status: client
         -
           date: 16/07
           client:
@@ -334,24 +334,24 @@ schedule_en:
         -
           date: 30/07
           status: free
-    # -
-    #   month:
-    #   weeks:
-    #     -
-    #       date:
-    #       client:
-    #       status:
-    #     -
-    #       date:
-    #       status:
-    #     -
-    #       date:
-    #       client:
-    #       status:
-    #     -
-    #       date:
-    #       status:
-    #     -
-    #       date:
-    #       status:
+    -
+      month: August
+      weeks:
+        -
+          date: 06/08
+          client: Alexandre Assed
+          status: client
+        -
+          date: 13/08
+          status: free
+        -
+          date: 20/08
+          status: free
+        -
+          date: 27/08
+          status: free  
+        -
+          date:
+          status:       
+
 

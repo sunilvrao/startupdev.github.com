@@ -3,6 +3,8 @@ auto: true
 exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
 permalink: :pretty
 
+number_of_projects: 50
+
 projects:
   -
     name: Sala de Ideias

@@ -271,7 +271,7 @@ schedule:
           status: free
         -
           date: 30/07
-          client: Sala de Idéias
+          client: Sala de Ideias
           status: client
     -      
       month: Agosto
@@ -327,14 +327,16 @@ schedule_en:
           status: client
         -
           date: 16/07
-          status: free
+          client: Danielle Meneses
+          status: client
         -
           date: 23/07
           client:
           status: free
         -
           date: 30/07
-          status: free
+          client: Sala de Ideias
+          status: client
     -
       month: August
       weeks:

@@ -3,7 +3,37 @@ auto: true
 exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
 permalink: :pretty
 
+number_of_projects: 50
+
 projects:
+  -
+    name: Sala de Ideias
+    url: "http://www.saladeideias.com.br/"
+    image: /images/projetos/saladeideias.png
+  -
+    name: Niili
+    url: "http://www.niili.com.br/"
+    image: /images/projetos/niili.png
+  -
+    name: Samba Ads
+    url: "#"
+    image: /images/projetos/sambaads.png
+  -
+    name: Sou do Esporte
+    url: http://www.soudoesporte.com.br
+    image: /images/projetos/soudoesporte.png
+  -
+    name: Seu Orientador
+    url: http://www.seuorientador.com.br
+    image: /images/projetos/seuorientador.png
+  -
+    name: BRtrax
+    url: http://app.brtrax.com
+    image: /images/projetos/brtrax.png
+  -
+    name: RIO EM FOCO
+    url: http://www.rioemfoco.com.br
+    image: /images/projetos/rioemfoco.png
   -
     name: Dunno
     url: http://www.dunno.vc
@@ -178,7 +208,7 @@ projects:
     image: /images/projetos/amigo-nao-se-compra.png
   -
     name: Sabtudo
-    url: "http://www.sabtudo.com.br/a/"
+    url: "http://www.sabtudo.com.br/"
     image: /images/projetos/sabtudo.png
   -
     name: Safe Tracking
@@ -201,51 +231,6 @@ schedule:
   year: 2013
   data:
     -
-      month: Abril
-      weeks:
-        -
-          date: 01/04
-          client: Mateus Bastos
-          status: client
-        -
-          date: 08/04
-          client: Pleimo
-          status: client
-        -
-          date: 15/04
-          client: César Augusto
-          status: client
-        -
-          date: 22/04
-          client: André Coutrim
-          status: client
-        -
-          date: 29/04
-          client: Humberto Ribeiro
-          status: client
-    -
-      month: Maio
-      weeks:
-        -
-          date: 06/05
-          client: Thiago Gomes
-          status: client
-        -
-          date: 13/05
-          client: Milton Menezes
-          status: client
-        -
-          date: 20/05
-          client: Lucas Boscacci
-          status: client
-        -
-          date: 27/05
-          client: Vinicius Gonçalves
-          status: client
-        -
-          date: 
-          status: 
-    -
       month: Junho
       weeks:
         -
@@ -254,82 +239,122 @@ schedule:
           status: client
         -
           date: 11/06
-          status: free
+          client: Darwin Ianuskiewtz
+          status: client
         -
           date: 18/06
           status: free
         -
           date: 25/06
+          client: Sou do Esporte
+          status: client
+        -
+          date:
+          status:
+    -
+      month: Julho
+      weeks:
+        -
+          date: 02/07
+          client: Samba Ads
+          status: client
+        -
+          date: 09/07
+          client: Raciel
+          status: client
+        -
+          date: 16/07
+          client: Danielle Meneses
+          status: client
+        -
+          date: 23/07
           status: free
         -
-          date: 
-          status: 
-          
+          date: 30/07
+          client: Sala de Ideias
+          status: client
+    -
+      month: Agosto
+      weeks:
+        -
+          date: 06/08
+          status:
+        -
+          date: 13/08
+          client: Alexandre Assed
+          status: client
+        -
+          date: 20/08
+          status: free
+        -
+          date: 27/08
+          status: free
+        -
+          date:
+          status:
+
 schedule_en:
   year: 2013
   data:
     -
-      month: 
+      month: June
       weeks:
         -
-          date: 
-          client: 
-          status: 
+          date: 04/06
+          client: BRtrax
+          status: client
         -
-          date: 
-          client: 
-          status: 
+          date: 11/06
+          client: Darwin Ianuskiewtz
+          status: client
         -
-          date: 
-          client: 
-          status: 
+          date: 18/06
+          status: free
         -
-          date: 
-          client: 
+          date: 25/06
+          client: Sou do Esporte
+          status: client
+    -
+      month: July
+      weeks:
+        -
+          date: 02/07
+          client: Samba Ads
+          status: client
+        -
+          date: 09/07
+          client: Raciel
+          status: client
+        -
+          date: 16/07
+          client: Danielle Meneses
+          status: client
+        -
+          date: 23/07
+          client:
+          status: free
+        -
+          date: 30/07
+          client: Sala de Ideias
+          status: client
+    -
+      month: August
+      weeks:
+        -
+          date: 06/08
           status:
         -
-          date: 
-          status: 
-    -
-      month: 
-      weeks:
+          date: 13/08
+          client: Alexandre Assed
+          status: client
         -
-          date: 
-          client: 
-          status: 
+          date: 20/08
+          status: free
         -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          status: 
-    -
-      month: 
-      weeks:
-        -
-          date: 
-          client: 
-          status: 
+          date: 27/08
+          status: free
         -
           date:
-          status: 
-        -
-          date: 
-          client: 
-          status: 
-        -
-          date: 
-          status: 
-        -
-          date: 
-          status: 
+          status:
+
 

@@ -278,7 +278,7 @@ schedule:
       weeks:
         -
           date: 06/08
-          status:
+          status: free
         -
           date: 13/08
           client: Alexandre Assed
@@ -342,7 +342,7 @@ schedule_en:
       weeks:
         -
           date: 06/08
-          status:
+          status: free
         -
           date: 13/08
           client: Alexandre Assed

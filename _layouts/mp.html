@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang='pt'>
-  {% include mp/head.html %}
+<html lang='pt-br'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='keywords' content='desenvolvimento, programação, webapp, aplicativo web, aplicativo, startup' />
+    <meta name='description' content='Desenvolvimento expresso de aplicativos web para startups com preço fixo e em apenas dois dias.' />
+    <meta name="viewport" content="width=720, maximum-scale=1.0" />
+    
+    <title>Startup DEV</title>
+    <link href='/favicon.png' rel='shortcut icon' />
+    <link href="/css/mp/style.css" media="all" rel="stylesheet" />
+  </head>
+
   <body>
-    <header >
+    <header id="top">
+      conteúdo do topo do site
     </header>
+
     <section>
       {{ content }}
     </section>
-    <footer></footer>
+
+    <footer id="footer">
+      conteúdo do footer
+    </footer>
   </body>
 </html>

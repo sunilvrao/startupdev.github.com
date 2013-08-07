@@ -10,21 +10,44 @@
     <link href='/favicon.png' rel='shortcut icon' />
 
     <!-- Unir estes 2 CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Nobile:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+
     <link href="/css/mp/style.css" media="all" rel="stylesheet" />
     <link href="/css/mp/style2.css" media="all" rel="stylesheet" />
   </head>
 
   <body>
     <header id="top">
-      conteúdo do topo do site
+      <div class="grid">
+
+        <h1>
+          <a href="#">
+            <img src="/images/mp/logotipo.png" alt="Startup DEV" />  
+          </a>
+        </h1>
+
+        <nav id="nav">
+          <ul>
+            <li class="active"><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Depoimentos</a></li>
+            <li><a href="#">Portifolio</a></li>
+            <li><a href="#">Parceiros</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <section>
+    <section id="content">
       {{ content }}
     </section>
 
     <footer id="footer">
-      conteúdo do footer
+      <div class="grid">
+        conteúdo do footer
+      </div>
     </footer>
   </body>
 </html>

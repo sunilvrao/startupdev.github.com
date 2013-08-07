@@ -37,7 +37,7 @@ footer,header,hgroup,menu,nav,section {
 }
 
 nav ul,
-ul, {
+ul {
     list-style:none;
 }
 
@@ -102,3 +102,62 @@ input, select {
     vertical-align:middle;
 }
 
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+a { text-decoration: none; }
+
+.grid {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#top {
+    background-color: #fff;
+    overflow: hidden;
+    border-top: 7px solid #374650;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#top h1 {
+    margin-top: 25px;
+    float: left;
+}
+
+#top #nav {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#top #nav ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+#top #nav ul li a {
+    color: #fff;
+    display: block;
+    padding-top: 35px;
+}
+
+#top #nav ul li.active a {
+    color: #f47b02;
+    background: url('/images/mp/menu-top-active.png') center -2px no-repeat;
+}
+
+#landing {
+    background: url('/images/mp/bg-top.png') center 50% no-repeat;
+    height: 470px;
+    padding: 200px 0 0;
+    width: 100%;
+    background-size: cover;
+}

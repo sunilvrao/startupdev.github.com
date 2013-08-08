@@ -161,3 +161,104 @@ a { text-decoration: none; }
     width: 100%;
     background-size: cover;
 }
+
+#landing h2 {
+    width: 650px;
+    padding: 25px 0;
+    text-align: center;
+    border: 4px solid #f47b02;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto 40px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#landing p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 33px;
+    font-family: 'Nobile', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    width: 750px;
+    margin: 0 auto 50px;
+}
+
+#landing p:after {
+    width: 520px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    content: '';
+    border-bottom: 2px dotted #fff;
+    border-bottom: 2px dotted rgba(255,255,255,0.4);
+}
+
+#landing .steps { position: relative; width: 740px; margin: 0 auto; }
+
+#landing .steps li {
+    float: left;
+    width: 80px;
+    padding: 85px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 50px;
+    position: relative;
+}
+
+#landing .steps li:last-child { margin-right: 0; }
+
+#landing .steps li.idea { 
+    background: url('/images/mp/icon-your-idea.png') center 0 no-repeat; 
+}
+
+#landing .steps li.staff { 
+    background: url('/images/mp/icon-staff.png') center 0 no-repeat; 
+    width: 115px;
+}
+
+#landing .steps li.time { 
+    background: url('/images/mp/icon-time.png') center 0 no-repeat; 
+    width: 90px;
+}
+
+#landing .steps li.price { 
+    background: url('/images/mp/icon-price.png') center 0 no-repeat; 
+    width: 125px;   
+}
+#landing .steps li.happy-costumer { 
+    background: url('/images/mp/icon-happy-costumer.png') center 0 no-repeat; 
+    width: 125px;
+}
+
+#landing .steps li.plus:after {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: url('/images/mp/icon-plus.png') 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: -30px;
+}
+
+#landing .steps li.equal:after {
+    content: '';
+    width: 23px;
+    height: 15px;
+    background: url('/images/mp/icon-equal.png') 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: -40px;
+}
+
+#landing .steps li.idea.plus:after { right: -45px; }
+#landing .steps li.time.plus:after { right: -45px; }

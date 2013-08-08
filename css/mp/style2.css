@@ -14,7 +14,7 @@ h3 {
 article#cases {
   width: 100%;
   overflow: hidden;
-  padding: 80px 0 ;
+  padding: 80px 0 50px;
 }
 
 article#cases p {
@@ -48,7 +48,33 @@ article#cases ul li a:hover {
   opacity: 0.8;
 }
 
+nav.slider {
+  overflow: hidden;
+  width: 132px;
+  margin: 30px auto;
+}
 
+a.arrows {
+  background: url('/images/mp/arrows.png');
+  width: 56px;
+  height: 56px;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+}
+
+a.next-projects {
+  background-position: 0 -58px;
+  margin-left: 20px;
+}
+
+a:hover.next-projects {
+  background-position: 0px -174px;
+}
+
+a:hover.previous-projects {
+  background-position: 0px -116px;
+}
 
 
 

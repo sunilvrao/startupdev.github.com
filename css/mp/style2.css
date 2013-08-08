@@ -1,7 +1,28 @@
+/* Contact */
+
+article#contact h3 {
+  color: #f47b02;
+  text-align: center;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+article#contact {
+  background: #374650;
+  width: 100%;
+  overflow: hidden;
+  padding: 100px 0 ;
+}
+
+
+
+
+
+
 
 /* Partners */
 
-h3 {
+article#partners h3 {
   color: #33999c;
   text-align: center;
   font-size: 26px;

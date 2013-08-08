@@ -1,0 +1,36 @@
+
+/* Partners */
+
+h3 {
+  color: #33999c;
+  text-align: center;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+article#partners {
+  width: 100%;
+  overflow: hidden;
+  padding: 100px 0 20px;
+}
+
+article#partners ul {
+  width: 100%;
+  margin-top: 80px;
+}
+
+article#partners ul li {
+  float: left;
+  width: 235px;
+  height: 160px;
+  text-align: center;
+}
+
+article#partners ul li a:hover{
+  opacity: 0.8;
+}
+
+footer#footer {
+  background: #33999c;
+  height: 200px;
+}

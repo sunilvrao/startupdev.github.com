@@ -9,10 +9,70 @@ h3 {
 
 
 
+/* How it Works */
+
+article#how-works {
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 0 50px;
+}
+
+article#how-works p {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  border-bottom: 1px dashed #e6e6e6;
+  padding-bottom: 30px;
+}
+
+article#how-works ul.escope { position: relative; width: 840px; margin: 0 auto; margin-top: 40px;}
+
+article#how-works ul.escope li {
+  float: left;
+  width: 90px;
+  height: 90px;
+  padding-top: 100px;
+  margin-right: 60px;
+  position: relative;
+}
+
+article#how-works ul.escope li:last-child { margin-right: 0; }
+
+article#how-works ul.escope li.exploration {
+  background: url('/images/mp/icon-list-search.png') center 0 no-repeat;
+}
+
+article#how-works ul.escope li.draws {
+  background: url('/images/mp/icon-list-screen.png') center 0 no-repeat;
+}
+
+article#how-works ul.escope li.flow {
+  background: url('/images/mp/icon-list-tasks.png') center 0 no-repeat;
+}
+
+article#how-works ul.escope li.tasks {
+  background: url('/images/mp/icon-list-calendar.png') center 0 no-repeat;
+}
+
+article#how-works ul.escope li.priorities {
+  background: url('/images/mp/icon-list-path.png') center 0 no-repeat;
+}
+
+article#how-works ul.escope li.final {
+  background: url('/images/mp/icon-list-note.png') center 0 no-repeat;
+}
+
+
+
+
 /* Cases */
 
 article#cases {
   width: 100%;
+  background: #fafafa;
   overflow: hidden;
   padding: 80px 0 50px;
 }

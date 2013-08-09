@@ -85,25 +85,6 @@ article#calendar table tr th {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Testimonials */
 
 article#testimonials {
@@ -161,9 +142,12 @@ article#how-works ul.escope li {
   float: left;
   width: 90px;
   height: 90px;
-  padding-top: 100px;
+  padding-top: 110px;
   margin-right: 60px;
   position: relative;
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 article#how-works ul.escope li:last-child { margin-right: 0; }
@@ -291,6 +275,7 @@ form label {
   width: 100%;
   margin-bottom: 10px;
   color: #99a9b3;
+  font-size: 13px;
 }
 
 form input {
@@ -302,6 +287,13 @@ form input {
   margin-bottom: 10px;
 }
 
+form input[type=submit] {
+  background: #f47b02;
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
 
 
 

@@ -19,10 +19,10 @@ h3 {
 /* Calendar */
 
 article#calendar {
-  background: #fafafa;
+  background: #fafafa url('/images/mp/pattern-picotation.png') 0 0 repeat-x;
   width: 100%;
   overflow: hidden;
-  padding: 100px 0;
+  padding: 80px 0 40px;
 }
 
 article#calendar table {
@@ -32,52 +32,55 @@ article#calendar table {
 
 article#calendar table tr th {
   width: 14%;
-  text-align: center;
+  padding: 0 15px;
+  text-align: right;
   background-color: #374650;
   color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: 'Nobile', sans-serif;
+  font-size: 18px;
+  vertical-align: middle;
+  border-bottom: 3px solid #fafafa;
+  border-right: 3px solid #fafafa;
+}
+
+article#calendar table tr th strong {
+  display: block;
+  color: #f47b02;
+  font-size: 18px;
   font-weight: normal;
-  font-size: 13px;
-  margin-top: 30px;
 }
 
 #calendar table tr td {
   width: 15%;
-  height: 80px;
+  height: 100px;
   background: #fff;
   text-align: center;
-  border-right: 2px solid #fafafa;
-  border-bottom: 2px solid #fafafa;
+  border-right: 3px solid #fafafa;
+  border-bottom: 3px solid #fafafa;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
 }
 
-#calendar table tr td.client .day {
-  font-size: 11px;
-  margin-top: 30px;
+
+#calendar table tr td .day {
+  font-size: 12px;
 }
 
-#calendar table tr td.client .day-content {
-  margin-top: 20px;
-  color: #f47b02;
-  font-size: 13px;
-  font-weight: normal;
-  margin-bottom: 20px;
+#calendar table tr td .day-content { 
+  font-size: 14px;  
+  line-height: 26px;
+  font-weight: bold;
+  font-style: normal;
 }
 
-#calendar table tr td.free {
-  background-color: #daeced;
-}
-
-#calendar table tr td.free .day {
-  font-size: 11px;
-  margin-top: 30px;
-}
-
-#calendar table tr td.free .day-content {
-  margin-top: 20px;
-  color: #66b904;
-  font-size: 13px;
-  font-weight: normal;
-  margin-bottom: 20px;
-}
+#calendar table tr td.free { background-color: #daeced; }
+#calendar table tr td.client .day-content { color: #f47b02; }
+#calendar table tr td.free .day-content { color: #66b904; }
 
 
 

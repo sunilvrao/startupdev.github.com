@@ -19,111 +19,65 @@ h3 {
 /* Calendar */
 
 article#calendar {
+  background: #fafafa;
   width: 100%;
   overflow: hidden;
   padding: 100px 0;
 }
 
-
 article#calendar table {
   width: 100%;
-  margin-top: 40px;
-  border-bottom: 1px solid #b3d6eb;
-  border-left: 1px solid #b3d6eb;
+  margin-top: 50px;
 }
 
-
-#calendar nav ul li a#prev-weeks {
-  background: transparent url(/images/nav-arrows.png) no-repeat 0 0;
-}
-
-#calendar nav ul li a#prev-weeks:hover {
-  background: transparent url(/images/nav-arrows.png) no-repeat 0 -20px;
-}
-
-#calendar nav ul li a#next-weeks {
-  background: transparent url(/images/nav-arrows.png) no-repeat -18px 0;
-}
-
-#calendar nav ul li a#next-weeks:hover {
-  background: transparent url(/images/nav-arrows.png) no-repeat -18px -20px;
-}
-
-
-
-#calendar table th.weekend, #calendar table td.weekend {
-  display: none;
-}
-
-#calendar table tr#weekend-control td {
-  padding-left: 10px;
-  background-color: #efede7;
-}
-
-#calendar table tr#weekend-control td a {
-  color: #000;
-  text-shadow: 0px 1px 0 #fff;
-}
-
-#calendar table tr#weekend-control td a:hover {
-  color: #555;
-}
-
-#calendar table tr th {
-  width: 12%;
-  padding: 4px 0;
+article#calendar table tr th {
+  width: 14%;
   text-align: center;
-  background-color: #C4E7FC;
-  border-top: 1px solid #b3d6eb;
-  border-right: 1px solid #b3d6eb;
-  text-shadow: 0px 1px 0 #fff;
+  background-color: #374650;
+  color: #fff;
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 30px;
 }
 
 #calendar table tr td {
-  padding: 4px;
-  border-top: 1px solid #b3d6eb;
-  border-right: 1px solid #b3d6eb;
+  width: 15%;
+  height: 80px;
+  background: #fff;
+  text-align: center;
+  border-right: 2px solid #fafafa;
+  border-bottom: 2px solid #fafafa;
+}
+
+#calendar table tr td.client .day {
+  font-size: 11px;
+  margin-top: 30px;
+}
+
+#calendar table tr td.client .day-content {
+  margin-top: 20px;
+  color: #f47b02;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
 
 #calendar table tr td.free {
-  background-color: #CCFFCC;
+  background-color: #daeced;
 }
 
-#calendar table tr td a.hide-show-weekend {
-  color: #555555;
-  text-decoration: none;
-  text-shadow: 0px 2px 0 #fff;
-  font-size: .9em;
+#calendar table tr td.free .day {
+  font-size: 11px;
+  margin-top: 30px;
 }
 
-#calendar table tr td .day {
-  margin: 0 0 4px 0;
-  font-size: 1em;
-  text-align: center;
-  color: #999;
+#calendar table tr td.free .day-content {
+  margin-top: 20px;
+  color: #66b904;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
-
-#calendar table tr td .day-content {
-  padding: 2em 0;
-  display: block;
-  text-align: center;
-}
-
-#calendar table tr td.unavailable {
-  background-color: #FFC5CA;
-}
-#calendar table tr td.unavailable .day-content {
-  color: #c66;
-}
-
-#calendar table tr td ul {
-  list-style-type: none;
-}
-
-#calendar table tr td ul li {
-  font-size: .8em;
-}
-
 
 
 

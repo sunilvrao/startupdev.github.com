@@ -271,6 +271,10 @@ a { text-decoration: none; }
 #landing .steps li.idea.plus:after { right: -45px; }
 #landing .steps li.time.plus:after { right: -45px; }
 
+#video { 
+    padding: 0 0 40px;
+}
+
 #video p {
     padding: 70px 100px 80px;
     color: #33999c;

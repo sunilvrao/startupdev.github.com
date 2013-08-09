@@ -148,9 +148,13 @@ a { text-decoration: none; }
 }
 
 #top #nav ul li a {
-    color: #fff;
+    color: #787878;
     display: block;
     padding-top: 35px;
+}
+
+#top #nav ul li a:hover {
+    opacity: 0.8;
 }
 
 #top #nav ul li.active a {
@@ -277,7 +281,7 @@ a { text-decoration: none; }
 }
 
 #video p strong,
-#video p a {  
+#video p a {
     color: #f47b02;
     text-decoration: underline;
 }

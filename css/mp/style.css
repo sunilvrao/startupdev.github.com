@@ -151,16 +151,32 @@ a { text-decoration: none; }
     color: #787878;
     display: block;
     padding-top: 35px;
+    position: relative;
+}
+
+#top #nav ul li a:after {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -10px;
+    display: none;
+    content: '';
+    opacity: 1 !important;
+    border-top: 6px solid #374650;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 6px solid transparent;
 }
 
 #top #nav ul li a:hover {
-    opacity: 0.8;
+    color: #333;
 }
 
 #top #nav ul li.active a {
     color: #f47b02;
-    background: url('/images/mp/menu-top-active.png') center -2px no-repeat;
 }
+
+#top #nav ul li.active a:after { display: block; }
 
 #landing {
     background: url('/images/mp/bg-top.png') center 50% no-repeat;

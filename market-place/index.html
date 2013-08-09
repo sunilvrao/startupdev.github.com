@@ -4,158 +4,156 @@ layout: mp
 
 
 <article id="landing">
-	<div class="grid">
-		<h2>Sua startup web pronta para ser lançada</h2>
-		<p>Somos pioneiros e criadores deste modelo único de trabalho para desenvolvimento web. Em um ano de trabalho desenvolvemos mais de {{ site.number_of_projects }} projetos.</p>
+    <div class="grid">
+        <h2>Sua startup web pronta para ser lançada</h2>
+        <p>Somos pioneiros e criadores deste modelo único de trabalho para desenvolvimento web. Em um ano de trabalho desenvolvemos mais de {{ site.number_of_projects }} projetos.</p>
 
-		<ul class="steps">
-			<li class="idea plus">Sua ideia</li>
-			<li class="staff plus">2 developers e 1 designer</li>
-			<li class="time plus">2 dias de trabalho</li>
-			<li class="price equal">Investimento de R$ 12 mil</li>
-			<li class="happy-costumer">App online e cliente feliz!</li>
-		</ul>
-	</div>
+        <ul class="steps">
+            <li class="idea plus">Sua ideia</li>
+            <li class="staff plus">2 developers e 1 designer</li>
+            <li class="time plus">2 dias de trabalho</li>
+            <li class="price equal">Investimento de R$ 12 mil</li>
+            <li class="happy-costumer">App online e cliente feliz!</li>
+        </ul>
+    </div>
 </article>
 
 <article id="video">
-	<div class="grid">
-		<p>Sed molestie augue sit amet leo <strong>consequat</strong> posuere. Vestibulum ante ipsum primis in faucibus orci Luctus et ultrices posuere cubilia Curae posuere cubilia Curae</p>
+    <div class="grid">
+        <p>Sed molestie augue sit amet leo <strong>consequat</strong> posuere. Vestibulum ante ipsum primis in faucibus orci Luctus et ultrices posuere cubilia Curae posuere cubilia Curae</p>
 
-		<iframe width="940" height="529" src="http://embed.videolog.tv/v/index.php?id_video=796308&related=&hd=&color1=ffffff&color2=ffffff&color3=000000&slideshow=true&config_url=&" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="940" height="529" src="http://embed.videolog.tv/v/index.php?id_video=796308&related=&hd=&color1=ffffff&color2=ffffff&color3=000000&slideshow=true&config_url=&" scrolling="no" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-		<div class="more">
-			<a href="#" class="bt contact">Fale conosco</a>
-			<span>ou <a href="#">Saiba mais</a></span>
-		</div>
-	</div>
+        <div class="more">
+            <a href="#" class="bt contact">Fale conosco</a>
+            <span>ou <a href="#">Saiba mais</a></span>
+        </div>
+    </div>
 </article>
 
 <article id="calendar">
-	<div class="grid">
-		<h3>Veja quando o seu projeto pode rolar</h3>
-		<table>
-	    <tbody>
-	      {% for data in site.schedule.data %}
-	        <tr>
-	          <th>
-	            <div class="day">{{ data.month }} {{ site.schedule.year }}</div>
-	            <div>
-	            </div>
-	          </th>
-	          {% for week in data.weeks %}
-	            <td class="{{ week.status }}" >
-	              {% if week.date %}
-	                <div class="day">Semana do dia {{ week.date }}</div>
-	              {% endif %}
-	              <div class="day-content">
-	                <strong>
-	                  {% if week.status == 'client' %}
-	                    {{ week.client }}
-	                  {% elsif week.status == 'free' %}
-	                    Livre :)
-	                  {% elsif week.status == 'reserved' %}
-	                    Reservado
-	                  {% elsif week.status == 'unavailable' %}
-	                    Indisponível
-	                  {% else %}
-	                    --
-	                  {% endif %}
-	                </strong>
-	              </div>
-	            </td>
-	          {% endfor %}
-	        </tr>
-	      {% endfor %}
-	    </tbody>
-	  </table>
-	</div>
+    <div class="grid">
+        <h3>Veja quando o seu projeto pode rolar</h3>
+        <table>
+        <tbody>
+          {% for data in site.schedule.data %}
+            <tr>
+              <th>
+                <div class="day">{{ data.month }} <strong>{{ site.schedule.year }}</strong></div>
+              </th>
+              {% for week in data.weeks %}
+                <td class="{{ week.status }}" >
+                  {% if week.date %}
+                    <div class="day">Semana do dia {{ week.date }}</div>
+                  {% endif %}
+                  <div class="day-content">
+                    <strong>
+                      {% if week.status == 'client' %}
+                        {{ week.client }}
+                      {% elsif week.status == 'free' %}
+                        Livre :)
+                      {% elsif week.status == 'reserved' %}
+                        Reservado
+                      {% elsif week.status == 'unavailable' %}
+                        Indisponível
+                      {% else %}
+                        --
+                      {% endif %}
+                    </strong>
+                  </div>
+                </td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
 </article>
 
 <article id="testimonials">
-	<div class="grid">
-		<h3>Depoimento dos Clientes</h3>
-		<p>
-			"O serviço prestado pela Startup DEV superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa. Temos certeza que produto desenvolvido com qualidade e agilidade foi um ótimo primeiro passo para o nosso projeto! Obrigado pela experiência."
-		</p>
-		<p class="client-name">Milton Menezes - Vita Corporativa</p>
-		<nav class="slider">
-			<a class="arrows previous-projects" href="">Anteriores</a>
-			<a class="arrows next-projects" href="">Próximos</a>
-		</nav>
-	</div>
+    <div class="grid">
+        <h3>Depoimento dos Clientes</h3>
+        <p>
+            "O serviço prestado pela Startup DEV superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa. Temos certeza que produto desenvolvido com qualidade e agilidade foi um ótimo primeiro passo para o nosso projeto! Obrigado pela experiência."
+        </p>
+        <p class="client-name">Milton Menezes - Vita Corporativa</p>
+        <nav class="slider">
+            <a class="arrows previous-projects" href="">Anteriores</a>
+            <a class="arrows next-projects" href="">Próximos</a>
+        </nav>
+    </div>
 </article>
 
 <article id="how-works">
-	<div class="grid">
-		<h3>Como Funciona o Startup Dev?</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, deleniti ipsum vitae deserunt tempore doloremque animi dolore officiis quis odio doloribus quisquam magnam quod necessitatibus fugit illo veniam provident maxime.</p>
-		<ul class="escope">
-			<li class="exploration">Conhecer o Projeto</li>
-			<li class="draws">Desenhar as Telas</li>
-			<li class="flow">Montar o Fluxo da Navegação</li>
-			<li class="tasks">Escrever as Tarefas</li>
-			<li class="priorities">Definir as Prioridades</li>
-			<li class="final">Escopo do Projeto Finalizado</li>
-		</ul>
-	</div>
+    <div class="grid">
+        <h3>Como Funciona o Startup Dev?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, deleniti ipsum vitae deserunt tempore doloremque animi dolore officiis quis odio doloribus quisquam magnam quod necessitatibus fugit illo veniam provident maxime.</p>
+        <ul class="escope">
+            <li class="exploration">Conhecer o Projeto</li>
+            <li class="draws">Desenhar as Telas</li>
+            <li class="flow">Montar o Fluxo da Navegação</li>
+            <li class="tasks">Escrever as Tarefas</li>
+            <li class="priorities">Definir as Prioridades</li>
+            <li class="final">Escopo do Projeto Finalizado</li>
+        </ul>
+    </div>
 </article>
 
 <article id="cases">
-	<div class="grid">
-		<h3>Mais de 40 Projetos bem-sucedidos!</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, deleniti ipsum vitae deserunt tempore doloremque animi dolore officiis quis odio doloribus quisquam magnam quod necessitatibus fugit illo veniam provident maxime.</p>
-		<ul>
-			<li><a href=""><img src="/images/projetos/sambaads.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/saladeideias.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/zupty.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/contacal.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/dunno.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/estou-jogando.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/giftbar.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/feedback-machine.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/hintask.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/landing-commerce.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/memo.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/niili.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/no-trombone.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/propsharely.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/sabtudo.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/shopmyshop.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/smbchallenge.png" alt=""></a></li>
-			<li><a href=""><img src="/images/projetos/soudoesporte.png" alt=""></a></li>
-		</ul>
-		<nav class="slider">
-			<a class="arrows previous-projects" href="">Anteriores</a>
-			<a class="arrows next-projects" href="">Próximos</a>
-		</nav>
-	</div>
+    <div class="grid">
+        <h3>Mais de 40 Projetos bem-sucedidos!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, deleniti ipsum vitae deserunt tempore doloremque animi dolore officiis quis odio doloribus quisquam magnam quod necessitatibus fugit illo veniam provident maxime.</p>
+        <ul>
+            <li><a href=""><img src="/images/projetos/sambaads.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/saladeideias.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/zupty.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/contacal.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/dunno.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/estou-jogando.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/giftbar.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/feedback-machine.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/hintask.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/landing-commerce.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/memo.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/niili.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/no-trombone.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/propsharely.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/sabtudo.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/shopmyshop.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/smbchallenge.png" alt=""></a></li>
+            <li><a href=""><img src="/images/projetos/soudoesporte.png" alt=""></a></li>
+        </ul>
+        <nav class="slider">
+            <a class="arrows previous-projects" href="">Anteriores</a>
+            <a class="arrows next-projects" href="">Próximos</a>
+        </nav>
+    </div>
 </article>
 
 <article id="contact">
-	<div class="grid">
-		<h3>Será um prazer atender você!</h3>
-		<form>
-			<p><label>Nome Completo*<input type="text" name="name"></label></p>
-			<p><label>Email*<input type="email" name="email"></label></p>
-			<p><label>Telefone com DDD*<input type="tel" name="tel"></label></p>
-			<p><input type="submit" name="Quero Meu aplicativo" value="enviar"></p>
-		</form>
-	</div>
+    <div class="grid">
+        <h3>Será um prazer atender você!</h3>
+        <form>
+            <p><label>Nome Completo*<input type="text" name="name"></label></p>
+            <p><label>Email*<input type="email" name="email"></label></p>
+            <p><label>Telefone com DDD*<input type="tel" name="tel"></label></p>
+            <p><input type="submit" name="Quero Meu aplicativo" value="enviar"></p>
+        </form>
+    </div>
 </article>
 
 <article id="partners">
-	<div class="grid">
-		<h3>Nossos Parceiros</h3>
-		<ul>
-			<li><a href="http://21212.com/" title="21212"><img src="/images/parceiros/21212.jpg" alt="Startupfarm"></a></li>
-			<li><a href="http://workshop.bootstrappers.com.br/" title="Workshop Bootstrappers"><img src="/images/parceiros/bootstrapper.jpg" alt="Startupfarm"></a></li>
-			<li><a href="http://www.izupt.com/" title="iZupt"><img src="/images/parceiros/izupt.png" alt="Startupfarm"></a></li>
-			<li><a href="http://circuitostartup.com/" title="Circuito Startup"><img src="/images/parceiros/circuito.jpg" alt="Startupfarm"></a></li>
-			<li><a href="http://startupfarm.com.br" title="Startupfarm"><img src="/images/parceiros/startupfarm.jpg" alt="Startupfarm"></a></li>
-			<li><a href="http://www.fiap.com.br/" title="Fiap"><img src="/images/parceiros/fiap.jpg" alt="Startupfarm"></a></li>
-			<li><a href="http://www.ventureone.com.br/" title="Venture One"><img src="/images/parceiros/venture.jpg" alt="Startupfarm"></a></li>
-			<li><a href="http://www.papayaventures.com/" title="Papaya Ventures"><img src="/images/parceiros/papaya.png" alt="Startupfarm"></a></li>
-		</ul>
-	</div>
+    <div class="grid">
+        <h3>Nossos Parceiros</h3>
+        <ul>
+            <li><a href="http://21212.com/" title="21212"><img src="/images/parceiros/21212.jpg" alt="Startupfarm"></a></li>
+            <li><a href="http://workshop.bootstrappers.com.br/" title="Workshop Bootstrappers"><img src="/images/parceiros/bootstrapper.jpg" alt="Startupfarm"></a></li>
+            <li><a href="http://www.izupt.com/" title="iZupt"><img src="/images/parceiros/izupt.png" alt="Startupfarm"></a></li>
+            <li><a href="http://circuitostartup.com/" title="Circuito Startup"><img src="/images/parceiros/circuito.jpg" alt="Startupfarm"></a></li>
+            <li><a href="http://startupfarm.com.br" title="Startupfarm"><img src="/images/parceiros/startupfarm.jpg" alt="Startupfarm"></a></li>
+            <li><a href="http://www.fiap.com.br/" title="Fiap"><img src="/images/parceiros/fiap.jpg" alt="Startupfarm"></a></li>
+            <li><a href="http://www.ventureone.com.br/" title="Venture One"><img src="/images/parceiros/venture.jpg" alt="Startupfarm"></a></li>
+            <li><a href="http://www.papayaventures.com/" title="Papaya Ventures"><img src="/images/parceiros/papaya.png" alt="Startupfarm"></a></li>
+        </ul>
+    </div>
 </article>

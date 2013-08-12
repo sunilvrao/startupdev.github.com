@@ -118,7 +118,7 @@ a { text-decoration: none; }
     background-color: #fff;
     overflow: hidden;
     border-top: 7px solid #374650;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -130,7 +130,7 @@ a { text-decoration: none; }
 }
 
 #top h1 {
-    margin-top: 25px;
+    margin-top: 10px;
     float: left;
 }
 
@@ -150,7 +150,7 @@ a { text-decoration: none; }
 #top #nav ul li a {
     color: #787878;
     display: block;
-    padding-top: 35px;
+    padding-top: 24px;
     position: relative;
 }
 

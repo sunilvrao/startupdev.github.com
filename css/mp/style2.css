@@ -4,11 +4,10 @@
 h3 {
   color: #33999c;
   text-align: center;
-  font-size: 30px;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
+  font-size: 22px;
+  font-family: 'PT Serif';
+  font-weight: 700;
+  text-transform: none;
 }
 
 
@@ -19,10 +18,13 @@ h3 {
 /* Calendar */
 
 article#calendar {
-  background: #fafafa url('/images/mp/pattern-picotation.png') 0 0 repeat-x;
+  background: #fafafa url('/images/mp/triangles-quilt.png') 0 0 repeat-x;
   width: 100%;
-  overflow: hidden;
   padding: 80px 0 40px;
+  border-bottom: 1px solid #ebeae8;
+  -webkit-box-shadow: 0px 1px 0px #fff;
+  -moz-box-shadow:    0px 1px 0px #fff;
+  box-shadow:         0px 1px 0px #fff;
 }
 
 article#calendar table {
@@ -91,20 +93,54 @@ article#calendar table tr th strong {
 /* Testimonials */
 
 article#testimonials {
-  background: #fafafa;
   width: 100%;
   overflow: hidden;
-  padding: 80px 0 20px;
+  padding: 60px 0 40px;
+}
+
+article#testimonials h3 {
+  margin-bottom: 10px;
+}
+
+article#testimonials ul li {
+  width: 300px;
+  height: 300px;
+  margin: 40px 20px 0 0;
+  float: left;
+  border-bottom: 1px solid #ebeae8;
+  -webkit-box-shadow: 0px 1px 0px #fff;
+  -moz-box-shadow:    0px 1px 0px #fff;
+  box-shadow:         0px 1px 0px #fff;
+}
+
+article#testimonials ul li .photo {
+  -webkit-border-radius: 110px;
+  -moz-border-radius: 110px;
+  border-radius: 110px;
+  overflow: hidden;
+  display: block;
+  background-color: #fff;
+  padding: 4px;
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 110px;
+  margin: 0 auto 20px;
 }
 
 article#testimonials p {
-  width: 80%;
-  color: #727272;
+  color: #555;
   text-align: center;
-  margin: 0 auto;
-  font-style: italic;
-  margin-top: 30px;
-  line-height: 26px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+article#testimonials small {
+  color: #f47b02;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  display: block;
+  text-align: center;
 }
 
 article#testimonials p.client-name {
@@ -126,57 +162,124 @@ article#how-works {
   width: 100%;
   overflow: hidden;
   padding: 80px 0 50px;
+  background: url('/images/mp/triangles-quilt-02.png') 0 0 repeat-x;
 }
 
-article#how-works p {
-  width: 85%;
-  margin: 0 auto;
+article#how-works .grid > p {
   text-align: center;
+  color: #555;
+  font-weight: bold;
   margin-top: 20px;
   font-size: 14px;
   line-height: 22px;
-  border-bottom: 1px dashed #e6e6e6;
-  padding-bottom: 30px;
+  width: 80%;
+  margin: 20px auto 0;
 }
 
-article#how-works ul.escope { position: relative; width: 840px; margin: 0 auto; margin-top: 40px; overflow: hidden;}
+article#how-works .grid > p:after {
+  width: 520px;
+  height: 3px;
+  border-bottom: 2px dotted #eee;
+  display: block;
+  content: '';
+  margin: 30px auto 0;
+}
+
+article#how-works p strong { display: block; }
+
+article#how-works ul.escope { 
+  position: relative; 
+  margin: 40px auto 60px; 
+  overflow: hidden; 
+}
 
 article#how-works ul.escope li {
   float: left;
-  width: 90px;
-  height: 90px;
-  padding-top: 110px;
-  margin-right: 60px;
+  margin-right: 50px;
   position: relative;
   text-align: center;
-  font-size: 13px;
+  text-transform: uppercase;
+  font-size: 14px;
   line-height: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+article#how-works ul.escope li a {
+  color: #555;
+  width: 95px;
+  height: 145px;
+  display: block;
 }
 
 article#how-works ul.escope li:last-child { margin-right: 0; }
 
-article#how-works ul.escope li.exploration {
-  background: url('/images/mp/icon-list-search.png') center 0 no-repeat;
+article#how-works ul.escope li.exploration a {
+  background: url('/images/mp/icon-list-search.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.draws {
-  background: url('/images/mp/icon-list-screen.png') center 0 no-repeat;
+article#how-works ul.escope li.draws a {
+  background: url('/images/mp/icon-list-screen.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.flow {
-  background: url('/images/mp/icon-list-tasks.png') center 0 no-repeat;
+article#how-works ul.escope li.flow a {
+  background: url('/images/mp/icon-list-tasks.png') center bottom no-repeat;
+  width: 140px;
 }
 
-article#how-works ul.escope li.tasks {
-  background: url('/images/mp/icon-list-calendar.png') center 0 no-repeat;
+article#how-works ul.escope li.tasks a {
+  background: url('/images/mp/icon-list-calendar.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.priorities {
-  background: url('/images/mp/icon-list-path.png') center 0 no-repeat;
+article#how-works ul.escope li.priorities a {
+  background: url('/images/mp/icon-list-path.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.final {
-  background: url('/images/mp/icon-list-note.png') center 0 no-repeat;
+article#how-works ul.escope li.final a {
+  background: url('/images/mp/icon-list-note.png') center bottom no-repeat;
+  width: 160px;
+}
+
+article#how-works ul.escope li.exploration a:hover { background: url('/images/mp/icon-list-search-hover.png') center bottom no-repeat; }
+article#how-works ul.escope li.draws a:hover { background: url('/images/mp/icon-list-screen-hover.png') center bottom no-repeat; } 
+article#how-works ul.escope li.flow a:hover { background: url('/images/mp/icon-list-tasks-hover.png') center bottom no-repeat; }
+article#how-works ul.escope li.tasks a:hover { background: url('/images/mp/icon-list-calendar-hover.png') center bottom no-repeat; }
+article#how-works ul.escope li.priorities a:hover { background: url('/images/mp/icon-list-path-hover.png') center bottom no-repeat; }
+article#how-works ul.escope li.final a:hover { background: url('/images/mp/icon-list-note-hover.png') center bottom no-repeat; }
+
+
+article#how-works #how-works-gallery {
+  height: 220px;
+}
+
+article#how-works #how-works-gallery li {
+  height: 220px;
+}
+
+article#how-works #how-works-gallery li img {
+  margin-right: 90px;
+  display: block;
+  float: left;
+  -webkit-border-radius: 220px;
+  -moz-border-radius: 220px;
+  border-radius: 220px;
+}
+
+article#how-works #how-works-gallery li .desc { text-align: center; }
+
+article#how-works #how-works-gallery li .desc h5 {
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+}
+
+article#how-works #how-works-gallery li .desc p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #454545;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -186,40 +289,85 @@ article#how-works ul.escope li.final {
 
 article#cases {
   width: 100%;
-  background: #fafafa;
+  background: #fafafa url('/images/mp/triangles-quilt.png') 0 0 repeat-x;
   overflow: hidden;
   padding: 80px 0 50px;
 }
 
+article#cases h3 {
+  text-transform: uppercase;
+}
+
 article#cases p {
-  width: 85%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 20px auto 0;
   text-align: center;
-  margin-top: 20px;
+  color: #555;
+  font-weight: bold;
   font-size: 14px;
   line-height: 22px;
 }
 
 article#cases ul {
-  width: 915px;
-  margin: 0 auto;
   margin-top: 40px;
-  overflow: hidden;
 }
 
 article#cases ul li {
-  width: 142px;
+  width: 156px;
   height: 100px;
   float: left;
-  margin: 5px;
+  position: relative;
 }
 
-article#cases ul li a {
-  text-indent: -9999px;
+article#cases ul li a .wrap {
+  width: 156px;
+  height: 100px;
+  overflow: hidden;
 }
 
-article#cases ul li a:hover {
-  opacity: 0.8;
+article#cases ul li a img { 
+  width: 100%; 
+  height: auto; 
+  display: block;
+}
+
+article#cases ul li .desc {
+  width: 156px;
+  height: 100px;
+  background-color: #f47b02;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+
+article#cases ul li a:hover .desc {
+  display: table;
+  width: 180px;
+  height: 124px;
+  margin: -12px;  
+}
+
+article#cases ul:hover li { 
+  opacity: .4;
+}
+
+article#cases ul li:hover { 
+  opacity: 1;
+}
+
+article#cases ul li .desc h6 {
+  padding: 0 20px;
+  font-style: italic;
+  color: #374650;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 nav.slider {

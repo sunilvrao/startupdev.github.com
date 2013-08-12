@@ -1,5 +1,4 @@
 header#top {
-  box-shadow: none;
   height: 80px;
 }
 
@@ -84,14 +83,14 @@ article#landing ul.steps {
 
 
 a.btn {
-  background: #ffae00;
+  background: #ff7900;
   color: #fff;
   font-weight: normal;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
   padding: 15px 60px;
-  border-bottom: 2px solid #c68804;
+  border-bottom: 2px solid #ff6000;
 }
 a.btn:hover {
   color: #fff;

@@ -96,6 +96,7 @@ article#testimonials {
   width: 100%;
   overflow: hidden;
   padding: 60px 0 40px;
+  background: #fafafa url('/images/mp/triangles-quilt-02.png') 0 bottom repeat-x;;
 }
 
 article#testimonials h3 {
@@ -146,7 +147,7 @@ article#testimonials small {
 article#testimonials p.client-name {
   color: #f47b02;
   font-style: normal;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 
@@ -162,7 +163,6 @@ article#how-works {
   width: 100%;
   overflow: hidden;
   padding: 80px 0 50px;
-  background: url('/images/mp/triangles-quilt-02.png') 0 0 repeat-x;
 }
 
 article#how-works .grid > p {
@@ -340,6 +340,9 @@ article#cases ul li .desc {
   top: 0;
   left: 0;
   z-index: 101;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 article#cases ul li a:hover .desc {

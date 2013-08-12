@@ -189,7 +189,7 @@ article#how-works p strong { display: block; }
 
 article#how-works ul.escope { 
   position: relative; 
-  margin: 40px auto 60px; 
+  margin: 40px auto 0; 
   overflow: hidden; 
 }
 
@@ -202,9 +202,6 @@ article#how-works ul.escope li {
   font-size: 14px;
   line-height: 18px;
   font-family: 'Montserrat', sans-serif;
-}
-
-article#how-works ul.escope li a {
   color: #555;
   width: 95px;
   height: 145px;
@@ -213,39 +210,31 @@ article#how-works ul.escope li a {
 
 article#how-works ul.escope li:last-child { margin-right: 0; }
 
-article#how-works ul.escope li.exploration a {
+article#how-works ul.escope li.exploration {
   background: url('/images/mp/icon-list-search.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.draws a {
+article#how-works ul.escope li.draws {
   background: url('/images/mp/icon-list-screen.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.flow a {
+article#how-works ul.escope li.flow {
   background: url('/images/mp/icon-list-tasks.png') center bottom no-repeat;
   width: 140px;
 }
 
-article#how-works ul.escope li.tasks a {
+article#how-works ul.escope li.tasks {
   background: url('/images/mp/icon-list-calendar.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.priorities a {
+article#how-works ul.escope li.priorities {
   background: url('/images/mp/icon-list-path.png') center bottom no-repeat;
 }
 
-article#how-works ul.escope li.final a {
+article#how-works ul.escope li.final {
   background: url('/images/mp/icon-list-note.png') center bottom no-repeat;
   width: 160px;
 }
-
-article#how-works ul.escope li.exploration a:hover { background: url('/images/mp/icon-list-search-hover.png') center bottom no-repeat; }
-article#how-works ul.escope li.draws a:hover { background: url('/images/mp/icon-list-screen-hover.png') center bottom no-repeat; } 
-article#how-works ul.escope li.flow a:hover { background: url('/images/mp/icon-list-tasks-hover.png') center bottom no-repeat; }
-article#how-works ul.escope li.tasks a:hover { background: url('/images/mp/icon-list-calendar-hover.png') center bottom no-repeat; }
-article#how-works ul.escope li.priorities a:hover { background: url('/images/mp/icon-list-path-hover.png') center bottom no-repeat; }
-article#how-works ul.escope li.final a:hover { background: url('/images/mp/icon-list-note-hover.png') center bottom no-repeat; }
-
 
 article#how-works #how-works-gallery {
   height: 220px;
@@ -340,9 +329,9 @@ article#cases ul li .desc {
   top: 0;
   left: 0;
   z-index: 101;
-  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow:    0px 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow:         0px 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 article#cases ul li a:hover .desc {
@@ -417,10 +406,11 @@ article#contact {
 
 article#contact h3 {
   color: #f47b02;
+  text-transform: uppercase;
 }
 
 form {
-  width: 60%;
+  width: 620px;
   margin: 0 auto;
   margin-top: 30px;
 }
@@ -430,23 +420,45 @@ form label {
   margin-bottom: 10px;
   color: #99a9b3;
   font-size: 13px;
+  display: none;
 }
 
-form input {
-  width: 100%;
+form .text {
+  width: 600px;
   padding: 10px;
   font-size: 12px;
   border-radius: 2px;
   border: none;
   margin-bottom: 10px;
+  display: block;
 }
 
-form input[type=submit] {
-  background: #f47b02;
-  width: 80%;
+form .mail .text,
+form .tel .text {
+  width: 285px;
+  margin-right: 10px;
+  float: left;
+}
+
+form .mail .text { margin-right: 0; }
+
+form .submit {
+  background: #202020;
   color: #fff;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
 

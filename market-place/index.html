@@ -121,68 +121,12 @@ layout: mp
         </p>
 
         <ul class="escope">
-            <li class="exploration"><a href="#">Conhecer o Projeto</a></li>
-            <li class="draws"><a href="#">Desenhar as Telas</a></li>
-            <li class="flow"><a href="#">Montar o Fluxo da Navegação</a></li>
-            <li class="tasks"><a href="#">Escrever as Tarefas</a></li>
-            <li class="priorities"><a href="#">Definir as Prioridades</a></li>
-            <li class="final"><a href="#">Escopo do Projeto Finalizado</a></li>
-        </ul>
-
-        <ul id="how-works-gallery">
-            <li data-alt="Conhecer o projeto" data-class="exploration">
-                <img src="http://placehold.it/220x220/000" alt="teste" />
-                <div class="desc">
-                       <h5>Conhecer o projeto</h5>
-                       <p>In orci lectus, placerat vel placerat et, euismod iaculis purus. Ut faucibus euismod urna at pretium. Donec non urna fringilla, ornare magna non, gravida quam. In sapien arcu, gravida eu magna vel, semper elementum libero. Vestibulum in scelerisque diam, et dignissim sem. Sed scelerisque, sapien facilisis</p>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ut.</p>
-                </div>
-            </li>
-
-            <li data-alt="Desenhar as telas" data-class="draws">
-                <img src="http://placehold.it/220x220/000" alt="teste" />
-                <div class="desc">
-                       <h5>Conhecer o projeto</h5>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, aspernatur illum totam perferendis porro modi quia neque quibusdam quis amet debitis voluptates eaque enim minus pariatur aut dolorem odit.</p>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ut.</p>
-                </div>
-            </li>
-
-            <li data-alt="Montar o fluxo da navegação" data-class="flow">
-                <img src="http://placehold.it/220x220/000" alt="teste" />
-                <div class="desc">
-                       <h5>Conhecer o projeto</h5>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, aspernatur illum totam perferendis porro modi quia neque quibusdam quis amet debitis voluptates eaque enim minus pariatur aut dolorem odit.</p>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ut.</p>
-                </div>
-            </li>
-
-            <li data-alt="Escrever as tarefas" data-class="tasks">
-                <img src="http://placehold.it/220x220/000" alt="teste" />
-                <div class="desc">
-                       <h5>Conhecer o projeto</h5>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, aspernatur illum totam perferendis porro modi quia neque quibusdam quis amet debitis voluptates eaque enim minus pariatur aut dolorem odit.</p>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ut.</p>
-                </div>
-            </li>
-
-            <li data-alt="Definir as prioridades" data-class="priorities">
-                <img src="http://placehold.it/220x220/000" alt="teste" />
-                <div class="desc">
-                       <h5>Conhecer o projeto</h5>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, aspernatur illum totam perferendis porro modi quia neque quibusdam quis amet debitis voluptates eaque enim minus pariatur aut dolorem odit.</p>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ut.</p>
-                </div>
-            </li>
-
-            <li data-alt="Escopo do projeto finalizado" data-class="finaldraws">
-                <img src="http://placehold.it/220x220/000" alt="teste" />
-                <div class="desc">
-                       <h5>Conhecer o projeto</h5>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, aspernatur illum totam perferendis porro modi quia neque quibusdam quis amet debitis voluptates eaque enim minus pariatur aut dolorem odit.</p>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ut.</p>
-                </div>
-            </li>
+            <li class="exploration">Conhecer o Projeto</li>
+            <li class="draws">Desenhar as Telas</li>
+            <li class="flow">Montar o Fluxo da Navegação</li>
+            <li class="tasks">Escrever as Tarefas</li>
+            <li class="priorities">Definir as Prioridades</li>
+            <li class="final">Escopo do Projeto Finalizado</li>
         </ul>
     </div>
 </article>
@@ -199,7 +143,7 @@ layout: mp
                     <div class="wrap">
                         <img src="{{ project.image }}" alt="{{ project.name }}">
                     </div>
-                    
+
                     <div class="desc">
                         <h6>{{ project.name }}</h6>
                     </div>
@@ -219,10 +163,27 @@ layout: mp
     <div class="grid">
         <h3>Será um prazer atender você!</h3>
         <form>
-            <p><label>Nome Completo*<input type="text" name="name"></label></p>
-            <p><label>Email*<input type="email" name="email"></label></p>
-            <p><label>Telefone com DDD*<input type="tel" name="tel"></label></p>
-            <p><input type="submit" name="Quero Meu aplicativo" value="enviar"></p>
+            <div class="form-div">
+                <label for="name">Nome Completo*</label>
+                <input type="text" name="name" id="name" class="text" placeholder="Nome*" />
+            </div>
+
+            <div class="form-div">
+                <label for="surname">Sobrenome*</label>
+                <input type="text" name="surname" id="surname" class="text" placeholder="Sobrenome*" />
+            </div>
+
+            <div class="form-div tel">
+                <label for="tel">Telefone com DDD*</label>
+                <input type="tel" name="tel" id="tel" class="text" placeholder="Telefone (Com DDD)*" />
+            </div>
+
+            <div class="form-div mail">
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" class="text" placeholder="E-mail*" />
+            </div>
+
+            <input type="submit" name="Quero Meu aplicativo" value="Quero desenvolver um aplicativo" class="submit" />
         </form>
     </div>
 </article>

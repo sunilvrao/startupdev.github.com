@@ -232,27 +232,6 @@ schedule:
   year: 2013
   data:
     -
-      month: Junho
-      weeks:
-        -
-          date: 04/06
-          client: BRtrax
-          status: client
-        -
-          date: 11/06
-          client: Darwin Ianuskiewtz
-          status: client
-        -
-          date: 18/06
-          status: free
-        -
-          date: 25/06
-          client: Sou do Esporte
-          status: client
-        -
-          date:
-          status:
-    -
       month: Julho
       weeks:
         -
@@ -293,28 +272,28 @@ schedule:
         -
           date:
           status:
+    -
+      month: Setembro
+      weeks:
+        -
+          date: 03/09
+          status: free
+        -
+          date: 10/09
+          status: free
+        -
+          date: 17/09
+          status: free
+        -
+          date: 24/09
+          status: free
+        -
+          date:
+          status:
 
 schedule_en:
   year: 2013
   data:
-    -
-      month: June
-      weeks:
-        -
-          date: 04/06
-          client: BRtrax
-          status: client
-        -
-          date: 11/06
-          client: Darwin Ianuskiewtz
-          status: client
-        -
-          date: 18/06
-          status: free
-        -
-          date: 25/06
-          client: Sou do Esporte
-          status: client
     -
       month: July
       weeks:
@@ -357,5 +336,22 @@ schedule_en:
         -
           date:
           status:
-
+    -
+      month: September
+      weeks:
+        -
+          date: 03/09
+          status: free
+        -
+          date: 10/09
+          status: free
+        -
+          date: 17/09
+          status: free
+        -
+          date: 24/09
+          status: free
+        -
+          date:
+          status:
 

@@ -8,6 +8,10 @@ number_of_projects: 50
 
 projects:
   -
+    name: Assed & Cavalcante
+    url: "http://www.assedcavalcante.com.br/"
+    image: /images/projetos/assed-cavalcante.png
+  -
     name: Sala de Ideias
     url: "http://www.saladeideias.com.br/"
     image: /images/projetos/saladeideias.png

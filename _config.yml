@@ -269,7 +269,8 @@ schedule:
           status: client
         -
           date: 20/08
-          status: free
+          client: PerfilPlug
+          status: client
         -
           date: 27/08
           status: free
@@ -333,7 +334,8 @@ schedule_en:
           status: client
         -
           date: 20/08
-          status: free
+          client: PerfilPlug
+          status: client
         -
           date: 27/08
           status: free

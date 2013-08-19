@@ -299,7 +299,15 @@ article#cases p {
 
 article#cases ul {
   margin-top: 40px;
+  height: 300px;
 }
+
+article#cases ul li.item {
+  width: 940px;
+  height: 300px;
+}
+
+article#cases ul li.item ul { height: auto; margin: 0; }
 
 article#cases ul li {
   width: 156px;

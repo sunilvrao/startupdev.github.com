@@ -11,6 +11,14 @@ $(document).on('ready', function() {
  //    	// $c.children('li:lt(18)').wrapAll('<li class="wrap">');
  //    };
 
+ 	var ProjQtd = $('#cases ul').children('li').length;
+ 	console.log(ProjQtd); // 55
+
+ 	while (ProjQtd--) {
+ 		console.log($(this));
+ 		$('#cases ul li:lt(18)').wrapAll('<li class="item"><ul>');
+ 	};
+
 	// $("#developed-projects-slider div").jCarouselLite({
 	// 	btnNext: "#slider-next",
 	// 	btnPrev: "#slider-previous",

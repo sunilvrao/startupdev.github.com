@@ -231,3 +231,8 @@ a { text-decoration: none; }
     font-family: 'Lato', Helvetica, sans-serif;
 }
 
+#how-works {
+    padding: 80px 0;
+    background: url('/images/mp/dark_pattern.png') 0 0 repeat;
+}
+

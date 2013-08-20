@@ -128,7 +128,7 @@ a { text-decoration: none; }
 }
 
 #top .grid { position: relative; }
- 
+
 #top h1 {
     float: left;
 }
@@ -233,7 +233,7 @@ a { text-decoration: none; }
 
 #how-works {
     padding: 80px 0;
-    background: url('/images/mp/dark_pattern.png') 0 0 repeat;
+    background: url('/images/mp/blackmamba.png') 0 0 repeat;
 }
 
 #how-works #steps {

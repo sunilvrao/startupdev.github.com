@@ -29,6 +29,7 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    background: url('/images/mp/chruch.png');
 }
 
 article,aside,details,figcaption,figure,
@@ -104,6 +105,7 @@ input, select {
 
 
 body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4 { font-family: 'Lato', Helvetica, sans-serif;}
 a { text-decoration: none; }
 
 .grid {

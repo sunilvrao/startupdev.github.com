@@ -1,0 +1,27 @@
+#footer {
+  background: #fff;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#footer .share {
+  background: red;
+  float: left;
+}
+
+#footer .share .fb, .twitter{
+  float: left;
+  margin-right: 30px;
+}
+
+#footer h4 {
+  float: right;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 10px;
+  color: #929292;
+}
+
+#footer img {
+  margin-left: 10px;
+}

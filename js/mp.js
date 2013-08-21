@@ -5,3 +5,8 @@ $(document).on('ready', function() {
 	$(':last-child').addClass('last-child');
 	$(':first-child').addClass('first-child');
 })
+
+
+$(document).on('ready', function() {
+  $('#who-we-are').append('<div class="bg-cover"></div>');
+})

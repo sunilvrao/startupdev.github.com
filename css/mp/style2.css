@@ -1,14 +1,74 @@
 
+#who-we-are {
+  margin-top: 100px;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background: url('/images/mp/time-he.png') repeat-x;
+}
 
-article#testimonials {
+#who-we-are .bg-cover {
+  width: 100%;
+  height: 470px;
+  background: #fb0101;
+  background: rgba(251,1,1,0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#who-we-are .grid {
+  position: relative;
+  z-index: 100;
+}
+
+#who-we-are h3  {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-size: 48px;
+  padding-top: 80px;
+}
+
+#who-we-are .line-decorator {
+  background: #ffae00;
+  height: 3px;
+  width: 400px;
+  margin: 20px auto 0;
+}
+
+#who-we-are p  {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  width: 760px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  padding-bottom: 90px;
+  background: url('/images/mp/logotipo-helabs.png') no-repeat center bottom;
+}
+
+
+
+
+
+
+
+
+
+#testimonials {
   padding: 200px 0;
 }
 
-article#testimonials h3 {
+#testimonials h3 {
   text-align: center;
 }
 
-article#testimonials p {
+#testimonials p {
   color: #565656;
   text-align: justify;
   font-style: italic;
@@ -19,19 +79,27 @@ article#testimonials p {
   text-shadow: 1px 1px 1px #fff;
 }
 
-article#testimonials ul {
+#testimonials p.client_name {
+  color: #ff9c00;
+  font-style: normal;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#testimonials ul {
   margin-top: 50px;
   overflow: hidden;
 }
 
-article#testimonials ul li  {
+#testimonials ul li  {
   width: 460px;
   float: left;
   margin-right: 40px;
   margin-bottom: 60px;
 }
 
-article#testimonials ul li:nth-of-type(2n) {
+#testimonials ul li:nth-of-type(2n) {
   margin-right: 0px;
 }
 
@@ -59,12 +127,12 @@ article#testimonials ul li:nth-of-type(2n) {
 
 
 
-article#contact {
+#contact {
   background: url('/images/mp/blackmamba.png');
   padding: 80px 0 100px;
 }
 
-article#contact h3  {
+#contact h3  {
   color: #fff;
   font-weight: 900;
   letter-spacing: 0.04em;
@@ -72,7 +140,7 @@ article#contact h3  {
   font-size: 40px;
 }
 
-article#contact p  {
+#contact p  {
   color: #d2dbea;
   text-align: center;
   font-weight: normal;
@@ -81,24 +149,24 @@ article#contact p  {
   margin-top: 30px;
 }
 
-article#contact .line-decorator {
+#contact .line-decorator {
   background: #ffae00;
   height: 3px;
   width: 450px;
   margin: 20px auto 0;
 }
 
-article#contact form {
+#contact form {
   width: 100%;
   margin-top: 50px;
   overflow: hidden;
 }
 
-article#contact form label {
+#contact form label {
   display: none;
 }
 
-article#contact form input, select {
+#contact form input, select {
   width: 430px;
   padding: 15px 20px;
   float: left;
@@ -106,16 +174,16 @@ article#contact form input, select {
   margin-bottom: 20px;
 }
 
-article#contact form input[type="text"], input[type="tel"]{
+#contact form input[type="text"], input[type="tel"]{
   margin-right: 20px;
 }
 
-article#contact form select  {
+#contact form select  {
   width: 470px;
 }
 
 
-article#contact form input[type="submit"] {
+#contact form input[type="submit"] {
   width: 100%;
   padding: 20px;
   background: transparent;

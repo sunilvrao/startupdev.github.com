@@ -217,6 +217,11 @@ a { text-decoration: none; }
     color: #fdb0af;
 }
 
+#landing #nav li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffae00;
+}
+
 #landing p {
     color: #f9f9f9;
     font-size: 48px;

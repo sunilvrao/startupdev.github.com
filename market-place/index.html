@@ -62,21 +62,18 @@ layout: mp
 
       <article id="projects">
         <div class="grid">
-          <h3>+ de 50 projetos entregues com sucesso!</h3>
+          <h3>+ de {{ site.mvp.number_of_projects }} projetos entregues com sucesso!</h3>
           <div id="projects_gallery">
             <ul>
 
-              {% for project in site.projects %}
+              {% for project in site.mvp.projects %}
               <li>
-                <a href="{{ project.url }}" title="{{ project.name }}" class="photo">
+                <a href="{{ project.url }}" title="{{ project.name }}" target="_blank" rel="nofollow" class="photo">
                   <img src="{{ project.image }}" width="527" height="330" alt="{{  project.name }}" />
                 </a>
 
                 <h6>{{ project.name }}</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+                <p>{{ project.description }}</p>
               </li>
               {% endfor %}
 
@@ -102,37 +99,14 @@ layout: mp
           <h3>Depoimentos</h3>
 
           <ul>
+
+            {% for testimonial in site.mvp.testimonials %}
             <li>
-              <p>
-                "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
-              </p>
-
-              <p class="client_name">Milton Neves - Vita Corporativa</p>
+              <p>"{{ testimonial.description }}"</p>
+              <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
             </li>
+            {% endfor %}
 
-            <li>
-              <p>
-                "Depois de uma semana do trabalho feito, muita coisa acontece, mas fica a lembrança memorável do trabalho com a equipe da HE Labs. Agradeço pela seriedade e emprenho apresentado nos 3 dias do Startup Dev. Pela minha experiência, no cenário atual de desenvolvimento de aplicações, é muito difícil encontrar a qualidade do serviço de vocês. Ainda mais difícil é encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão."
-              </p>
-
-              <p class="client_name">Lucas Boscacci Lima - Dunno</p>
-            </li>
-
-            <li>
-              <p>
-                "Desenvolver nosso projeto através do Startup DEV foi a forma mais rápida que encontrei de colocar o projeto que idealizamos no ar. Além de sair satisfeito com meu projeto no ar em apenas 3 dias, o processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software. Recomendo e tenho certeza que vou recorrer em breve a outras rodadas."
-              </p>
-
-              <p class="client_name">Kauê Linden - Game Guiz</p>
-            </li>
-
-            <li>
-              <p>
-                "O pessoal do Startup DEV foi essencial para a realização do ContaCal. Eles não só manjam muito de desenvolvimento de software como têm bastante experiência de negócios web, o que os torna ótimos parceiros para criação de MVP."
-              </p>
-
-              <p class="client_name">Joaquim Torres - ContaCal</p>
-            </li>
           </ul>
         </div>
       </article>

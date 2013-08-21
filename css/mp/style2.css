@@ -24,7 +24,7 @@
   position: absolute;
   top: 50%;
   content: '';
-  display: block;  
+  display: block;
 }
 
 #testimonials h3:after { right: 0; }
@@ -179,6 +179,7 @@
     text-transform: uppercase;
     font-family: 'Lato', Helvetica, sans-serif;
     font-weight: 700;
+    letter-spacing: 0.08em;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -394,6 +395,7 @@
 
 #footer .share {
   float: left;
+  margin-top: 8px;
 }
 
 #footer h4 {

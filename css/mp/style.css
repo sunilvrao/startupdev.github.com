@@ -374,12 +374,18 @@ a { text-decoration: none; }
     text-transform: uppercase;
     font-family: 'Lato', Helvetica, sans-serif;
     margin-bottom: 20px;
+    -webkit-text-shadow: 1px 1px 1px #fff;
+    -moz-text-shadow: 1px 1px 1px #fff;
+    text-shadow: 1px 1px 1px #fff;
 }
 
 #projects_gallery ul li p {
     font-size: 16px;
     line-height: 28px;
     color: #565656;
+    -webkit-text-shadow: 1px 1px 1px #fff;
+    -moz-text-shadow: 1px 1px 1px #fff;
+    text-shadow: 1px 1px 1px #fff;
 }
 
 #who-we-are {

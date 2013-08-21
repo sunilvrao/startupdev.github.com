@@ -26,4 +26,11 @@ $(document).on('ready', function() {
 		'prev': '#projects_gallery_prev',
 		'next': '#projects_gallery_next'
 	});
+
+
+	$('.other-services').click(function(e) {
+		e.preventDefault();
+
+		$('#other-services').slideToggle();
+	});
 });

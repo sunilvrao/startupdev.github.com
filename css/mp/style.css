@@ -158,6 +158,7 @@ a { text-decoration: none; }
 #top .other-services {
     color: #fbad21;
     font-size: 10px;
+    line-height: 12px;
     margin-top: 15px;
     text-transform: uppercase;
     font-family: 'Lato', Helvetica, sans-serif;
@@ -165,6 +166,14 @@ a { text-decoration: none; }
     display: block;
     letter-spacing: 0.085em;
     font-weight: 700;
+    background: url('/images/mp/other_services_bt.png') right center no-repeat;
+    padding-right: 18px;
+}
+
+#other-services {
+    background-color: #ffae00;
+    padding: 100px 0;
+    display: none;
 }
 
 #landing {

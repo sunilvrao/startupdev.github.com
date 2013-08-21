@@ -65,11 +65,21 @@ layout: mp
           <h3>+ de 50 projetos entregues com sucesso!</h3>
           <div id="projects_gallery">
             <ul>
+
+              {% for project in site.projects %}
               <li>
-                <img src="http://placehold.it/527x330" alt="Project Name" />
-                <h6>Adstruc</h6>
-                <p>Adstruc is an awesome TechStars' graduated company that connects  advertisersto billboards inventory owners. The problem is: as they aren't used to buying and selling outdoor media on the internet, they need to understand how Adstruc works before getting started.</p>
+                <a href="{{ project.url }}" title="{{ project.name }}" class="photo">
+                  <img src="{{ project.image }}" width="527" height="330" alt="{{  project.name }}" />
+                </a>
+
+                <h6>{{ project.name }}</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
               </li>
+              {% endfor %}
+
             </ul>
           </div>
         </div>
@@ -169,14 +179,7 @@ layout: mp
     <footer id="footer">
       <div class="grid">
         <div class="share">
-          <!-- AddThis Button BEGIN -->
-          <div class="addthis_toolbox addthis_default_style ">
-            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-            <a class="addthis_button_tweet"></a>
-          </div>
-          <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5214f50673a646a9"></script>
-          <!-- AddThis Button END -->
+          share
         </div>
 
         <h4>

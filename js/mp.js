@@ -15,4 +15,15 @@ $(document).on('ready', function() {
 	});
 
 	$("select.text").chosen();
+
+
+	$('#projects_gallery ul')
+	.after('<a href="#" id="projects_gallery_prev"></a>')
+	.after('<a href="#" id="projects_gallery_next"></a>')
+	.cycle({
+		'pause': 1,
+		'timeout': 8000,
+		'prev': '#projects_gallery_prev',
+		'next': '#projects_gallery_next'
+	});
 });

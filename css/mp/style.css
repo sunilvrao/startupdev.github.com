@@ -412,8 +412,29 @@ a { text-decoration: none; }
     padding: 28px 0 0;
 }
 
+#projects_gallery_next,
+#projects_gallery_prev {
+    background: url('/images/mp/gallery-arrows.png') 0 0 no-repeat;
+    width: 62px;
+    height: 62px;
+    display: block;
+    text-indent: -9999em;
+    top: 150px;
+    position: absolute;
+}
+
+#projects_gallery_next {
+    background-position: -62px 0;
+    right: 60px;
+}
+
+#projects_gallery_prev {
+    left: 60px;
+}
+
 #projects_gallery ul {
     width: 527px;
+    height: 570px;
     margin: 0 auto;
 }
 

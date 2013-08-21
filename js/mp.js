@@ -13,4 +13,6 @@ $(document).on('ready', function() {
 	  columnWidth: 480,
 	  itemSelector: 'li'
 	});
+
+	$("select.text").chosen();
 });

@@ -130,29 +130,27 @@ layout: mp
       <article id="contact">
         <div class="grid">
           <h3>então, vamos trabalhar juntos?</h3>
-          <div class="line-decorator"></div>
           <p>Preencha os seus dados abaixo e nós entramos em contato rapidinho para fecharmos negócio.</p>
 
           <form>
-            <div class="form-div">
+            <div class="form-div name">
               <label for="name">Nome</label>
               <input type="text" name="name" id="name" class="text" placeholder="Nome" />
             </div>
 
-            <div class="form-div">
+            <div class="form-div email">
               <label for="email">Email</label>
               <input type="email" name="email" id="email" class="text" placeholder="E-mail" />
             </div>
 
-            <div class="form-div">
+            <div class="form-div tel">
               <label for="tel">Telefone</label>
               <input type="tel" name="tel" id="tel" class="text" placeholder="Telefone" />
             </div>
 
-            <div class="form-div">
+            <div class="form-div date">
               <label for="date">Selecione a data</label>
               <select name="date" id="date" class="text" placeholder="Selecione a data">
-                <option>Selecione a data</option>
                 <option>18 de agosto de 2013</option>
                 <option>25 de agosto de 2013</option>
                 <option>1 de setembro de 2013</option>
@@ -160,7 +158,9 @@ layout: mp
               </select>
             </div>
 
-            <input type="submit" name="Quero Meu aplicativo" value="Quero fazer meu video" class="submit" />
+            <div class="submit-div">
+              <input type="submit" name="Quero Meu aplicativo" value="Quero fazer meu video" class="submit" />
+            </div>
           </form>
         </div>
       </article>
@@ -179,7 +179,10 @@ layout: mp
           <!-- AddThis Button END -->
         </div>
 
-        <h4>StartupDev MVP é um serviço desenvolvido pela <img src="/images/mp/logo-he-color.png" alt="HE:labs" /></h4>
+        <h4>
+          <span>StartupDev MVP é um serviço desenvolvido pela</span> 
+          <img src="/images/mp/logo-he-color.png" alt="HE:labs" />
+        </h4>
       </div>
     </footer>
   </body>

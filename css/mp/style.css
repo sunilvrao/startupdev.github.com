@@ -324,3 +324,108 @@ a { text-decoration: none; }
     text-decoration: underline;
 }
 
+#projects {
+    padding: 90px 0;
+}
+
+#projects h3 {
+    font-size: 40px;    
+    text-transform: lowercase;
+    color: #383838;
+    font-family: 'Lato', Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#projects h3:after {
+    width: 550px;
+    height: 4px;
+    background-color: #ffae00;
+    content: '';
+    display: block;
+    margin: 25px auto 0;
+}
+
+#projects_gallery {
+    min-height: 417px;
+    background: url('/images/mp/gallery-laptop.png') center 0 no-repeat;
+    position: relative;
+    padding: 28px 0 0;
+}
+
+#projects_gallery ul {
+    width: 527px;
+    margin: 0 auto;
+}
+
+#projects_gallery ul li {
+    text-align: center;
+}
+
+#projects_gallery ul li img {
+    display: block;
+    margin-bottom: 85px;
+}
+
+#projects_gallery ul li h6 {
+    color: #ff9c00;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: 'Lato', Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+#projects_gallery ul li p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #565656;
+}
+
+#who-we-are {
+    padding: 70px 0 0;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
+    text-align: center;
+}
+
+#who-we-are .bg-cover {
+    width: 100%;
+    height: 470px;
+    background: #fb0101;
+    background: rgba(251,1,1,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#who-we-are .grid {
+    position: relative;
+    z-index: 100;
+}
+
+#who-we-are h3 {
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Lato', Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+#who-we-are h3:after {
+    width: 400px;
+    height: 4px;
+    background-color: #ffae00;
+    content: '';
+    display: block;
+    margin: 15px auto 0;
+}
+
+#who-we-are p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 100px;
+    margin-bottom: 40px;
+}

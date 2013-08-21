@@ -246,7 +246,6 @@ a { text-decoration: none; }
 
 #how-works #steps li {
     padding-top: 100px;
-    /*float: left;*/
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
@@ -256,6 +255,7 @@ a { text-decoration: none; }
     text-align: center;
     margin-right: 50px;
     display: inline-block;
+    position: relative;
 }
 
 #how-works #steps li.last-child { margin-right: 0; }
@@ -285,31 +285,34 @@ a { text-decoration: none; }
     background: url('/images/mp/mvp_result_step.png') center 10px no-repeat;
 }
 
-#how-works #steps li:after {
+#how-works #steps li.plus:after {
     width: 22px;
     height: 22px;
     content: '';
     display: block;
-    float: right;
-    margin-top: -90px;
-    margin-right: 20px;
     background: url('/images/mp/plus.png') 0 0 no-repeat;
 }
 
-#how-works #steps li.money:after {
-    width: 22px;
-    height: 22px;
+#how-works #steps li.equal:after {
+    width: 23px;
+    height: 15px;
     content: '';
     display: block;
-    float: right;
-    margin-top: -90px;
-    margin-right: 20px;
     background: url('/images/mp/equal.png') 0 0 no-repeat;
 }
 
-#how-works #steps li.result:after {
-    background: none;
+#how-works #steps li.plus:after,
+#how-works #steps li.equal:after {
+    position: absolute;
+    right: -50px;
+    top: 30px;
 }
+
+#how-works #steps li.plus:after { right: -20px; }
+#how-works #steps li.staff:after { right: -52px; }
+#how-works #steps li.time:after { right: -40px; }
+#how-works #steps li.money:after { right: -40px; }
+
 
 #how-works .bt {
     width: 370px;

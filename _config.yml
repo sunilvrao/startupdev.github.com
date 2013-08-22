@@ -377,17 +377,22 @@ mvp:
     -
       name: Sala de Ideias
       url: "http://www.saladeideias.com.br/"
-      image: /images/projetos/saladeideias.png
+      image: /images/projetos/saladeideias2.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Niili
       url: "http://www.niili.com.br/"
-      image: /images/projetos/niili.png
+      image: /images/projetos/niili2.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Samba Ads
       url: "#"
       image: /images/projetos/sambaads.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Rio em Foco
+      url: "#"
+      image: /images/projetos/rioemfoco2.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
 
   testimonials:

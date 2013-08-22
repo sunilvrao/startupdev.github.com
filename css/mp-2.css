@@ -11,8 +11,5 @@
     background: url('/images/mp/video_result_step.png') center 12px no-repeat;
 }
 .video_page #projects_gallery {
-    min-height: 429px;
     background: url('/images/mp/gallery-video.png') center 0 no-repeat;
-    position: relative;
-    padding: 28px 0 0;
 }

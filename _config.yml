@@ -376,23 +376,63 @@ mvp:
   projects:
     -
       name: Sala de Ideias
-      url: "http://www.saladeideias.com.br/"
-      image: /images/projetos/saladeideias2.png
+      url: "http://www.saladeideias.com.br"
+      image: /images/projetos/mvp/saladeideias.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Niili
-      url: "http://www.niili.com.br/"
-      image: /images/projetos/niili2.png
+      url: "http://www.niili.com.br"
+      image: /images/projetos/mvp/niili.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
-      name: Samba Ads
-      url: "#"
-      image: /images/projetos/sambaads.png
+      name: Sou do Esporte
+      url: "http://www.soudoesporte.com.br"
+      image: /images/projetos/mvp/soudoesporte.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Seu orientador
+      url: "http://www.seuorientador.com.br"
+      image: /images/projetos/mvp/seuorientador.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Rio em Foco
-      url: "#"
-      image: /images/projetos/rioemfoco2.png
+      url: "http://www.rioemfoco.com.br"
+      image: /images/projetos/mvp/rioemfoco.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Dunno
+      url: "http://www.dunno.vc"
+      image: /images/projetos/mvp/dunno.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Vita Corporativa
+      url: "http://www.vitacorporativa.com.br"
+      image: /images/projetos/mvp/vita.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Timeeline
+      url: "http://www.timeeline.com"
+      image: /images/projetos/mvp/timeeline.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Meu Baby Chá
+      url: "http://www.meubabycha.com.br"
+      image: /images/projetos/mvp/meubabycha.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Innterpretti
+      url: "http://www.innterpretti.com.br"
+      image: /images/projetos/mvp/interpretti.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Meu Incrível Memo
+      url: "http://incrivelmemo.com.br"
+      image: /images/projetos/mvp/memo.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Mo Recipes
+      url: "http://morecipes.com.br"
+      image: /images/projetos/mvp/morecipes.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
 
   testimonials:

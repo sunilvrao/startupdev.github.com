@@ -212,7 +212,8 @@ a { text-decoration: none; }
 }
 
 #nav.fxd {
-  background: red;
+  background: rgba(206, 4, 0, 0.85);
+  height: 20px;
 }
 
 #nav li {

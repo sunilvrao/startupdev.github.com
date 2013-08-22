@@ -480,6 +480,7 @@ a { text-decoration: none; }
     -webkit-text-shadow: 1px 1px 1px #fff;
     -moz-text-shadow: 1px 1px 1px #fff;
     text-shadow: 1px 1px 1px #fff;
+    text-align: justify;
 }
 
 #who-we-are {

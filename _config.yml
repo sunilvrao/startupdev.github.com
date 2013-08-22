@@ -417,7 +417,7 @@ mvp:
 
 ### Video infos
 video:
-  number_of_projects: 10
+  number_of_projects: 30
 
   projects:
     -

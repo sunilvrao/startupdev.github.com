@@ -11,11 +11,14 @@
     background: url('/images/mp/video_result_step.png') center 12px no-repeat;
 }
 .video_page #projects_gallery {
+    padding-top: 24px;
     background: url('/images/mp/gallery-video.png') center 7px no-repeat;
 }
+
 .video_page #projects_gallery ul {
     width: 520px;
 }
+
 .video_page #projects_gallery ul li img {
     display: block;
     margin-bottom: 80px;

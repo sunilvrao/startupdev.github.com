@@ -72,7 +72,7 @@ class: 'video_page'
       <div id="projects_gallery">
         <ul>
 
-          {% for project in site.mvp.projects %}
+          {% for project in site.video.projects %}
           <li>
             <a href="{{ project.url }}" title="{{ project.name }}" target="_blank" rel="nofollow" class="photo">
               <img src="{{ project.image }}" width="527" height="330" alt="{{  project.name }}" />

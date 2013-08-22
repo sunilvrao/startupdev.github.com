@@ -1,0 +1,11 @@
+.video_page #landing .bg-cover {
+    background: rgba(23, 155, 149, 0.85);
+}
+
+.video_page #landing #nav li a {
+    color: #abd6d0;
+}
+
+.video_page #who-we-are .bg-cover {
+    background: rgba(23, 155, 149, 0.85);
+}

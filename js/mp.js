@@ -46,5 +46,7 @@ $(document).on('ready', function() {
 	        window.location.hash = target;
 	    });
 	});
+
+	Shadowbox.init();
 });
 

@@ -8,6 +8,10 @@ number_of_projects: 50
 
 projects:
   -
+    name: Perfil Plug
+    url: "http://www.perfilplug.com"
+    image: /images/projetos/perfilplug.png
+  -
     name: Assed & Cavalcante
     url: "http://www.assedcavalcante.com.br/"
     image: /images/projetos/assed-cavalcante.png

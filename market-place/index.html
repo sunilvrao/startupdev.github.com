@@ -9,6 +9,14 @@ class: 'mvp_page'
 
 {% include mp_services.html %}
 
+<nav id="nav">
+  <ul>
+    <li><a href="#" id="how-works">Como funciona</a></li>
+    <li><a href="#" id="projects">Projetos entregues</a></li>
+    <li><a href="#" id="who-we-are">Quem somos</a></li>
+    <li><a href="#" id="testimonials">Depoimentos</a></li>
+  </ul>
+</nav>
 <header id="top">
   <div class="grid">
 
@@ -29,15 +37,6 @@ class: 'mvp_page'
 <section id="content">
   <article id="landing">
     <div class="grid">
-      <nav id="nav">
-        <ul>
-          <li><a href="#how-works">Como funciona</a></li>
-          <li><a href="#projects">Projetos entregues</a></li>
-          <li><a href="#who-we-are">Quem somos</a></li>
-          <li><a href="#testimonials">Depoimentos</a></li>
-        </ul>
-      </nav>
-
       <p>Sua startup pronta para ser lançada. Desenvolvemos um MVP do seu produto em apenas 48 horas.</p>
 
       <span class="madeby">
@@ -47,7 +46,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="how-works">
+  <article class="how-works">
     <div class="grid">
       <h3>Como funciona</h3>
 
@@ -66,7 +65,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="projects">
+  <article class="projects">
     <div class="grid">
       <h3>+ de {{ site.mvp.number_of_projects }} projetos entregues com sucesso!</h3>
       <div id="projects_gallery">
@@ -88,7 +87,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="who-we-are">
+  <article class="who-we-are">
     <div class="grid">
       <h3>Nós somos a HE:labs</h3>
 
@@ -100,7 +99,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="testimonials">
+  <article class="testimonials">
     <div class="grid">
       <h3>Depoimentos</h3>
 
@@ -117,7 +116,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="contact">
+  <article class="contact">
     <div class="grid">
       <h3>então, vamos trabalhar juntos?</h3>
       <p>Preencha os seus dados abaixo e nós entramos em contato rapidinho para fecharmos negócio.</p>

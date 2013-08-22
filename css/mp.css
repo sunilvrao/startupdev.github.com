@@ -398,7 +398,7 @@ a { text-decoration: none; }
 }
 
 #projects {
-    padding: 90px 0;
+    padding: 90px 0 0;
 }
 
 #projects h3 {
@@ -448,7 +448,7 @@ a { text-decoration: none; }
 
 #projects_gallery ul {
     width: 527px;
-    height: 570px;
+    height: 500px;
     margin: 0 auto;
 }
 
@@ -458,12 +458,12 @@ a { text-decoration: none; }
 
 #projects_gallery ul li img {
     display: block;
-    margin-bottom: 85px;
+    margin-bottom: 28px;
 }
 
 #projects_gallery ul li h6 {
     color: #ff9c00;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     text-transform: uppercase;
     font-family: 'Lato', Helvetica, sans-serif;
@@ -481,6 +481,7 @@ a { text-decoration: none; }
     -moz-text-shadow: 1px 1px 1px #fff;
     text-shadow: 1px 1px 1px #fff;
     text-align: justify;
+    display: none;
 }
 
 #who-we-are {

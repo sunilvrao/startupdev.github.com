@@ -68,7 +68,7 @@ class: 'video_page'
 
   <article id="projects">
     <div class="grid">
-      <h3>+ de {{ site.mvp.number_of_projects }} projetos entregues com sucesso!</h3>
+      <h3>+ de {{ site.video.number_of_projects }} projetos entregues com sucesso!</h3>
       <div id="projects_gallery">
         <ul>
 
@@ -106,7 +106,7 @@ class: 'video_page'
 
       <ul>
 
-        {% for testimonial in site.mvp.testimonials %}
+        {% for testimonial in site.video.testimonials %}
         <li>
           <p>"{{ testimonial.description }}"</p>
           <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>

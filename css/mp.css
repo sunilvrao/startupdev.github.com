@@ -661,11 +661,12 @@ a { text-decoration: none; }
 
 #frame_contact {
 width: 100%;
-height: 260px;
+height: 280px;
 }
 
 #form_contact {
   width: 100%;
+  height: 260px;
   overflow: hidden;
 }
 

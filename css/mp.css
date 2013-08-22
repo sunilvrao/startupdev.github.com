@@ -446,6 +446,11 @@ a { text-decoration: none; }
     left: 60px;
 }
 
+#projects_gallery_next:hover,
+#projects_gallery_prev:hover {
+    opacity: 0.8;
+}
+
 #projects_gallery ul {
     width: 527px;
     height: 500px;
@@ -454,6 +459,10 @@ a { text-decoration: none; }
 
 #projects_gallery ul li {
     text-align: center;
+}
+
+#projects_gallery ul li a:hover{
+    opacity: 0.95;
 }
 
 #projects_gallery ul li img {

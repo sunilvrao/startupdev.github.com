@@ -13,3 +13,10 @@
 .video_page #projects_gallery {
     background: url('/images/mp/gallery-video.png') center 0 no-repeat;
 }
+.video_page #projects_gallery ul li img {
+    display: block;
+    margin-bottom: 80px;
+    width: 520px;
+    height: 290px;
+    position: 20px 20px;
+}

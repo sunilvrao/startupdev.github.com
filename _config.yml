@@ -421,19 +421,24 @@ video:
 
   projects:
     -
-      name: Sala de Ideias
-      url: "http://www.saladeideias.com.br/"
-      image: /images/projetos/saladeideias.png
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
-    -
-      name: Niili
-      url: "http://www.niili.com.br/"
-      image: /images/projetos/niili.png
+      name: Manager Book
+      url: "#"
+      image: /images/projetos/video/managerbook.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Samba Ads
       url: "#"
-      image: /images/projetos/sambaads.png
+      image: /images/projetos/video/sambaads.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Cleaner
+      url: "#"
+      image: /images/projetos/video/cleaner.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Adstruc
+      url: "#"
+      image: /images/projetos/video/adstruc.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
 
   testimonials:

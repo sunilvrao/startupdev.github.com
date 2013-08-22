@@ -437,22 +437,21 @@ mvp:
 
   testimonials:
     -
-      name: Milton Neves
-      company: Vita Corporativa
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
+      name: "Sabine Bolonhini"
+      company: "Sou do Esporte"
+      description: "Muito obrigada pelo envolvimento de vocês!   Muito mais do que desenvolver um software, vocês concretizaram o primeiro passo de um sonho nosso!  Parabéns pelo trabalho! Estamos muito satisfeitas!"
     -
-      name: Milton Neves
-      company: Vita Corporativa
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
+      name: "Mauro Ribeiro"
+      company: "Miidah"
+      description: "O resultado do Startup DEV superou nossas expectativas. Além da entrega no prazo, sistema funcionando sem erros, etc, a 'visão' da equipe da HE:labs apresentada no primeiro dia de desenvolvimento do Startup DEV contribuiu muito para melhorarmos o projeto inicial de MVP que tínhamos."
     -
-      name: Milton Neves
-      company: Vita Corporativa
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
+      name: "Prof. Darwin Ianuskiewtz"
+      company: "Seu Orientador"
+      description: "Agradeço a atenção de toda a equipe e o tratamento profissional que permitiu que  a seriedade e comprometimento proporcionasse o bom desenvolvimento da proposta."
     -
-      name: Milton Neves
-      company: Vita Corporativa
+      name: "Milton Menezes"
+      company: "Vita Corporativa"
       description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
-
 
 
 ### Video infos
@@ -483,18 +482,6 @@ video:
 
   testimonials:
     -
-      name: Milton Neves
-      company: Vita Corporativa
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
-    -
-      name: Milton Neves
-      company: Vita Corporativa
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
-    -
-      name: Milton Neves
-      company: Vita Corporativa
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
-    -
-      name: Milton Neves
-      company: Vita Corporativa
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
+      name: "Milton Neves"
+      company: "Vita Corporativa"
+      description: ""

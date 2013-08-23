@@ -262,7 +262,7 @@ a { text-decoration: none; }
   padding: 0 !important;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
-  box-shadow: none !important;  
+  box-shadow: none !important;
 }
 
 #nav li {
@@ -726,8 +726,30 @@ article.schedule h3:after {
 
 #calendar table {
   width: 100%;
+<<<<<<< HEAD
   border-bottom: 1px solid #ffd798;
   border-left: 1px solid #ffd798;
+=======
+  border-bottom: 1px solid #dadee1;
+  border-left: 1px solid #dadee1;
+}
+
+#calendar table th.weekend, #calendar table td.weekend {
+  display: none;
+}
+
+#calendar table tr#weekend-control td {
+  padding-left: 10px;
+  background-color: #efede7;
+}
+
+#calendar table tr#weekend-control td a {
+  color: #000;
+  text-shadow: 0px 1px 0 #fff;
+}
+
+#calendar table tr#weekend-control td a:hover {
+  color: #555;
 }
 
 #calendar table tr th {
@@ -757,6 +779,20 @@ article.schedule h3:after {
   vertical-align: middle;
   height: 120px;
   text-align: center;
+=======
+  padding: 4px 0;
+  text-align: center;
+  background-color: #dadee1;
+  border-top: 1px solid #dadee1;
+  border-right: 1px solid #dadee1;
+  text-shadow: 0px 1px 0 #fff;
+}
+
+#calendar table tr td {
+  padding: 4px;
+  border-top: 1px solid #dadee1;
+  border-right: 1px solid #dadee1;
+>>>>>>> Calendar tweaks
 }
 
 #calendar table tr td.free {

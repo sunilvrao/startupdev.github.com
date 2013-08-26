@@ -14,8 +14,6 @@ $(document).on('ready', function() {
 	  itemSelector: 'li'
 	});
 
-	$("select.text").chosen();
-
 
 	$('#projects_gallery ul')
 	.after('<a href="#" id="projects_gallery_prev"></a>')
@@ -34,7 +32,7 @@ $(document).on('ready', function() {
 		$('#other-services').slideToggle();
 	});
 
-	$('.more a').on('click',function (e) {
+	$('.more .bt').on('click',function (e) {
 	    e.preventDefault();
 
 	    $('html, body').stop().animate({

@@ -453,6 +453,135 @@ mvp:
       company: "Vita Corporativa"
       description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
 
+  schedule:
+    year: 2013
+    data:
+      -
+        month: Junho
+        weeks:
+          -
+            date: 04/06
+            client: BRtrax
+            status: client
+          -
+            date: 11/06
+            client: Darwin Ianuskiewtz
+            status: client
+          -
+            date: 18/06
+            status: free
+          -
+            date: 25/06
+            client: Sou do Esporte
+            status: client
+          -
+            date:
+            status:
+      -
+        month: Julho
+        weeks:
+          -
+            date: 02/07
+            client: Samba Ads
+            status: client
+          -
+            date: 09/07
+            client: Raciel
+            status: client
+          -
+            date: 16/07
+            client: Danielle Meneses
+            status: client
+          -
+            date: 23/07
+            status: free
+          -
+            date: 30/07
+            client: Sala de Ideias
+            status: client
+      -
+        month: Agosto
+        weeks:
+          -
+            date: 06/08
+            status: free
+          -
+            date: 13/08
+            client: Alexandre Assed
+            status: client
+          -
+            date: 20/08
+            status: free
+          -
+            date: 27/08
+            status: free
+          -
+            date:
+            status:
+
+  schedule_en:
+    year: 2013
+    data:
+      -
+        month: June
+        weeks:
+          -
+            date: 04/06
+            client: BRtrax
+            status: client
+          -
+            date: 11/06
+            client: Darwin Ianuskiewtz
+            status: client
+          -
+            date: 18/06
+            status: free
+          -
+            date: 25/06
+            client: Sou do Esporte
+            status: client
+      -
+        month: July
+        weeks:
+          -
+            date: 02/07
+            client: Samba Ads
+            status: client
+          -
+            date: 09/07
+            client: Raciel
+            status: client
+          -
+            date: 16/07
+            client: Danielle Meneses
+            status: client
+          -
+            date: 23/07
+            client:
+            status: free
+          -
+            date: 30/07
+            client: Sala de Ideias
+            status: client
+      -
+        month: August
+        weeks:
+          -
+            date: 06/08
+            status: free
+          -
+            date: 13/08
+            client: Alexandre Assed
+            status: client
+          -
+            date: 20/08
+            status: free
+          -
+            date: 27/08
+            status: free
+          -
+            date:
+            status:
 
 ### Video infos
 video:

@@ -126,7 +126,7 @@ class: 'video_page'
           <tbody>
             {% for data in site.video.schedule.data %}
               <tr>
-                <th class="day">{{ data.month }} <span>{{ site.schedule.year }}</span></th>
+                <th class="day">{{ data.month }} <span>{{ site.video.schedule.year }}</span></th>
 
                 {% for week in data.weeks %}
                   <td class="{{ week.status }}">

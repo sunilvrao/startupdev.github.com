@@ -125,7 +125,7 @@ class: 'mvp_page'
           <tbody>
             {% for data in site.mvp.schedule.data %}
               <tr>
-                <th class="day">{{ data.month }} <span>{{ site.schedule.year }}</span></th>
+                <th class="day">{{ data.month }} <span>{{ site.mvp.schedule.year }}</span></th>
 
                 {% for week in data.weeks %}
                   <td class="{{ week.status }}">

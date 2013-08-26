@@ -703,22 +703,23 @@ article.schedule h3:after {
 
 #calendar table {
   width: 100%;
-  border-bottom: 1px solid #b3d6eb;
-  border-left: 1px solid #b3d6eb;
+  border-bottom: 1px solid #ffd798;
+  border-left: 1px solid #ffd798;
 }
 
 #calendar table tr th {
   width: 12%;
-  background-color: #C4E7FC;
-  border-top: 1px solid #b3d6eb;
-  border-right: 1px solid #b3d6eb;
-  text-shadow: 0px 1px 0 #fff;
+  background-color: #ff9c00;
+  border-top: 1px solid #ffd798;
+  border-right: 1px solid #ffd798;
+  text-shadow: 0px 1px 0 rgba(0,0,0,0.6);
   vertical-align: middle;
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   text-align: right;
   padding: 0 15px;
+  color: #fff;
 }
 
 #calendar table tr th span {
@@ -728,8 +729,8 @@ article.schedule h3:after {
 }
 
 #calendar table tr td {
-  border-top: 1px solid #b3d6eb;
-  border-right: 1px solid #b3d6eb;
+  border-top: 1px solid #ffd798;
+  border-right: 1px solid #ffd798;
   vertical-align: middle;
   height: 120px;
   text-align: center;

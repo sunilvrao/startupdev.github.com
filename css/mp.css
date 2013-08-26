@@ -963,11 +963,8 @@ Startupdev videos page
 .video_page #landing .bg-cover {
     background: rgba(23, 155, 149, 0.85);
 }
-.video_page #nav li a {
-    color: #abd6d0;
-}
 .video_page #nav.fxd {
-  background: rgba(23, 155, 149, 0.85);
+  background: rgba(23, 155, 149, 0.95);
 }
 .video_page .who-we-are {
     background: url('/images/mp/who-we-are-bg.png') center 0 repeat;

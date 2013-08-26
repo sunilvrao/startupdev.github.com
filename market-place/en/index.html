@@ -8,7 +8,6 @@ class: 'mvp_page'
 ---
 
 {% include mp_services.html %}
-
 <header id="top">
   <nav id="nav">
     <ul>
@@ -16,10 +15,12 @@ class: 'mvp_page'
       <li><a href="#" id="projects">Projetos entregues</a></li>
       <li><a href="#" id="who-we-are">Quem somos</a></li>
       <li><a href="#" id="testimonials">Depoimentos</a></li>
+      <li><a href="#" id="schedule">Agenda</a></li>
     </ul>
   </nav>
 
   <div class="grid">
+
     <h1>
       <a href="#">
         <img src="/images/mp/logotipo.png" alt="Startup DEV" />
@@ -46,7 +47,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="how-works">
+  <article class="how-works">
     <div class="grid">
       <h3>Como funciona</h3>
 
@@ -65,7 +66,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="projects">
+  <article class="projects">
     <div class="grid">
       <h3>+ de {{ site.mvp.number_of_projects }} projetos entregues com sucesso!</h3>
       <div id="projects_gallery">
@@ -87,11 +88,11 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="who-we-are">
+  <article class="who-we-are">
     <div class="grid">
       <h3>Nós somos a HE:labs</h3>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Somos uma equipe multidisciplinar composta por programadores, analistas, designers, hackers, entre outros especialistas nas tecnologias de ponta mais adequadas para resolver o seu problema. Nós conhecemos as mais novas metodologias e práticas de desenvolvimento de produto. Usamos Design Thinking, Lean Startup e Desenvolvimento Ágil para transformar a sua ideia em um produto real.</p>
 
       <span class="company">
         <a href="http://helabs.com.br" target="_blank"><img src="/images/mp/logotipo-helabs.png" alt="HE:labs" /></a>
@@ -99,7 +100,7 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="testimonials">
+  <article class="testimonials">
     <div class="grid">
       <h3>Depoimentos</h3>
 
@@ -116,11 +117,52 @@ class: 'mvp_page'
     </div>
   </article>
 
-  <article id="contact">
+  <article class="schedule">
+    <div class="grid">
+      <h3>Veja quando seu projeto pode rolar...</h3>
+      <div id="calendar">
+        <table>
+          <tbody>
+            {% for data in site.mvp.schedule.data %}
+              <tr>
+                <th class="day">{{ data.month }} <span>{{ site.schedule.year }}</span></th>
+
+                {% for week in data.weeks %}
+                  <td class="{{ week.status }}">
+                    {% if week.date %}
+                      <div class="day">Semana do dia {{ week.date }}</div>
+                    {% endif %}
+                    <div class="day-content">
+                      <strong>
+                        {% if week.status == 'client' %}
+                          {{ week.client }}
+                        {% elsif week.status == 'free' %}
+                          Livre :)
+                        {% elsif week.status == 'reserved' %}
+                          Reservado
+                        {% elsif week.status == 'unavailable' %}
+                          Indisponível
+                        {% else %}
+                          --
+                        {% endif %}
+                      </strong>
+                    </div>
+                  </td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </article>
+
+  <article class="contact">
     <div class="grid">
       <h3>então, vamos trabalhar juntos?</h3>
       <p>Preencha os seus dados abaixo e nós entramos em contato rapidinho para fecharmos negócio.</p>
       <iframe id="frame_contact" src="/wufoo/mvp.html"></iframe>
+
     </div>
   </article>
 </section>
@@ -128,9 +170,10 @@ class: 'mvp_page'
 <footer id="footer">
   <div class="grid">
     <div class="share">
-      share
+      <a href="#">
+        <img src="/images/mp/logotipo.png" alt="Startup DEV" />
+      </a>
     </div>
-
     <h4>
       <span>StartupDev MVP é um serviço realizado pela</span>
       <a href="http://helabs.com.br" target="_blank"><img src="/images/mp/logo-he-color.png" alt="HE:labs" /></a>

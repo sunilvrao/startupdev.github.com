@@ -11,11 +11,11 @@ class: 'mvp_page'
 <header id="top">
   <nav id="nav">
     <ul>
-      <li><a href="#" id="how-works">Como funciona</a></li>
-      <li><a href="#" id="projects">Projetos entregues</a></li>
-      <li><a href="#" id="who-we-are">Quem somos</a></li>
-      <li><a href="#" id="testimonials">Depoimentos</a></li>
-      <li><a href="#" id="schedule">Agenda</a></li>
+      <li><a href="#" id="how-works">How it works</a></li>
+      <li><a href="#" id="projects">Projects</a></li>
+      <li><a href="#" id="who-we-are">Who we are</a></li>
+      <li><a href="#" id="testimonials">Testimonials</a></li>
+      <li><a href="#" id="schedule">Schedule</a></li>
     </ul>
   </nav>
 
@@ -31,17 +31,17 @@ class: 'mvp_page'
       <strong>StartupDev MVP</strong> Mais um serviço StartupDev para decolar seu negócio
     </span>
 
-    <a class="other-services" href="#">Outros serviços</a>
+    <a class="other-services" href="#">Other services</a>
   </div>
 </header>
 
 <section id="content">
   <article id="landing">
     <div class="grid">
-      <p>Sua startup pronta para ser lançada. Desenvolvemos um MVP do seu produto em apenas 48 horas.</p>
+      <p>Your startup ready to be launched. We will develop a MVP of your product in just 48 hours.</p>
 
       <span class="madeby">
-        <strong>Por:</strong>
+        <strong>By:</strong>
         <a href="http://helabs.com.br" target="_blank"><img src="/images/mp/logotipo-helabs.png" alt="HE:labs" /></a>
       </span>
     </div>
@@ -49,26 +49,26 @@ class: 'mvp_page'
 
   <article class="how-works">
     <div class="grid">
-      <h3>Como funciona</h3>
+      <h3>How it works</h3>
 
       <ul id="steps">
-        <li class="idea plus">Sua ideia que vai virar MVP</li>
-        <li class="staff plus">Nossa equipe especializada</li>
-        <li class="time plus">48 horas de trabalho</li>
-        <li class="money equal">Investimento de 12 mil</li>
-        <li class="result">Seu MVP finalizado!</li>
+        <li class="idea plus">Your idea becomes a MVP</li>
+        <li class="staff plus">Our specialized staff</li>
+        <li class="time plus">48 working hours</li>
+        <li class="money equal">US$ 12,000 investiment</li>
+        <li class="result">Your MVP done!</li>
       </ul>
 
       <div class="more">
-        <a href="#contact" class="bt">Contratar agora</a>
-        <span><a rel="shadowbox;height=540;width=960" href="http://embed.videolog.tv/v/index.php?id_video=796308&amp;related=&amp;hd=&amp;color1=00C6DA&amp;color2=ffffff&amp;color3=&amp;slideshow=&amp;config_url=&amp;">ou assista nosso video de apresentação</a></span>
+        <a href="#contact" class="bt">Hiring now</a>
+        <span><a rel="shadowbox;height=540;width=960" href="//www.youtube.com/embed/gZFXo82lXDM">or watch our apresentation video</a></span>
       </div>
     </div>
   </article>
 
   <article class="projects">
     <div class="grid">
-      <h3>+ de {{ site.mvp.number_of_projects }} projetos entregues com sucesso!</h3>
+      <h3>More than {{ site.mvp.number_of_projects }} sucessful projects!</h3>
       <div id="projects_gallery">
         <ul>
 
@@ -90,7 +90,7 @@ class: 'mvp_page'
 
   <article class="who-we-are">
     <div class="grid">
-      <h3>Nós somos a HE:labs</h3>
+      <h3>We are HE:labs</h3>
 
       <p>Somos uma equipe multidisciplinar composta por programadores, analistas, designers, hackers, entre outros especialistas nas tecnologias de ponta mais adequadas para resolver o seu problema. Nós conhecemos as mais novas metodologias e práticas de desenvolvimento de produto. Usamos Design Thinking, Lean Startup e Desenvolvimento Ágil para transformar a sua ideia em um produto real.</p>
 
@@ -102,7 +102,7 @@ class: 'mvp_page'
 
   <article class="testimonials">
     <div class="grid">
-      <h3>Depoimentos</h3>
+      <h3>Testimonials</h3>
 
       <ul>
 
@@ -119,11 +119,11 @@ class: 'mvp_page'
 
   <article class="schedule">
     <div class="grid">
-      <h3>Veja quando seu projeto pode rolar...</h3>
+      <h3>Check when your project could be started...</h3>
       <div id="calendar">
         <table>
           <tbody>
-            {% for data in site.mvp.schedule.data %}
+            {% for data in site.mvp.schedule_en.data %}
               <tr>
                 <th class="day">{{ data.month }} <span>{{ site.mvp.schedule.year }}</span></th>
 
@@ -159,8 +159,8 @@ class: 'mvp_page'
 
   <article class="contact">
     <div class="grid">
-      <h3>então, vamos trabalhar juntos?</h3>
-      <p>Preencha os seus dados abaixo e nós entramos em contato rapidinho para fecharmos negócio.</p>
+      <h3>then let us work together?</h3>
+      <p>Fill in your details below and we will contact you.</p>
       <iframe id="frame_contact" src="/wufoo/mvp.html"></iframe>
 
     </div>
@@ -175,7 +175,7 @@ class: 'mvp_page'
       </a>
     </div>
     <h4>
-      <span>StartupDev MVP é um serviço realizado pela</span>
+      <span>StartupDev MVP is a service performed by</span>
       <a href="http://helabs.com.br" target="_blank"><img src="/images/mp/logo-he-color.png" alt="HE:labs" /></a>
     </h4>
   </div>

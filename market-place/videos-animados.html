@@ -105,17 +105,17 @@ class: 'video_page'
   <article class="testimonials">
     <div class="grid">
       <h3>Depoimentos</h3>
+      <div id="testimonials_gallery">
+        <ul>
+          {% for testimonial in site.video.testimonials %}
+          <li>
+            <p>"{{ testimonial.description }}"</p>
+            <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
+          </li>
+          {% endfor %}
 
-      <ul>
-
-        {% for testimonial in site.video.testimonials %}
-        <li>
-          <p>"{{ testimonial.description }}"</p>
-          <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
-        </li>
-        {% endfor %}
-
-      </ul>
+        </ul>
+      </div>
     </div>
   </article>
 

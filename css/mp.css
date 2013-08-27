@@ -604,8 +604,18 @@ a { text-decoration: none; }
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .testimonials {
-  padding: 90px 0 40px;
+    padding: 90px 0 40px;
 }
 
 .testimonials h3  {
@@ -655,50 +665,60 @@ a { text-decoration: none; }
   font-family: 'Lato', Helvetica, sans-serif;
 }
 
-.testimonials ul {
-  margin: 50px 0 0;
-  width: 100%;
-  overflow: hidden;
+
+#testimonials_gallery {
+    min-height: 417px;
+    background: none;
+    position: relative;
+    padding: 28px 0 0;
 }
 
-.testimonials ul li  {
-  width: 430px;
-  float: left;
-  padding: 0 50px 30px 0;
-  margin-bottom: 50px;
-  position: relative;
+#testimonials_gallery_next,
+#testimonials_gallery_prev {
+    background: url('/images/mp/gallery-arrows.png') 0 0 no-repeat;
+    width: 62px;
+    height: 62px;
+    display: block;
+    text-indent: -9999em;
+    top: 150px;
+    position: absolute;
 }
 
-.testimonials ul li:after {
-  width: 36px;
-  height: 11px;
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -38px;
-  background: url('/images/mp/testimonials-details.png') 0 0 no-repeat;
+#testimonials_gallery_next {
+    background-position: -62px 0;
+    right: 60px;
 }
 
-.testimonials ul li.n2:after { margin-left: 13px }
+#testimonials_gallery_prev {
+    left: 60px;
+}
 
-.testimonials ul li.n2 { padding: 0 0 30px 50px; }
+#testimonials_gallery_next:hover,
+#testimonials_gallery_prev:hover {
+    opacity: 0.8;
+}
 
+#testimonials_gallery ul {
+    width: 527px;
+    height: 500px;
+    margin: 0 auto;
+}
 
+#testimonials_gallery ul li {
+    text-align: center;
+}
 
-
+#testimonials_gallery ul li a:hover{
+    opacity: 0.95;
+}
 
 
 
 
 article.schedule {
-<<<<<<< HEAD
     padding: 40px 0 80px;
-=======
     border-top: 1px solid #dee1e2;
     padding: 80px 0;
->>>>>>> add divisor line
 }
 
 article.schedule h3 {
@@ -731,10 +751,8 @@ article.schedule h3:after {
 
 #calendar table {
   width: 100%;
-<<<<<<< HEAD
   border-bottom: 1px solid #ffd798;
   border-left: 1px solid #ffd798;
-=======
   border-bottom: 1px solid #dadee1;
   border-left: 1px solid #dadee1;
 }
@@ -784,10 +802,9 @@ article.schedule h3:after {
   vertical-align: middle;
   height: 120px;
   text-align: center;
-=======
   padding: 4px 0;
   text-align: center;
-  background-color: #dadee1;
+  background-color: #e1e3e5;
   border-top: 1px solid #dadee1;
   border-right: 1px solid #dadee1;
   text-shadow: 0px 1px 0 #fff;
@@ -797,7 +814,6 @@ article.schedule h3:after {
   padding: 4px;
   border-top: 1px solid #dadee1;
   border-right: 1px solid #dadee1;
->>>>>>> Calendar tweaks
 }
 
 #calendar table tr td.free {

@@ -16,7 +16,7 @@ class: 'mvp_page'
       <li><a href="#" id="who-we-are">Quem somos</a></li>
       <li><a href="#" id="testimonials">Depoimentos</a></li>
       <li><a href="#" id="schedule">Agenda</a></li>
-      <li><a href="#" id="contact">Contato</a></li>
+      <li><a href="#" id="contact">Contratar</a></li>
     </ul>
   </nav>
 
@@ -104,17 +104,17 @@ class: 'mvp_page'
   <article class="testimonials">
     <div class="grid">
       <h3>Depoimentos</h3>
+      <div id="testimonials_gallery">
+        <ul>
+          {% for testimonial in site.mvp.testimonials %}
+          <li>
+            <p>"{{ testimonial.description }}"</p>
+            <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
+          </li>
+          {% endfor %}
 
-      <ul>
-
-        {% for testimonial in site.mvp.testimonials %}
-        <li>
-          <p>"{{ testimonial.description }}"</p>
-          <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
-        </li>
-        {% endfor %}
-
-      </ul>
+        </ul>
+      </div>
     </div>
   </article>
 
@@ -163,7 +163,6 @@ class: 'mvp_page'
       <h3>então, vamos trabalhar juntos?</h3>
       <p>Preencha os seus dados abaixo e nós entramos em contato rapidinho para fecharmos negócio.</p>
       <iframe id="frame_contact" src="/wufoo/mvp.html"></iframe>
-
     </div>
   </article>
 </section>

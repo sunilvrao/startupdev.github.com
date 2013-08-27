@@ -155,6 +155,22 @@ a { text-decoration: none; }
     font-weight: 700;
 }
 
+#top a.language {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    color: #ADC6D2;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Lato', Helvetica, sans-serif;
+    letter-spacing: 0.085em;
+    font-weight: 700;
+}
+
+#top a.language:hover {
+    opacity: 0.7;
+}
+
 #top .other-services {
     color: #fbad21;
     font-size: 10px;

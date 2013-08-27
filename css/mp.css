@@ -1005,13 +1005,13 @@ Startupdev videos page
 }
 
 .video_page #projects_gallery ul {
-    width: 520px;
+    width: 524px;
 }
 
 .video_page #projects_gallery ul li img {
     display: block;
     margin-bottom: 80px;
-    width: 520px;
-    height: 290px;
+    width: 524px;
+    height: 297px;
 }
 

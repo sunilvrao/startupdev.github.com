@@ -693,7 +693,12 @@ a { text-decoration: none; }
 
 
 article.schedule {
+<<<<<<< HEAD
     padding: 40px 0 80px;
+=======
+    border-top: 1px solid #dee1e2;
+    padding: 80px 0;
+>>>>>>> add divisor line
 }
 
 article.schedule h3 {

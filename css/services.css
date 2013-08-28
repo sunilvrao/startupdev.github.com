@@ -190,6 +190,7 @@ a { text-decoration: none; }
     background-color: #afc6d2;
     padding: 40px 0 60px;
     display: none;
+    overflow: hidden;
 }
 
 #other-services ul {
@@ -209,6 +210,18 @@ a { text-decoration: none; }
     font-family: 'Lato', Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
+    display: block;
+    padding: 50px;
+}
+
+#other-services a.video-service {
+    background: url('/images/mp/video-menu-icon.png') center center no-repeat;
+    padding-top: 150px;
+}
+
+#other-services a.mvp-service {
+    background: url('/images/mp/mvp-menu-icon.png') center center no-repeat;
+    padding-top: 150px;
 }
 
 #other-services a:hover {
@@ -576,7 +589,7 @@ a { text-decoration: none; }
     height: 400px;
     width: 100%;
     position: relative;
-    background: url('/images/mp/time-he.png') center 0 repeat;
+    background: url('/images/mp/time-he-2.png') center 0 repeat;
     text-align: center;
 }
 
@@ -584,7 +597,7 @@ a { text-decoration: none; }
     width: 100%;
     height: 470px;
     background: #fb0101;
-    background: rgba(251,1,1,0.7);
+    background: rgba(251,1,1,0.75);
     position: absolute;
     top: 0;
     left: 0;

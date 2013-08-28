@@ -193,14 +193,27 @@ a { text-decoration: none; }
     overflow: hidden;
 }
 
+#other-services h4 {
+    color: #526d7c;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+}
+
 #other-services ul {
     overflow: hidden;
-    float: right;
+    margin: 0 auto;
+    width: 340px;
 }
 
 #other-services ul li {
     float: left;
-    margin-right: 30px;
+    margin-right: 60px;
+}
+
+#other-services ul li:last-child {
+    margin-right: 0;
 }
 
 #other-services a {
@@ -211,17 +224,17 @@ a { text-decoration: none; }
     font-size: 12px;
     text-align: center;
     display: block;
-    padding: 50px;
+    padding: 10px;
 }
 
 #other-services a.video-service {
-    background: url('/images/mp/video-menu-icon.png') center center no-repeat;
-    padding-top: 150px;
+    background: url('/images/mp/video-menu-icon2.png') center center no-repeat;
+    padding-top: 130px;
 }
 
 #other-services a.mvp-service {
-    background: url('/images/mp/mvp-menu-icon.png') center center no-repeat;
-    padding-top: 150px;
+    background: url('/images/mp/mvp-menu-icon2.png') center center no-repeat;
+    padding-top: 130px;
 }
 
 #other-services a:hover {

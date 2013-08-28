@@ -35,7 +35,7 @@ permalink: 'mvp/'
 
     <a class="other-services" href="#">Other services</a>
   </div>
-  <a  class="language" href="../../mvp" title="Versão em Portugues">pt</a>
+  <a  class="language" href="/services/mvp" title="Versão em Portugues">pt</a>
 </header>
 
 <section id="content">
@@ -132,14 +132,14 @@ permalink: 'mvp/'
                 {% for week in data.weeks %}
                   <td class="{{ week.status }}">
                     {% if week.date %}
-                      <div class="day">Semana do dia {{ week.date }}</div>
+                      <div class="day">Week of day {{ week.date }}</div>
                     {% endif %}
                     <div class="day-content">
                       <strong>
                         {% if week.status == 'client' %}
                           {{ week.client }}
                         {% elsif week.status == 'free' %}
-                          Livre :)
+                          Free :)
                         {% elsif week.status == 'reserved' %}
                           Reservado
                         {% elsif week.status == 'unavailable' %}
@@ -163,7 +163,7 @@ permalink: 'mvp/'
     <div class="grid">
       <h3>so, let's work together?</h3>
       <p>Fill in your details below and we'll contact you.</p>
-      <iframe id="frame_contact" src="/wufoo/mvp.html"></iframe>
+      <iframe id="frame_contact" src="/wufoo/mvp_en.html"></iframe>
 
     </div>
   </article>

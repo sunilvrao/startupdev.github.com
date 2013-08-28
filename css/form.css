@@ -1,0 +1,188 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+* { outline: none; }
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    background: url('/images/mp/chruch.png');
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul,
+ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+#frame_contact {
+width: 100%;
+height: 280px;
+}
+
+#form_contact {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+body.nobg { background: transparent !important; }
+
+#form_contact .hide { display: none; }
+
+#form_contact label {
+  display: none;
+}
+
+#form_contact .form-div {
+  float: left;
+  margin-right: 30px;
+  width: 465px;
+}
+
+#form_contact .form-div.email,
+#form_contact .form-div.sobrenome { margin-right: 0; }
+
+#form_contact .text {
+  width: 425px;
+  padding: 15px 20px;
+  float: left;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#form_contact .text {
+  margin-right: 30px;
+  font-size: 14px;
+  float: left;
+  text-transform: uppercase;
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #a9a9a9;
+}
+
+#form_contact .submit-div {
+  clear: both;
+  overflow: hidden;
+}
+
+#form_contact input.submit {
+    width: 370px;
+    height: 60px;
+    cursor: pointer;
+    margin: 60px auto 0;
+    background: transparent;
+    clear: both;
+    padding: 4px 0 2px;
+    float: none;
+    display: block;
+    border: 3px solid #ff9c00;
+    color: #ff9c00;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#form_contact input.submit:hover {
+    color: #fff;
+    background-color: #ff9c00;
+}

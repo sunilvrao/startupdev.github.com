@@ -78,10 +78,9 @@ permalink: 'animated-videos/'
 
           {% for project in site.video.projects %}
           <li>
-            <a href="{{ project.url }}" title="{{ project.name }}" target="_blank" rel="nofollow" class="photo">
+            <a rel="shadowbox;height=540;width=960" href="{{ project.url }}" title="{{ project.name }}" target="_blank" rel="nofollow" class="photo">
               <img src="{{ project.image }}" width="527" height="330" alt="{{  project.name }}" />
             </a>
-
             <h6>{{ project.name }}</h6>
             <p>{{ project.description }}</p>
           </li>

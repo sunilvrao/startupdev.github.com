@@ -481,22 +481,22 @@ video:
   projects:
     -
       name: Manager Book
-      url: "#"
+      url: "http://www.youtube.com/embed/ym0-4acU2L4?feature=player_detailpage"
       image: /images/projetos/video/managerbook.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Samba Ads
-      url: "#"
+      url: "http://www.youtube.com/embed/Tjk7pGYj9QA?feature=player_detailpage"
       image: /images/projetos/video/sambaads.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Cleaner
-      url: "#"
+      url: "http://www.youtube.com/embed/eNgD7xhNBZk?feature=player_detailpage"
       image: /images/projetos/video/cleaner.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
     -
       name: Adstruc
-      url: "#"
+      url: "http://www.youtube.com/embed/MpqNtHQB8-E?feature=player_detailpage"
       image: /images/projetos/video/adstruc.png
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
 

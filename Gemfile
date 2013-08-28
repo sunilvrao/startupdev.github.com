@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-gem 'jekyll',     	'=1.1.2'
+gem 'jekyll',     	'0.11.0'
 gem 'liquid',     	'=2.5.1'
 gem 'redcarpet',  	'=2.2.2'
 gem 'maruku',     	'=0.6.1'

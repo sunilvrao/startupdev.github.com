@@ -151,7 +151,7 @@ a { text-decoration: none; }
 }
 
 #top .call strong {
-    color: #adc6d2;
+    color: #6195b9;
     font-weight: 700;
 }
 
@@ -159,7 +159,7 @@ a { text-decoration: none; }
     position: absolute;
     right: 20px;
     top: 35px;
-    color: #ADC6D2;
+    color: #6195b9;
     font-size: 11px;
     text-transform: uppercase;
     font-family: 'Lato', Helvetica, sans-serif;
@@ -187,14 +187,14 @@ a { text-decoration: none; }
 }
 
 #other-services {
-    background-color: #afc6d2;
+    background-color: #6195b9;
     padding: 40px 0 60px;
     display: none;
     overflow: hidden;
 }
 
 #other-services h4 {
-    color: #526d7c;
+    color: #123955;
     text-align: center;
     font-size: 22px;
     letter-spacing: 0.06em;

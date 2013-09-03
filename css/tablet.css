@@ -1,5 +1,6 @@
 .grid {width: 96%; padding: 0 2%;}
-#top .call {display: none;}
+#top h1 {margin-top: 0px;}
+#top .call {left: 2%;margin-top: 40px;text-align: left;width: 80%;}
 #top .other-services {margin-right: 10%;}
 #nav ul {width: 95%;}
 #nav li {font-size: 11px; padding: 0 10px;}
@@ -7,3 +8,10 @@
 #landing .madeby {width: 80%;margin: 0 auto;}
 .how-works #steps {width: 90%;margin: 0 auto;}
 #steps li {margin-bottom: 60px;}
+#projects_gallery_prev {left: 0;}
+#projects_gallery_next {right: 0;}
+.who-we-are {padding: 30px 0 40px}
+.testimonials p {width: 70%; margin: 0 auto;}
+
+
+

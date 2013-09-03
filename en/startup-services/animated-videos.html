@@ -1,0 +1,184 @@
+---
+layout: services
+description: 'teste teste teste'
+keywords: 'teste, teste, teste, teste, teste'
+title: 'StartupDEV - Vídeos'
+favicon: '/favicon.png'
+class: 'video_page'
+permalink: 'animated-videos/'
+---
+
+{% include services_list_en.html %}
+
+<header id="top">
+  <nav id="nav">
+    <ul>
+      <li><a href="#" id="how-works">How it works</a></li>
+      <li><a href="#" id="projects">Projects</a></li>
+      <li><a href="#" id="who-we-are">Who we are</a></li>
+      <li><a href="#" id="testimonials">Testimonials</a></li>
+      <li><a href="#" id="schedule">Schedule</a></li>
+      <li><a href="#" id="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="grid">
+
+    <h1>
+      <a href="#">
+        <img src="/images/mp/logotipo.png" alt="Startup DEV" />
+      </a>
+    </h1>
+
+    <span class="call">
+      <strong>StartupDev Vídeo</strong> another StartupDev Service for your bussiness
+    </span>
+
+    <a class="other-services" href="#">Other services</a>
+  </div>
+  <a  class="language" href="../../videos-animados" title="Versão em Portugues">pt</a>
+</header>
+
+<section id="content">
+  <article id="landing">
+    <div class="grid">
+      <p>We turn long stories into animated video - in over 20 different languages. Wanna know more? Keep scrolling!.</p>
+
+      <span class="madeby">
+        <strong>Por:</strong>
+        <a href="http://chiligumvideos.com" target="_blank"><img src="/images/mp/logo-chili-pb.png" alt="Chiligum" /></a>
+      </span>
+    </div>
+  </article>
+
+  <article class="how-works">
+    <div class="grid">
+      <h3>How it works</h3>
+
+      <ul id="steps">
+        <li class="idea plus">Tell us your ideia</li>
+        <li class="staff plus">Our amazing team</li>
+        <li class="time plus">one working week</li>
+        <li class="money equal">US$ 6.000 investment</li>
+        <li class="result">Your video done!</li>
+      </ul>
+
+      <div class="more">
+        <a href="#contact" class="bt">Make your video now</a>
+        <span><a rel="shadowbox;height=540;width=960" href="//www.youtube.com/embed/gZFXo82lXDM">or watch our apresentation video</a></span>
+      </div>
+    </div>
+  </article>
+
+  <article class="projects">
+    <div class="grid">
+      <h3>More than {{ site.video.number_of_projects }} successful projects!</h3>
+      <div id="projects_gallery">
+        <ul>
+
+          {% for project in site.video.projects %}
+          <li>
+            <a rel="shadowbox;height=540;width=960" href="{{ project.url }}" title="{{ project.name }}" target="_blank" rel="nofollow" class="photo">
+              <img src="{{ project.image }}" width="527" height="330" alt="{{  project.name }}" />
+            </a>
+            <h6>{{ project.name }}</h6>
+            <p>{{ project.description }}</p>
+          </li>
+          {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="who-we-are">
+    <div class="grid">
+      <h3>We are Chiligum</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <span class="company">
+        <a href="http://chiligumvideos.com" target="_blank"><img src="/images/mp/logo-chili-pb.png" alt="Chiligum" /></a>
+      </span>
+    </div>
+  </article>
+
+  <article class="testimonials">
+    <div class="grid">
+      <h3>Testimonials</h3>
+      <div id="testimonials_gallery">
+        <ul>
+          {% for testimonial in site.video.testimonials %}
+          <li>
+            <p>"{{ testimonial.description }}"</p>
+            <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="schedule">
+    <div class="grid">
+      <h3>Check when your project could be started...</h3>
+      <div id="calendar">
+        <table>
+          <tbody>
+            {% for data in site.video.schedule.data %}
+              <tr>
+                <th class="day">{{ data.month }} <span>{{ site.video.schedule.year }}</span></th>
+
+                {% for week in data.weeks %}
+                  <td class="{{ week.status }}">
+                    {% if week.date %}
+                      <div class="day">Semana do dia {{ week.date }}</div>
+                    {% endif %}
+                    <div class="day-content">
+                      <strong>
+                        {% if week.status == 'client' %}
+                          {{ week.client }}
+                        {% elsif week.status == 'free' %}
+                          Livre :)
+                        {% elsif week.status == 'reserved' %}
+                          Reservado
+                        {% elsif week.status == 'unavailable' %}
+                          Indisponível
+                        {% else %}
+                          --
+                        {% endif %}
+                      </strong>
+                    </div>
+                  </td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </article>
+
+  <article class="contact">
+    <div class="grid">
+      <h3>so, let's work together?</h3>
+      <p>Fill in your details below and we'll contact you.</p>
+      <iframe id="frame_contact" src="/wufoo/mvp.html"></iframe>
+    </div>
+  </article>
+</section>
+
+<footer id="footer">
+  <div class="grid">
+    <div class="share">
+      <a href="#">
+        <img src="/images/mp/logotipo.png" alt="Startup DEV" />
+      </a>
+    </div>
+
+    <h4>
+      <span>StartupDev MVP is a service performed by</span>
+      <a href="http://chiligumvideos.com" target="_blank"><img src="/images/mp/logo-chili-color.png" alt="Chiligum" /></a>
+    </h4>
+  </div>
+</footer>

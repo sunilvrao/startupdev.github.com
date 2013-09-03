@@ -4,366 +4,601 @@ pygments: true
 exclude: ['Rakefile', 'README', 'Gemfile', 'Gemfile.lock', 'config.rb']
 permalink: :pretty
 
-number_of_projects: 50
+### MVP infos
+mvp:
+  number_of_projects: 55
 
-projects:
-  -
-    name: Perfil Plug
-    url: "http://www.perfilplug.com"
-    image: /images/projetos/perfilplug.png
-  -
-    name: Assed & Cavalcante
-    url: "http://www.assedcavalcante.com.br/"
-    image: /images/projetos/assed-cavalcante.png
-  -
-    name: Sala de Ideias
-    url: "http://www.saladeideias.com.br/"
-    image: /images/projetos/saladeideias.png
-  -
-    name: Niili
-    url: "http://www.niili.com.br/"
-    image: /images/projetos/niili.png
-  -
-    name: Samba Ads
-    url: "#"
-    image: /images/projetos/sambaads.png
-  -
-    name: Sou do Esporte
-    url: http://www.soudoesporte.com.br
-    image: /images/projetos/soudoesporte.png
-  -
-    name: Seu Orientador
-    url: http://www.seuorientador.com.br
-    image: /images/projetos/seuorientador.png
-  -
-    name: BRtrax
-    url: http://app.brtrax.com
-    image: /images/projetos/brtrax.png
-  -
-    name: RIO EM FOCO
-    url: http://www.rioemfoco.com.br
-    image: /images/projetos/rioemfoco.png
-  -
-    name: Dunno
-    url: http://www.dunno.vc
-    image: /images/projetos/dunno.png
-  -
-    name: Vita Corporativa
-    url: "http://www.vitacorporativa.com.br/"
-    image: /images/projetos/vitacorporativa.png
-  -
-    name: Alugue Campo e Praia
-    url: http://www.aluguecampoepraia.com.br/
-    image: /images/projetos/alugue-campo-e-praia.png
-  -
-    name: Timeeline
-    url: http://www.timeeline.com/
-    image: /images/projetos/timeeline.png
-  -
-    name: Meu Baby Chá
-    url: http://www.meubabycha.com.br/
-    image: /images/projetos/meu-baby-cha.png
-  -
-    name: Tempo Eh Dinheiro
-    url: http://www.tempoehdinheiro.com.br/
-    image: /images/projetos/tempo-eh-dinheiro.png
-  -
-    name: "Click&amp;Movimento"
-    url: http://www.clickemovimento.com.br
-    image: /images/projetos/clickemovimento.png
-  -
-    name: MIIDAH
-    url: http://app.miidah.com
-    image: /images/projetos/miidah.png
-  -
-    name: GiftBar
-    url: http://app.giftbar.com.br/
-    image: /images/projetos/giftbar.png
-  -
-    name: Xtools
-    url: "#"
-    image: /images/projetos/xtools.png
-  -
-    name: Cuponizando
-    url: http://ofertas.cuponizando.com.br/
-    image: /images/projetos/cuponizando.png
-  -
-    name: Innterpretti
-    url: http://www.innterpretti.com.br/
-    image: /images/projetos/innterpretti.png
-  -
-    name: Orçamento Rápido
-    url: http://app.orcamentorapido.com.br/
-    image: /images/projetos/orcamento-rapido.png
-  -
-    name: Incrível MEMO
-    url: http://incrivelmemo.com.br/
-    image: /images/projetos/memo.png
-  -
-    name: Mo Recipes
-    url: http://morecipes.com.br/
-    image: /images/projetos/morecipes.png
-  -
-    name: Horus
-    url: "#"
-    image: /images/projetos/horus.png
-  -
-    name: managerbook
-    url: http://managerbook.com.br/
-    image: /images/projetos/managerbook.png
-  -
-    name: Feedback Machine
-    url: http://app.feedback-machine.com/
-    image: /images/projetos/feedback-machine.png
-  -
-    name: Hintask
-    url: http://hintask.com/
-    image: /images/projetos/hintask.png
-  -
-    name: Shop My Shop
-    url: "#"
-    image: /images/projetos/shopmyshop.png
-  -
-    name: SMB Challenge
-    url: http://smbchallenge.com/
-    image: /images/projetos/smbchallenge.png
-  -
-    name: neighbourz
-    url: http://app.neighbourz.com
-    image: /images/projetos/neighbourz.png
-  -
-    name: hospedfácil
-    url: "#"
-    image: /images/projetos/hospedfacil.png
-  -
-    name: Landing Commerce
-    url: http://app.landingcommerce.com.br/
-    image: /images/projetos/landing-commerce.png
-  -
-    name: Mamãe eu Kero
-    url: http://www.mamaeeukero.com.br/
-    image: /images/projetos/mamaeeukero.png
-  -
-    name: WEBSIMULADO
-    url: http://www.websimulado.com.br/
-    image: /images/projetos/websimulado.png
-  -
-    name: Alik
-    url: http://www.alik.com.br/
-    image: /images/projetos/alik.png
-  -
-    name: NoTrombone
-    url: http://www.notrombone.com/
-    image: /images/projetos/no-trombone.png
-  -
-    name: Editora TIL
-    url: "#"
-    image: /images/projetos/no-screen.png
-  -
-    name: Game Quiz
-    url: http://apps.facebook.com/gamequizbr/
-    image: /images/projetos/gamequiz.png
-  -
-    name: Given 2 You
-    url: http://www.gv2u.com.br/
-    image: /images/projetos/given2you.png
-  -
-    name: Sparkel
-    url: "#"
-    image: /images/projetos/sparkel.png
-  -
-    name: Estou Jogando
-    url: http://estoujogando.com.br/
-    image: /images/projetos/estou-jogando.png
-  -
-    name: Shopping Passion
-    url: "#"
-    image: /images/projetos/shopping-passion.png
-  -
-    name: LetsEvo
-    url: http://www.designoteca.com/
-    image: /images/projetos/letsevo.png
-  -
-    name: Netadvocacia
-    url: http://www.netadvocacia.com.br/
-    image: /images/projetos/netadvocacia.png
-  -
-    name: Ultrapasse
-    url: "http://www.ultrapasseweb.com/"
-    image: /images/projetos/ultrapasse.png
-  -
-    name: Publication of Labels
-    url: "#"
-    image: /images/projetos/pol.png
-  -
-    name: Turbotaxi
-    url: "#"
-    image: /images/projetos/turbotaxi.png
-  -
-    name: Propsharely
-    url: "http://www.propsharely.com/"
-    image: /images/projetos/propsharely.png
-  -
-    name: LMT
-    url: https://www.likemytip.com.br/
-    image: /images/projetos/likemytip.png
-  -
-    name: Zupty
-    url: http://www.zupty.com/
-    image: /images/projetos/zupty.png
-  -
-    name: Amigo não se Compra
-    url: http://www.amigonaosecompra.com.br/
-    image: /images/projetos/amigo-nao-se-compra.png
-  -
-    name: Sabtudo
-    url: "http://www.sabtudo.com.br/"
-    image: /images/projetos/sabtudo.png
-  -
-    name: Safe Tracking
-    url: http://safetracking.com.br/
-    image: /images/projetos/safe-tracking.png
-  -
-    name: ContaCal
-    url: http://app.contacal.com.br/
-    image: /images/projetos/contacal.png
-  -
-    name: Rank Monitor
-    url: "#"
-    image: /images/projetos/rank-monitor.png
-  -
-    name: Ideias
-    url: "#"
-    image: /images/projetos/ideias.png
+  projects:
+    -
+      name: Perfil Plug
+      url: "http://www.perfilplug.com"
+      image: /images/projetos/mvp/perfilplug.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    # -
+    #   name: Assed & Cavalcante
+    #   url: "http://www.assedcavalcante.com.br/"
+    #   image: /images/projetos/mvp/assed-cavalcante.png
+    -
+      name: Sala de Ideias
+      url: "http://www.saladeideias.com.br/"
+      image: /images/projetos/mvp/saladeideias.png
+    -
+      name: Niili
+      url: "http://www.niili.com.br/"
+      image: /images/projetos/mvp/niili.png
+    # -
+    #   name: Samba Ads
+    #   url: "#"
+    #   image: /images/projetos/mvp/sambaads.png
+    -
+      name: Sou do Esporte
+      url: http://www.soudoesporte.com.br
+      image: /images/projetos/mvp/soudoesporte.png
+    # -
+    #   name: Seu Orientador
+    #   url: http://www.seuorientador.com.br
+    #   image: /images/projetos/mvp/seuorientador.png
+    # -
+    #   name: BRtrax
+    #   url: http://app.brtrax.com
+    #   image: /images/projetos/mvp/brtrax.png
+    -
+      name: RIO EM FOCO
+      url: http://www.rioemfoco.com.br
+      image: /images/projetos/mvp/rioemfoco.png
+    -
+      name: Dunno
+      url: http://www.dunno.vc
+      image: /images/projetos/mvp/dunno.png
+    -
+      name: Vita Corporativa
+      url: "http://www.vitacorporativa.com.br/"
+      image: /images/projetos/mvp/vitacorporativa.png
+    -
+      name: Alugue Campo e Praia
+      url: http://www.aluguecampoepraia.com.br/
+      image: /images/projetos/mvp/alugue-campo-e-praia.png
+    -
+      name: Timeeline
+      url: http://www.timeeline.com/
+      image: /images/projetos/mvp/timeeline.png
+    -
+      name: Meu Baby Chá
+      url: http://www.meubabycha.com.br/
+      image: /images/projetos/mvp/meu-baby-cha.png
+    # -
+    #   name: Tempo Eh Dinheiro
+    #   url: http://www.tempoehdinheiro.com.br/
+    #   image: /images/projetos/mvp/tempo-eh-dinheiro.png
+    # -
+    #   name: "Click&amp;Movimento"
+    #   url: http://www.clickemovimento.com.br
+    #   image: /images/projetos/mvp/clickemovimento.png
+    # -
+    #   name: MIIDAH
+    #   url: http://app.miidah.com
+    #   image: /images/projetos/mvp/miidah.png
+    -
+      name: GiftBar
+      url: http://app.giftbar.com.br/
+      image: /images/projetos/mvp/giftbar.png
+    # -
+    #   name: Xtools
+    #   url: "#"
+    #   image: /images/projetos/mvp/xtools.png
+    # -
+    #   name: Cuponizando
+    #   url: http://ofertas.cuponizando.com.br/
+    #   image: /images/projetos/mvp/cuponizando.png
+    -
+      name: Innterpretti
+      url: http://www.innterpretti.com.br/
+      image: /images/projetos/mvp/innterpretti.png
+    # -
+    #   name: Orçamento Rápido
+    #   url: http://app.orcamentorapido.com.br/
+    #   image: /images/projetos/mvp/orcamento-rapido.png
+    -
+      name: Incrível MEMO
+      url: http://incrivelmemo.com.br/
+      image: /images/projetos/mvp/memo.png
+    -
+      name: Mo Recipes
+      url: http://morecipes.com.br/
+      image: /images/projetos/mvp/morecipes.png
+    # -
+    #   name: Horus
+    #   url: "#"
+    #   image: /images/projetos/mvp/horus.png
+    -
+      name: managerbook
+      url: http://managerbook.com.br/
+      image: /images/projetos/mvp/managerbook.png
+    -
+      name: Feedback Machine
+      url: http://app.feedback-machine.com/
+      image: /images/projetos/mvp/feedback-machine.png
+    # -
+    #   name: Hintask
+    #   url: http://hintask.com/
+    #   image: /images/projetos/mvp/hintask.png
+    # -
+    #   name: Shop My Shop
+    #   url: "#"
+    #   image: /images/projetos/mvp/shopmyshop.png
+    # -
+    #   name: SMB Challenge
+    #   url: http://smbchallenge.com/
+    #   image: /images/projetos/mvp/smbchallenge.png
+    # -
+    #   name: neighbourz
+    #   url: http://app.neighbourz.com
+    #   image: /images/projetos/mvp/neighbourz.png
+    # -
+    #   name: hospedfácil
+    #   url: "#"
+    #   image: /images/projetos/mvp/hospedfacil.png
+    -
+      name: Landing Commerce
+      url: http://app.landingcommerce.com.br/
+      image: /images/projetos/mvp/landing-commerce.png
+    -
+      name: Mamãe eu Kero
+      url: http://www.mamaeeukero.com.br/
+      image: /images/projetos/mvp/mamaeeukero.png
+    -
+      name: WEBSIMULADO
+      url: http://www.websimulado.com.br/
+      image: /images/projetos/mvp/websimulado.png
+    -
+      name: Alik
+      url: http://www.alik.com.br/
+      image: /images/projetos/mvp/alik.png
+    -
+      name: NoTrombone
+      url: http://www.notrombone.com/
+      image: /images/projetos/mvp/no-trambone.png
+    # -
+    #   name: Editora TIL
+    #   url: "#"
+    #   image: /images/projetos/mvp/no-screen.png
+    # -
+    #   name: Game Quiz
+    #   url: http://apps.facebook.com/gamequizbr/
+    #   image: /images/projetos/mvp/gamequiz.png
+    -
+      name: Given 2 You
+      url: http://www.gv2u.com.br/
+      image: /images/projetos/mvp/given2you.png
+    # -
+    #   name: Sparkel
+    #   url: "#"
+    #   image: /images/projetos/mvp/sparkel.png
+    -
+      name: Estou Jogando
+      url: http://estoujogando.com.br/
+      image: /images/projetos/mvp/estou-jogando.png
+    # -
+    #   name: Shopping Passion
+    #   url: "#"
+    #   image: /images/projetos/mvp/shopping-passion.png
+    -
+      name: LetsEvo
+      url: http://www.designoteca.com/
+      image: /images/projetos/mvp/letsevo.png
+    -
+      name: Netadvocacia
+      url: http://www.netadvocacia.com.br/
+      image: /images/projetos/mvp/netadvocacia.png
+    -
+      name: Ultrapasse
+      url: "http://www.ultrapasseweb.com/"
+      image: /images/projetos/mvp/ultrapasse.png
+    # -
+    #   name: Publication of Labels
+    #   url: "#"
+    #   image: /images/projetos/mvp/pol.png
+    # -
+    #   name: Turbotaxi
+    #   url: "#"
+    #   image: /images/projetos/mvp/turbotaxi.png
+    # -
+    #   name: Propsharely
+    #   url: "http://www.propsharely.com/"
+    #   image: /images/projetos/mvp/propsharely.png
+    # -
+    #   name: LMT
+    #   url: https://www.likemytip.com.br/
+    #   image: /images/projetos/mvp/likemytip.png
+    -
+      name: Zupty
+      url: http://www.zupty.com/
+      image: /images/projetos/mvp/zupty.png
+    -
+      name: Amigo não se Compra
+      url: http://www.amigonaosecompra.com.br/
+      image: /images/projetos/mvp/amigo-nao-se-compra.png
+    # -
+    #   name: Sabtudo
+    #   url: "http://www.sabtudo.com.br/"
+    #   image: /images/projetos/mvp/sabtudo.png
+    -
+      name: Safe Tracking
+      url: http://safetracking.com.br/
+      image: /images/projetos/mvp/safe-tracking.png
+    -
+      name: ContaCal
+      url: http://app.contacal.com.br/
+      image: /images/projetos/mvp/contacal.png
+    # -
+    #   name: Rank Monitor
+    #   url: "#"
+    #   image: /images/projetos/mvp/rank-monitor.png
+    # -
+    #   name: Ideias
+    #   url: "#"
+    #   image: /images/projetos/mvp/ideias.png
 
-schedule:
-  year: 2013
-  data:
+  testimonials:
     -
-      month: Julho
-      weeks:
-        -
-          date: 02/07
-          client: Samba Ads
-          status: client
-        -
-          date: 09/07
-          client: Raciel
-          status: client
-        -
-          date: 16/07
-          client: Danielle Meneses
-          status: client
-        -
-          date: 23/07
-          status: free
-        -
-          date: 30/07
-          client: Sala de Ideias
-          status: client
+      name: "Sabine Bolonhini"
+      company: "Sou do Esporte"
+      description: "Muito obrigada pelo envolvimento de vocês!   Muito mais do que desenvolver um software, vocês concretizaram o primeiro passo de um sonho nosso!  Parabéns pelo trabalho! Estamos muito satisfeitas!"
     -
-      month: Agosto
-      weeks:
-        -
-          date: 06/08
-          status: free
-        -
-          date: 13/08
-          client: Alexandre Assed
-          status: client
-        -
-          date: 20/08
-          client: PerfilPlug
-          status: client
-        -
-          date: 27/08
-          status: free
-        -
-          date:
-          status:
+      name: "Mauro Ribeiro"
+      company: "Miidah"
+      description: "O resultado do Startup DEV superou nossas expectativas. Além da entrega no prazo, sistema funcionando sem erros, etc, a 'visão' da equipe da HE:labs apresentada no primeiro dia de desenvolvimento do Startup DEV contribuiu muito para melhorarmos o projeto inicial de MVP que tínhamos."
     -
-      month: Setembro
-      weeks:
-        -
-          date: 03/09
-          status:
-        -
-          date: 10/09
-          client: Marcos Valle
-          status: client
-        -
-          date: 17/09
-          status: free
-        -
-          date: 24/09
-          status: free
-        -
-          date:
-          status:
+      name: "Prof. Darwin Ianuskiewtz"
+      company: "Seu Orientador"
+      description: "Agradeço a atenção de toda a equipe e o tratamento profissional que permitiu que  a seriedade e comprometimento proporcionasse o bom desenvolvimento da proposta."
+    -
+      name: "Milton Menezes"
+      company: "Vita Corporativa"
+      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
+    -
+      name: "Lucas Boscacci Lima"
+      company: "Dunno"
+      description: "Depois de uma semana do trabalho feito, muita coisa acontece, mas fica a lembrança memorável do trabalho com a equipe da HE Labs. Agradeço pela seriedade e emprenho apresentado nos 3 dias do Startup Dev. Pela minha experiência, no cenário atual de desenvolvimento de aplicações, é muito difícil encontrar a qualidade do serviço de vocês. Ainda mais difícil é encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão"
+    -
+      name: "Matheus Diaz e Ronnie Possatti"
+      company: "Horus"
+      description: "O serviço prestado pela Startup DEV superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa. Temos certeza que produto desenvolvido com qualidade e agilidade foi um ótimo primeiro passo para o nosso projeto! Obrigado pela experiência."
+    -
+      name: "Rodrigo Soares"
+      company: "Hintask"
+      description: "Só temos a agradecer ao Startup DEV. A equipe de desenvolvimento foi extremamente profissional e conseguiu superar todas expectativas. Em 48 horas ter um protótipo completamente funcional com um design de primeira linha é algo monstruoso. Parabéns!"
+    -
+      name: "José Roberto H. da Gama"
+      company: "NetAdvocacia"
+      description: "Minha experiência com o Startup DEV foi ótima. O trabalho foi objetivo, entregue dentro do prazo e com qualidade.  Além do mais, os aconselhamentos técnicos fizeram toda a diferença, pois a sensação ao final foi de ter recebido mais do que havia sido planejado e contratado."
+    -
+      name: "Kauê Linden"
+      company: "Game Guiz"
+      description: "Desenvolver nosso projeto através do Startup DEV foi a forma mais rápida que encontrei de colocar o projeto que idealizamos no ar. Além de sair satisfeito com meu projeto no ar em  apenas 3 dias, o processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software. Recomendo e tenho certeza que vou recorrer em breve a outras rodadas"
+    -
+      name: "Amure Pinho"
+      company: "Amigo Não Se Compra / SyncMobile"
+      description: "O trabalho desenvolvido pela equipe do Startup DEV é fantástico. O conhecimento técnico e a habilidade do time em entender o projeto e desenhar o MVP não só garante a entrega do projeto dentro do prazo excepcional como torna o produto mais inteligente. Aprovadíssimo!"
+    -
+      name: "Diego Ivo"
+      company: "Rank Monitor"
+      description: "Com a ajuda do pessoal do Startup DEV, a Conversion conseguiu lançar no mercado uma ferramenta de SEO inovadora, simples e muito funcional. Nossa ferramenta teve milhões de pageviews, o que foi muito importante para nós."
+    -
+      name: "Andre Diamand"
+      company: "Zupty / VentureOne"
+      description: "A equipe do Startup DEV não tráz somente o software amado em 3 dias, neste período eles nos ensinam na prática o que é um projeto LEAN de verdade, tocado com muita qualidade e capricho."
+    -
+      name: "Pablo Braga"
+      company: "Safetracking / Sidetech"
+      description: "A experiência da Sidetech com o Startup DEV foi muito boa. O formato proposto é bem produtivo, pois utiliza técnicas durante a reunião inicial que permite ter uma visão geral do projeto, antes mesmo de iniciar. O sistema de pontos te dá flexibilidade para definir o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo seu projeto. A equipe é super competente e o trabalho de desenvolvimento realmente foi feito em 48 horas."
+    -
+      name: "Joaquim Torres"
+      company: "ContaCal"
+      description: "O pessoal do Startup DEV foi essencial para a realização do ContaCal. Eles não só manjam muito de desenvolvimento de software como têm bastante experiência de negócios web, o que os torna ótimos parceiros para criação de MVP."
+    -
+      name: "Mario Sousa de Alencar"
+      company: "Shopping Passion"
+      description: "Posso afirmar que o Startup DEV são pessoas extremamente experientes prestando um excelente serviço para pessoas que desejam empreender na internet e não possuem o conhecimento tecnológico. Contudo, a metodologia utilizada é bastante eficiente para empreendedores que já possuam o MVP bem definido, para que de fato, a ideia possa ser transformada em um protótipo a ser testado."
 
-schedule_en:
-  year: 2013
-  data:
+  testimonials-en:
     -
-      month: July
-      weeks:
-        -
-          date: 02/07
-          client: Samba Ads
-          status: client
-        -
-          date: 09/07
-          client: Raciel
-          status: client
-        -
-          date: 16/07
-          client: Danielle Meneses
-          status: client
-        -
-          date: 23/07
-          client:
-          status: free
-        -
-          date: 30/07
-          client: Sala de Ideias
-          status: client
+      name: "Matheus Diaz e Ronnie Possatti"
+      company: "Horus"
+      description: "The Startup DEV service has overcome our expectations.we've got emphasize exactly the most important targets for the first stage. we're quite  sure that the fast and quality developed product was a great first step for our project! thank you for the experience."
     -
-      month: August
-      weeks:
-        -
-          date: 06/08
-          status: free
-        -
-          date: 13/08
-          client: Alexandre Assed
-          status: client
-        -
-          date: 20/08
-          client: PerfilPlug
-          status: client
-        -
-          date: 27/08
-          status: free
-        -
-          date:
-          status:
+      name: "Rodrigo Soares"
+      company: "Hintask"
+      description: "We can only thank the Startup DEV. The development team was extremely professional and managed to surpass all expectations. In 48 hours have a fully functional prototype with a design of choice is something monstrous. Congratulations!"
     -
-      month: September
-      weeks:
-        -
-          date: 03/09
-          status:
-        -
-          date: 10/09
-          client: Marcos Valle
-          status: client
-        -
-          date: 17/09
-          status: free
-        -
-          date: 24/09
-          status: free
-        -
-          date:
-          status:
+      name: "José Roberto H. da Gama"
+      company: "NetAdvocacia"
+      description: "My experience with the Startup DEV was great. The work goal was delivered on time and with quality. Moreover, the technical advice made ​​all the difference, because the feeling at the end was to have received more than had been planned and contracted."
+    -
+      name: "Kauê Linden"
+      company: "Game Guiz"
+      description: "Develop our project through the Startup DEV was the quickest way I found to get the project we envision in the air. Besides leaving satisfied with my design in the air in just three days, the process was a real lesson on how to organize projects related to software development. Recommend and I'm sure I will soon turn to other rounds."
+    -
+      name: "Amure Pinho"
+      company: "Amigo Não Se Compra / SyncMobile"
+      description: "The work done by the team at Startup DEV is fantastic. Technical knowledge and ability of the team to understand the project and draw the MVP not only ensures the delivery of the project within exceptional as the product becomes more intelligent. Aprovadíssimo!"
+    -
+      name: "Diego Ivo"
+      company: "Rank Monitor"
+      description: "With the help of the staff of Startup DEV, the Conversion could market a SEO tool innovative, simple and very functional. Our tool has millions of pageviews, which was very important to us."
+    -
+      name: "Andre Diamand"
+      company: "Zupty / VentureOn"
+      description: "The Startup DEV team brings not only the beloved software in three days, this time they teach us in practice what is a project of LEAN actually played with a lot of quality and whimsy."
+    -
+      name: "Pablo Braga"
+      company: "Safetracking / Sidetech"
+      description: "The experience with the Startup Sidetech DEV was very good. The proposed format is very productive because it uses techniques during the initial meeting which gives an overview of the project, before you even start. The points system gives you the flexibility to define what is really a priority and you can develop the rest later, when customers or investors take an interest in your project. <br> The staff is super responsible and development work was actually done in 48 hours."
+    -
+      name: "Joaquim Torres"
+      company: "ContaCal"
+      description: "The staff Startup DEV was essential to the realization of ContaCal. They not only manjam much software development and have enough experience in web business, which makes them great partners for creating MVP."
+    -
+      name: "Mario Sousa de Alencar"
+      company: "Shopping Passion"
+      description: "I can confirm that the Startup DEV are extremely experienced people providing great service for people who wish to undertake on the internet and do not have the technological knowledge. However, the methodology is very effective for entrepreneurs who already have the MVP clearly defined so that in fact, the idea can be transformed into a prototype to be tested."
+
+  schedule:
+    year: 2013
+    data:
+      -
+        month: Julho
+        weeks:
+          -
+            date: 02/07
+            client: Samba Ads
+            status: client
+          -
+            date: 09/07
+            client: Raciel
+            status: client
+          -
+            date: 16/07
+            client: Danielle Meneses
+            status: client
+          -
+            date: 23/07
+            status: free
+          -
+            date: 30/07
+            client: Sala de Ideias
+            status: client
+      -
+        month: Agosto
+        weeks:
+          -
+            date: 06/08
+            status: free
+          -
+            date: 13/08
+            client: Alexandre Assed
+            status: client
+          -
+            date: 20/08
+            client: PerfilPlug
+            status: client
+          -
+            date: 27/08
+            status: free
+          -
+            date:
+            status:
+      -
+        month: Setembro
+        weeks:
+          -
+            date: 03/09
+            status:
+          -
+            date: 10/09
+            client: Marcos Valle
+            status: client
+          -
+            date: 17/09
+            status: free
+          -
+            date: 24/09
+            status: free
+          -
+            date:
+            status:
+
+  schedule_en:
+    year: 2013
+    data:
+      -
+        month: July
+        weeks:
+          -
+            date: 02/07
+            client: Samba Ads
+            status: client
+          -
+            date: 09/07
+            client: Raciel
+            status: client
+          -
+            date: 16/07
+            client: Danielle Meneses
+            status: client
+          -
+            date: 23/07
+            client:
+            status: free
+          -
+            date: 30/07
+            client: Sala de Ideias
+            status: client
+      -
+        month: August
+        weeks:
+          -
+            date: 06/08
+            status: free
+          -
+            date: 13/08
+            client: Alexandre Assed
+            status: client
+          -
+            date: 20/08
+            client: PerfilPlug
+            status: client
+          -
+            date: 27/08
+            status: free
+          -
+            date:
+            status:
+      -
+        month: September
+        weeks:
+          -
+            date: 03/09
+            status:
+          -
+            date: 10/09
+            client: Marcos Valle
+            status: client
+          -
+            date: 17/09
+            status: free
+          -
+            date: 24/09
+            status: free
+          -
+            date:
+            status:
+
+### Video infos
+video:
+  number_of_projects: 30
+
+  projects:
+    -
+      name: Manager Book
+      url: "http://www.youtube.com/embed/ym0-4acU2L4?feature=player_detailpage"
+      image: /images/projetos/video/managerbook.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Samba Ads
+      url: "http://www.youtube.com/embed/Tjk7pGYj9QA?feature=player_detailpage"
+      image: /images/projetos/video/sambaads.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Cleaner
+      url: "http://www.youtube.com/embed/eNgD7xhNBZk?feature=player_detailpage"
+      image: /images/projetos/video/cleaner.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+    -
+      name: Adstruc
+      url: "http://www.youtube.com/embed/MpqNtHQB8-E?feature=player_detailpage"
+      image: /images/projetos/video/adstruc.png
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
+
+  testimonials:
+    -
+      name: "Mauro"
+      company: "RBM Solutions"
+      description: "We appreciated Chili Gum Videos work very much. Since the first time we got in touch we always had a great customer service and everything agreed was done flawlessly. Deadlines were met and all the necessary changes were communicated in advance. The most satisfying of all was the quality of the work delivered, far above expectations. I recommend Chili Gum Videos to everyone"
+    -
+      name: "Louise Kinane"
+      company: "Piriform"
+      description: "Chili Gum were a pleasure to work with and we are delighted with the final product! Their work was high quality, turnaround was quick, and they were very flexible in terms of tweaks we requested. We hope work with Chili Gum again soon and have no hesitation recommending them to others."
+
+  schedule:
+    year: 2013
+    data:
+      -
+        month: Junho
+        weeks:
+          -
+            date: 04/06
+            client: BRtrax
+            status: client
+          -
+            date: 11/06
+            client: Darwin Ianuskiewtz
+            status: client
+          -
+            date: 18/06
+            status: free
+          -
+            date: 25/06
+            client: Sou do Esporte
+            status: client
+          -
+            date:
+            status:
+      -
+        month: Julho
+        weeks:
+          -
+            date: 02/07
+            client: Samba Ads
+            status: client
+          -
+            date: 09/07
+            client: Raciel
+            status: client
+          -
+            date: 16/07
+            client: Danielle Meneses
+            status: client
+          -
+            date: 23/07
+            status: free
+          -
+            date: 30/07
+            client: Sala de Ideias
+            status: client
+
+  schedule_en:
+    year: 2013
+    data:
+      -
+        month: June
+        weeks:
+          -
+            date: 04/06
+            client: BRtrax
+            status: client
+          -
+            date: 11/06
+            client: Darwin Ianuskiewtz
+            status: client
+          -
+            date: 18/06
+            status: free
+          -
+            date: 25/06
+            client: Sou do Esporte
+            status: client
+      -
+        month: July
+        weeks:
+          -
+            date: 02/07
+            client: Samba Ads
+            status: client
+          -
+            date: 09/07
+            client: Raciel
+            status: client
+          -
+            date: 16/07
+            client: Danielle Meneses
+            status: client
+          -
+            date: 23/07
+            client:
+            status: free
+          -
+            date: 30/07
+            client: Sala de Ideias
+            status: client
 

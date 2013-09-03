@@ -286,10 +286,11 @@ schedule:
       weeks:
         -
           date: 03/09
-          status: free
+          status:
         -
           date: 10/09
-          status: free
+          client: Marcos Valle
+          status: client
         -
           date: 17/09
           status: free
@@ -351,10 +352,11 @@ schedule_en:
       weeks:
         -
           date: 03/09
-          status: free
+          status:
         -
           date: 10/09
-          status: free
+          client: Marcos Valle
+          status: client
         -
           date: 17/09
           status: free

@@ -363,7 +363,7 @@ mvp:
             status: client
           -
             date: 23/07
-            status: free
+            status: unavailable
           -
             date: 30/07
             client: Sala de Ideias
@@ -373,7 +373,7 @@ mvp:
         weeks:
           -
             date: 06/08
-            status: free
+            status: unavailable
           -
             date: 13/08
             client: Alexandre Assed
@@ -384,7 +384,7 @@ mvp:
             status: client
           -
             date: 27/08
-            status: free
+            status: unavailable
           -
             date:
             status:
@@ -429,7 +429,7 @@ mvp:
           -
             date: 23/07
             client:
-            status: free
+            status: unavailable
           -
             date: 30/07
             client: Sala de Ideias
@@ -439,7 +439,7 @@ mvp:
         weeks:
           -
             date: 06/08
-            status: free
+            status: unavailable
           -
             date: 13/08
             client: Alexandre Assed
@@ -450,7 +450,7 @@ mvp:
             status: client
           -
             date: 27/08
-            status: free
+            status: unavailable
           -
             date:
             status:

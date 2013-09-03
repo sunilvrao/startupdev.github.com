@@ -1,0 +1,9 @@
+.grid {width: 96%; padding: 0 2%;}
+#top .call {display: none;}
+#top .other-services {margin-right: 10%;}
+#nav ul {width: 95%;}
+#nav li {font-size: 11px; padding: 0 10px;}
+#landing p {padding: 0;width: 90%;margin: 0 auto 20px;}
+#landing .madeby {width: 80%;margin: 0 auto;}
+.how-works #steps {width: 90%;margin: 0 auto;}
+#steps li {margin-bottom: 60px;}

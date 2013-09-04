@@ -859,3 +859,38 @@ Startupdev videos page
   width: 100%;
   height: 280px;
 }
+
+
+/*
+Contatc Sent Page
+*/
+article.contact-sent {
+  width: 70%;
+  margin: 100px auto 0;
+}
+
+article.contact-sent h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #383838;
+}
+
+article.contact-sent h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+article.contact-sent p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+article.contact-sent h1:after {
+  background-color: #FFAE00;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 20px auto 0;
+  width: 50%;
+}
+

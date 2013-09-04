@@ -18,17 +18,49 @@
 .how-works .bt  {width: 260px;font-size: 14px;height: 40px;line-height: 40px;color: #fff;background-color: #ff9c00}
 .how-works #steps li.result {float: none;}
 .how-works #steps li.money:after {right: -20px;}
-.projects {display: none;}
 .who-we-are {background: none;height: 400px;padding: 30px 0 0;}
 .who-we-are h3 {font-size: 30px;margin-bottom: 20px;}
 .who-we-are h3:after {display: none;}
 .who-we-are p {text-align: left;padding: 0 5%;font-size: 15px;line-height: 22px;margin-bottom: 40px;}
 .who-we-are .bg-cover {background: rgba(251, 1, 1, 0.8); height: 430px;}
-.testimonials, .schedule {display: none;}
 .contact h3:after {display: none;}
 .contact h3 {font-size: 30px;font-weight: 700;}
 .contact p {margin-top: 20px;line-height: 20px;}
 #footer .share {float: none;margin-top: 0px;width: 90%;margin: 0 auto;}
 #footer .share a {text-align: center;}
 #footer h4 {float: none;text-align: center;}
+#frame_contact {height: 380px;}
+#form_contact {height: 380px;}
+#form_contact input.submit {width: auto;margin: 40px auto 0;padding: 0 5%;color: #fff;background-color: #ff9c00;}
+article.schedule {padding: 40px 0;}
+article.schedule h3:after {display: none;}
+article.schedule h3 {font-size: 30px;margin-bottom: 30px;}
+#calendar {width: 100%;margin: 0;border: none;}
+#calendar table {width: 100%;}
+#calendar table tr th.day {font-size: 12px;padding: 5px 10px;text-align: left;width: auto;display: block;position: absolute;}
+#calendar table tr th.day span {display: none;}
+#calendar table tr td {border-right: none;height: 60px;text-shadow: none;font-size: 12px;width: 100%;display: block;padding: 0; padding-top: 20px;}
+.testimonials {padding: 40px 0;}
+#testimonials_gallery_next, #testimonials_gallery_prev {position: relative;display: none;}
+.testimonials h3:after, .testimonials h3:before {display: none;}
+.testimonials h3 {text-align: center;font-size: 18px; width: 90%;margin-bottom: 30px; padding: 0 5%;}
+.testimonials #testimonials_gallery ul {height: auto;margin: 0 auto;width: 100px;}
+.testimonials p {font-size: 14px;line-height: 26px;width: 260px;}
+.projects {padding: 40px 0;}
+.projects h3:after, .testimonials h3:before {display: none;}
+.projects h3 {text-align: center;font-size: 30px; width: 90%;margin-bottom: 30px; padding: 0 5%;}}
+#projects_gallery {background: none transparent}
+#projects_gallery ul {height: 200px;margin: 0 auto;width: 100%;}
+#projects_gallery ul li {height: auto;margin: 0 auto;width: 100%;}
+#projects_gallery ul li img {margin-bottom: 0px;width: 100%;height: auto;margin: 0 auto;}
+#projects_gallery {background: none repeat scroll 0 0 transparent;padding: 0;min-height: 300px;}
+#projects_gallery ul li h6 {font-size: 14px;margin-top: 20px;}
+#projects_gallery_next, #projects_gallery_prev {display: none;}
+
+
+
+
+
+
+
 

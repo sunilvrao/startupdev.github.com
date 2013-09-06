@@ -861,6 +861,31 @@ Startupdev videos page
 }
 
 
+
+
+
+
+/*
+Startupdev Sistema Web page
+*/
+
+.sistema_web_page #landing .bg-cover {
+  background: rgba(156, 28, 31, 0.85);
+}
+
+.who-we-are .bg-cover {
+  background: rgba(156, 28, 31, 0.9);
+}
+
+#nav ul {
+  background: #bf1115;
+}
+
+
+
+
+
+
 /*
 Contatc Sent Page
 */

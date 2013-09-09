@@ -861,29 +861,25 @@ Startupdev videos page
 }
 
 
-
-
-
-
 /*
 Startupdev Sistema Web page
 */
 
+.sistema_web_page #landing {
+  background: url('/images/mp/sistema-web/sistema_web_background.jpg') center center no-repeat;
+}
 .sistema_web_page #landing .bg-cover {
-  background: rgba(156, 28, 31, 0.85);
+  background: rgba(17, 152, 191, 0.85);
 }
-
-.who-we-are .bg-cover {
-  background: rgba(156, 28, 31, 0.9);
+.sistema_web_page .who-we-are .bg-cover {
+  background: rgba(17, 152, 191, 0.9);
 }
-
-#nav ul {
-  background: #bf1115;
+.sistema_web_page #nav ul {
+  background: #1198bf;
 }
-
-
-
-
+.sistema_web_page #nav.fxd {
+  background: rgba(17, 152, 191, 0.95);
+}
 
 
 /*

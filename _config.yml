@@ -10,6 +10,10 @@ mvp:
 
   projects:
     -
+      name: MyHumble
+      url: "http://www.myhumble.com.br"
+      image: /images/projetos/mvp/my-humble.jpg
+    -
       name: Perfil Plug
       url: "http://www.perfilplug.com"
       image: /images/projetos/mvp/perfilplug.jpg

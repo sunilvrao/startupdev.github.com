@@ -200,9 +200,15 @@ a { text-decoration: none; }
   padding-top: 130px;
 }
 #other-services a.mvp-service {
-  background: url('/images/mp/mvp-menu-icon2.png') center center no-repeat;
+  background: url('/images/mp/mvp/mvp-menu-icon2.png') center center no-repeat;
   padding-top: 130px;
 }
+
+#other-services a.web-system-service {
+  background: url('/images/mp/sistema-web/web-system-menu-icon.png') center center no-repeat;
+  padding-top: 130px;
+}
+
 #other-services a:hover {
   opacity: 0.8;
 }

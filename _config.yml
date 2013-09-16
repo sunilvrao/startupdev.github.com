@@ -404,7 +404,7 @@ mvp:
             status: client
           -
             date: 17/09
-            status: free
+            status: unavailable
           -
             date: 24/09
             status: free
@@ -470,7 +470,7 @@ mvp:
             status: client
           -
             date: 17/09
-            status: free
+            status: unavailable
           -
             date: 24/09
             status: free

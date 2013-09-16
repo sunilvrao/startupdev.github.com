@@ -894,6 +894,49 @@ Startupdev Sistema Web page
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/*
+Startupdev Sistema Web page
+*/
+
+.landing_page #landing {
+  background: url('/images/mp/sistema-web/sistema_web_background.jpg') center center no-repeat;
+}
+.landing_page #landing .bg-cover {
+  background: rgba(248, 167, 76, 0.9);
+}
+.landing_page .how-works #steps li.time {
+  width: 130px;
+}
+.landing_page .how-works #steps li.result {
+  width: 130px;
+}
+.landing_page .who-we-are .bg-cover {
+  background: rgba(248, 167, 76, 0.95);
+}
+.landing_page #nav ul {
+  background: #f8a74c;
+}
+.landing_page #nav.fxd {
+  background: rgba(248, 167, 76, 0.95);
+}
+
+
+
+
+
+
+
+
 /*
 Contatc Sent Page
 */

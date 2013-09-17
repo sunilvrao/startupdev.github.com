@@ -894,16 +894,6 @@ Startupdev Sistema Web page
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 Startupdev Landing page
 */
@@ -936,7 +926,7 @@ Startupdev Landing page
 
 
 /*
-Startupdev Landing page
+Startupdev Press page
 */
 
 .press_page #landing {
@@ -957,6 +947,26 @@ Startupdev Landing page
 }
 .press_page #nav.fxd {
   background: rgba(69, 35, 59, 0.9);
+}
+
+
+/*
+Startupdev App design page
+*/
+
+
+.app_design_page #landing .bg-cover {
+  background: rgba(147, 147, 147, 0.95);
+}
+
+.app_design_page .who-we-are .bg-cover {
+  background: rgba(147, 147, 147, 0.95);
+}
+.app_design_page #nav ul {
+  background: #939393;
+}
+.app_design_page #nav.fxd {
+  background: rgba(147, 147, 147, 0.95);
 }
 
 

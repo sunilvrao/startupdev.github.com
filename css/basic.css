@@ -152,6 +152,9 @@ ul.services-list li {
   width: 450px;
   text-align: center;
   margin-right: 30px;
+  border: 2px solid #c5cdd5;
+  border-radius: 3px 3px 3px 3px;
+  padding: 20px 0;
 }
 
 ul.services-list li:last-child {
@@ -163,16 +166,11 @@ ul.services-list li a:hover {
 }
 
 ul.services-list li .icon {
-  border: 2px solid #c5cdd5;
-  border-radius: 3px 3px 3px 3px;
-  height: 160px;
   margin: 0 auto 20px;
   width: 90%;
 }
 
-ul.services-list li .icon img {
-  margin-top: 45px;
-}
+
 
 ul.services-list li h4 {
   text-transform: uppercase;

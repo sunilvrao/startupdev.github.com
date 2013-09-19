@@ -52,4 +52,3 @@ $(document).on('ready', function() {
 
 	Shadowbox.init();
 });
-

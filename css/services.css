@@ -160,7 +160,7 @@ a { text-decoration: none; }
   padding-right: 18px;
 }
 #other-services {
-  background-color: #6195b9;
+  background: url('/images/mp/chruch.png');
   padding: 40px 0 60px;
   display: none;
   overflow: hidden;
@@ -169,8 +169,8 @@ a { text-decoration: none; }
   color: #123955;
   text-align: center;
   font-size: 22px;
-  letter-spacing: 0.06em;
-  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+  margin-bottom: 20px;
 }
 #other-services ul {
   overflow: hidden;
@@ -187,28 +187,22 @@ a { text-decoration: none; }
 }
 #other-services a {
   text-transform: uppercase;
-  color: #fff;
+  color: #383838;
   font-weight: 700;
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 12px;
   text-align: center;
   display: block;
   padding: 10px;
-}
-#other-services a.video-service {
-  background: url('/images/mp/video-menu-icon2.png') center center no-repeat;
-  padding-top: 130px;
+  padding-top: 170px;
 }
 #other-services a.mvp-service {
-  background: url('/images/mp/mvp/mvp-menu-icon2.png') center center no-repeat;
-  padding-top: 130px;
+  background: url('/images/icons/mvp-s.png') center center no-repeat;
 }
 
 #other-services a.web-system-service {
-  background: url('/images/mp/sistema-web/web-system-menu-icon.png') center center no-repeat;
-  padding-top: 130px;
+  background: url('/images/icons/web-system-s.png') center center no-repeat;
 }
-
 #other-services a:hover {
   opacity: 0.8;
 }

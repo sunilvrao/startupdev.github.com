@@ -218,14 +218,14 @@ a { text-decoration: none; }
 #landing {
   width: 100%;
   position: relative;
-  height: 370px;
-  padding-top: 160px;
+  height: auto;
+  padding: 160px 0 60px;
   background: url('/images/mp/mvp/mvp_background.jpg') 80% center no-repeat;
   background-clip: cover;
 }
 #landing .bg-cover {
   width: 100%;
-  height: 530px;
+  height: 100%;
   background: #fb0101;
   background: rgba(251,1,1,0.7);
   position: absolute;
@@ -302,7 +302,7 @@ a { text-decoration: none; }
 }
 #landing .madeby strong {
   display: block;
-  color: #cef8f6;
+  color: #fff;
   font-size: 10px;
   line-height: 16px;
   text-transform: uppercase;
@@ -401,7 +401,7 @@ a { text-decoration: none; }
 .how-works .bt {
   width: 370px;
   height: 60px;
-  margin: 0 auto 25px;
+  margin: 0 auto 30px;
   display: block;
   border: 3px solid #fdb723;
   color: #fdb723;
@@ -432,7 +432,8 @@ a { text-decoration: none; }
   letter-spacing: 0.08em;
 }
 .how-works .more span a {
-  color: #ff9c00;
+  color: #fdb723;
+  font-size: 13px;
   text-decoration: underline;
 }
 .projects {
@@ -835,10 +836,6 @@ Startupdev videos page
 }
 .video_page #landing .bg-cover {
   background: rgba(23, 155, 149, 0.85);
-  height: 560px;
-}
-.video_page #landing {
-  height: 400px;
 }
 .video_page #nav.fxd {
   background: rgba(23, 155, 149, 0.95);

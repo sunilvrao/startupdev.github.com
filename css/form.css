@@ -166,8 +166,8 @@ body.nobg { background: transparent !important; }
     padding: 4px 0 2px;
     float: none;
     display: block;
-    border: 3px solid #ff9c00;
-    color: #ff9c00;
+    border: 3px solid #fdb723;
+    color: #fdb723;
     text-align: center;
     font-size: 18px;
     text-transform: uppercase;
@@ -184,7 +184,7 @@ body.nobg { background: transparent !important; }
 
 #form_contact input.submit:hover {
     color: #fff;
-    background-color: #ff9c00;
+    background-color: #fdb723;
 }
 
 

@@ -403,8 +403,8 @@ a { text-decoration: none; }
   height: 60px;
   margin: 0 auto 25px;
   display: block;
-  border: 3px solid #ff9c00;
-  color: #ff9c00;
+  border: 3px solid #fdb723;
+  color: #fdb723;
   text-align: center;
   line-height: 60px;
   font-size: 18px;
@@ -421,7 +421,7 @@ a { text-decoration: none; }
 }
 .how-works .bt:hover {
   color: #fff;
-  background-color: #ff9c00;
+  background-color: #fdb723;
 }
 .how-works .more span {
   font-size: 12px;

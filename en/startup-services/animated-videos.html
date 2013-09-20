@@ -110,14 +110,14 @@ permalink: 'animated-videos/'
       <div id="calendar">
         <table>
           <tbody>
-            {% for data in site.video.schedule.data %}
+            {% for data in site.video.schedule_en.data %}
               <tr>
-                <th class="day">{{ data.month }} <span>{{ site.video.schedule.year }}</span></th>
+                <th class="day">{{ data.month }} <span>{{ site.video.schedule_en.year }}</span></th>
 
                 {% for week in data.weeks %}
                   <td class="{{ week.status }}">
                     {% if week.date %}
-                      <div class="day">Semana do dia {{ week.date }}</div>
+                      <div class="day">week of {{ week.date }}</div>
                     {% endif %}
                     <div class="day-content">
                       <strong>

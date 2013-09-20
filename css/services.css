@@ -880,6 +880,9 @@ Startupdev Sistema Web page
 .sistema_web_page .how-works #steps li.result {
   width: 130px;
 }
+.sistema_web_page .how-works #steps li.result {
+  background: url('/images/mp/sistema-web/websystem_result_step.png') center 12px no-repeat;
+}
 .sistema_web_page .who-we-are .bg-cover {
   background: rgba(17, 152, 191, 0.9);
 }

@@ -175,7 +175,7 @@ a { text-decoration: none; }
 #other-services ul {
   overflow: hidden;
   margin: 0 auto;
-  width: 340px;
+  width: 540px;
 }
 #other-services ul li {
   float: left;
@@ -199,9 +199,11 @@ a { text-decoration: none; }
 #other-services a.mvp-service {
   background: url('/images/icons/mvp-s.png') center center no-repeat;
 }
-
 #other-services a.web-system-service {
   background: url('/images/icons/web-system-s.png') center center no-repeat;
+}
+#other-services a.video-service {
+  background: url('/images/icons/video-s.png') center center no-repeat;
 }
 #other-services a:hover {
   opacity: 0.8;
@@ -835,10 +837,10 @@ Startupdev videos page
   background: rgba(23, 155, 149, 0.95);
 }
 .video_page .who-we-are {
-  background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
+  background: #fff;
 }
 .video_page .who-we-are .bg-cover {
-  background: rgba(23, 155, 149, 0.85);
+  background: rgba(23, 155, 149, 0.9);
 }
 .video_page .how-works #steps li.result {
   background: url('/images/mp/video_result_step.png') center 12px no-repeat;

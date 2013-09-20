@@ -518,91 +518,69 @@ video:
     year: 2013
     data:
       -
-        month: Junho
+        month: Outubro
         weeks:
           -
-            date: 04/06
-            client: BRtrax
-            status: client
-          -
-            date: 11/06
-            client: Darwin Ianuskiewtz
-            status: client
-          -
-            date: 18/06
+            date: 07/10
             status: free
           -
-            date: 25/06
-            client: Sou do Esporte
-            status: client
+            date: 14/10
+            status: free
           -
-            date:
-            status:
+            date: 21/10
+            status: free
+          -
+            date: 28/10
+            status: free
+
       -
-        month: Julho
+        month: Novembro
         weeks:
           -
-            date: 02/07
-            client: Samba Ads
-            status: client
-          -
-            date: 09/07
-            client: Raciel
-            status: client
-          -
-            date: 16/07
-            client: Danielle Meneses
-            status: client
-          -
-            date: 23/07
+            date: 04/11
             status: free
           -
-            date: 30/07
-            client: Sala de Ideias
-            status: client
+            date: 11/11
+            status: free
+          -
+            date: 18/11
+            status: free
+          -
+            date: 25/11
+            status: free
 
   schedule_en:
     year: 2013
     data:
       -
-        month: June
+        month: October
         weeks:
           -
-            date: 04/06
-            client: BRtrax
-            status: client
-          -
-            date: 11/06
-            client: Darwin Ianuskiewtz
-            status: client
-          -
-            date: 18/06
+            date: 07/10
             status: free
           -
-            date: 25/06
-            client: Sou do Esporte
-            status: client
+            date: 14/10
+            status: free
+          -
+            date: 21/10
+            status: free
+          -
+            date: 28/10
+            status: free
+
       -
-        month: July
+        month: November
         weeks:
           -
-            date: 02/07
-            client: Samba Ads
-            status: client
-          -
-            date: 09/07
-            client: Raciel
-            status: client
-          -
-            date: 16/07
-            client: Danielle Meneses
-            status: client
-          -
-            date: 23/07
-            client:
+            date: 04/11
             status: free
           -
-            date: 30/07
-            client: Sala de Ideias
-            status: client
+            date: 11/11
+            status: free
+          -
+            date: 18/11
+            status: free
+          -
+            date: 25/11
+            status: free
 

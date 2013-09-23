@@ -176,7 +176,7 @@ header ul li a:hover {
 }
 
 #choose-service h3:after {
-  width: 400px;
+  width: 30%;
   height: 4px;
   background-color: #ffae00;
   content: '';

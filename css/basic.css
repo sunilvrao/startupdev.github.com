@@ -105,47 +105,55 @@ header {
   overflow: hidden;
 }
 
-header ul {
-  float: right;
-
-}
-
-
-header ul li {
-  color: #FBAD21;
-    display: block;
-    float: right;
-    font-family: 'Lato',Helvetica,sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.085em;
-    line-height: 12px;
-    padding-right: 18px;
-    text-transform: uppercase;
-}
-
 header h1 {
   margin-top: 33px;
   width: 200px;
+  float: left;
+}
+
+header ul {
+  float: right;
+  margin-top: 43px;
+  width: 600px;
+}
+
+header ul li {
+  margin-right: 20px;
+  float: right;
+}
+
+header ul li a {
+  color: #5a646d;
+  font-family: 'Lato',Helvetica,sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.085em;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+header ul li a:hover {
+  opacity: 0.8;
 }
 
 .cover {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   background: url('/images/mp/blue-pattern.png');
-  padding: 100px 0;
+  padding: 80px 0;
 }
-
-
 
 .cover h2 {
   width: 100%;
-  margin-top: 40px;
   text-align: center;
+  word-spacing: 0.10em;
   color: #fff;
-  font-size: 48px;
+  font-size: 54px;
   font-weight: 700;
-  line-height: 60px;
+  text-transform: uppercase;
+  line-height: 80px;
+  text-shadow: 1px 1px 1px #234257;
 }
 
 #choose-service {
@@ -178,11 +186,13 @@ ul.services-list {
 ul.services-list li {
   float: left;
   width: 30%;
+  border: 1px solid #d5d9d9;
   text-align: center;
   margin-right: 4%;
-  border: 2px solid #c5cdd5;
   border-radius: 3px 3px 3px 3px;
-  padding: 20px 0;
+  padding: 20px 0 30px;
+  background: url('/images/mp/denim.png');
+  background: #fff;
 }
 
 ul.services-list li:last-child {
@@ -198,17 +208,15 @@ ul.services-list li .icon {
   width: 90%;
 }
 
-
-
 ul.services-list li h4 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #383838;
-  font-size: 20px;
+  color: #fda51f;
+  font-size: 16px;
 }
 
 ul.services-list li p {
-  color: #383838;
+  color: #8893a1;
   width: 90%;
   line-height: 22px;
   margin: 15px auto 0;
@@ -221,14 +229,14 @@ ul.services-list li .btn {
   color: #fff;
   display: block;
   font-family: 'Lato',Helvetica,sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   padding: 15px 0;
   letter-spacing: 0.08em;
   text-align: center;
   text-transform: uppercase;
   width: 80%;
-  margin: 20px auto 0;
+  margin: 30px auto 0;
 }
 
 footer {
@@ -243,9 +251,10 @@ footer a {
 
 footer h5 {
   float: right;
-  text-transform: uppercase;
+  margin-top: -3px;
+  margin-left: 15px;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   color: #929292;
 }
 

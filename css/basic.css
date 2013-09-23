@@ -125,12 +125,18 @@ header ul li {
 header ul li a {
   color: #5a646d;
   font-family: 'Lato',Helvetica,sans-serif;
-  font-size: 10px;
+  font-size: 0.65em;
   font-weight: 700;
   letter-spacing: 0.085em;
   line-height: 12px;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #fff;
+}
+
+header ul li a.language {
+  color: #FBAD21;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
 }
 
 header ul li a:hover {

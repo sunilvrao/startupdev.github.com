@@ -99,18 +99,46 @@ a { text-decoration: none; }
 }
 
 header {
-  background: url('/images/mp/paven.png');
-  padding: 0 0 100px;
+  background: url('/images/mp/chruch.png');
+  height: 100px;
   border-top: 4px solid #FFAE00;
+  overflow: hidden;
+}
+
+header ul {
+  float: right;
+
+}
+
+
+header ul li {
+  color: #FBAD21;
+    display: block;
+    float: right;
+    font-family: 'Lato',Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.085em;
+    line-height: 12px;
+    padding-right: 18px;
+    text-transform: uppercase;
 }
 
 header h1 {
-  width: 100%;
-  text-align: center;
-  padding: 40px 0;
+  margin-top: 33px;
+  width: 200px;
 }
 
-header h2 {
+.cover {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background: url('/images/mp/blue-pattern.png');
+  padding: 100px 0;
+}
+
+
+
+.cover h2 {
   width: 100%;
   margin-top: 40px;
   text-align: center;

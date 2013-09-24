@@ -93,6 +93,26 @@ body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 h1, h2, h3, h4 { font-family: 'Lato', Helvetica, sans-serif;}
 a { text-decoration: none; }
 
+
+/* Viewport */
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+
+
 .grid {
   width: 960px;
   margin: 0 auto;
@@ -271,9 +291,52 @@ footer h5 {
 
 
 
+/*
+Max Width, 960px
+Media Queries for Tablets
+*/
+
+@media (max-width:960px) {
+
+  .grid { width: 700px; }
+}
 
 
 
+
+/*
+Max Width, 686px
+Media Queries for Smartphones
+*/
+
+@media only screen and (max-width: 686px) {
+
+  .grid {
+    width: 90%;
+    padding: 0 5%;
+  }
+}
+
+
+
+/*
+Max Width, 581px
+Media Queries with adjustments for Smartphones
+*/
+
+@media (max-width:581px) {
+
+}
+
+
+/*
+Max Width, 481px
+Media Queries with more adjustments for Smartphones
+*/
+
+@media (max-width:481px) {
+
+}
 
 
 

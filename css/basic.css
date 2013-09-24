@@ -300,6 +300,7 @@ Media Queries for Tablets
 }
 
 
+
 /*
 Max Width, 686px
 Media Queries for Smartphones
@@ -312,6 +313,22 @@ Media Queries for Smartphones
     padding: 0 5%;
   }
 
+  header {
+    padding: 10px 0;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  header ul {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
   ul.services-list li {
     width: 100%;
     margin-bottom: 20px;
@@ -321,36 +338,18 @@ Media Queries for Smartphones
 
 
 /*
-Max Width, 581px
-Media Queries with adjustments for Smartphones
-*/
-
-@media (max-width:581px) {
-
-}
-
-
-/*
 Max Width, 481px
 Media Queries with more adjustments for Smartphones
 */
 
 @media (max-width:481px) {
 
-  header {
-    height: auto;
-    padding: 20px 0;
+  header ul li {
+    margin-left: 10px;
   }
 
-  header h1 {
-    width: 100%;
-    text-align: center;
-    margin-top: 0px;
-    float: none;
-  }
-
-  header ul {
-    display: none;
+  header ul li a {
+    font-size: 0.55em;
   }
 
   .cover {

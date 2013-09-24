@@ -120,26 +120,24 @@ html, body {
 
 header {
   background: url('/images/mp/chruch.png');
-  height: 100px;
   border-top: 4px solid #FFAE00;
+  padding: 30px 0 20px;
   overflow: hidden;
 }
 
 header h1 {
-  margin-top: 33px;
-  width: 200px;
   float: left;
 }
 
 header ul {
   float: right;
-  margin-top: 43px;
-  width: 600px;
+  width: auto;
+  margin-top: 10px;
 }
 
 header ul li {
-  margin-right: 20px;
-  float: right;
+  margin-left: 20px;
+  display: inline;
 }
 
 header ul li a {

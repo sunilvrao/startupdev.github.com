@@ -30,6 +30,9 @@ body {
   line-height:1;
   background: url('/images/mp/chruch.png');
 }
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
   display:block;
@@ -1061,6 +1064,5 @@ article.contact-sent h1:after {
   margin: 20px auto 0;
   width: 50%;
 }
-
 
 

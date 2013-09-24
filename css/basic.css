@@ -302,8 +302,6 @@ Media Queries for Tablets
 }
 
 
-
-
 /*
 Max Width, 686px
 Media Queries for Smartphones
@@ -314,6 +312,11 @@ Media Queries for Smartphones
   .grid {
     width: 90%;
     padding: 0 5%;
+  }
+
+  ul.services-list li {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -336,6 +339,58 @@ Media Queries with more adjustments for Smartphones
 
 @media (max-width:481px) {
 
+  header {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    float: none;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .cover {
+    padding: 40px 0;
+  }
+
+  .cover h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  #choose-service {
+    padding: 40px 0;
+  }
+
+  #choose-service h3 {
+    font-size: 24px;
+  }
+
+  ul.services-list {
+    margin-top: 30px;
+  }
+
+  footer {
+    padding: 20px 0;
+    overflow: hidden;
+  }
+
+  footer a {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  footer h5 {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 

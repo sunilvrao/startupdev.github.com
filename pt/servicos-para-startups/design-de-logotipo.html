@@ -5,7 +5,29 @@ keywords: 'logotipo, logo, brand, marca, identidade visual, criação,criação 
 title: 'Logotipos para Startups - StartupDEV Logotipo'
 favicon: '/favicon.png'
 class: 'logo_page'
-permalink: 'design-de-logo/'
+permalink: 'design-de-logotipo/'
+testimonials:
+  -
+    name: "Patrick Rogan"
+    description: "Brilhante o serviço para se trabalhar, e todos os designers foram ótimos. Tive um concurso fantástico."
+  -
+    name: "Patric Timmermans"
+    description: "Ótima maneira de ter designs acessíveis com diferentes ideias criativas"
+  -
+    name: "Celeste Morgan"
+    description: "Amei a facilidade de usar e a qualidade dos designs. Estou impressionada."
+  -
+    name: "Didier Salem"
+    description: "Designers muito criativos e excelente maneira de trabalhar."
+  -
+    name: "Patrick Oborn"
+    description: "Mais um ótimo concurso - seus designers nunca desapontam!"
+  -
+    name: "Jacqueline Holmes"
+    description: "Ótima experiência, muito feliz por ter esta opção. Há tanta diversidade."
+  -
+    name: "David Ware"
+    description: "Um ótimo site capaz de oferecer artistas de alta qualidade. O nível de engajamento em nossa competição foi ótimo e a qualidade dos trabalhos dos artistas superou nossas expectativas."
 ---
 
 {% include services_list.html %}
@@ -40,10 +62,10 @@ permalink: 'design-de-logo/'
     <div class="grid">
       <h3>Como funciona</h3>
       <ul id="steps">
-        <li class="idea plus">Sua ideia de logo</li>
-        <li class="staff plus">2 brand designers</li>
-        <li class="time plus">Reunião + 72h de trabalho</li>
-        <li class="money equal">Investimento de R$ 8 mil</li>
+        <li class="idea plus">Conte-nos sua ideia</li>
+        <li class="staff plus">Receba dezenas de propostas</li>
+        <li class="time plus">1 semana de trabalho</li>
+        <li class="money equal">Investimento de R$ 559</li>
         <li class="result">Seu logotipo lindão!</li>
       </ul>
       <div class="more">
@@ -73,7 +95,7 @@ permalink: 'design-de-logo/'
   <article class="who-we-are">
     <div class="grid">
       <h3>Nós somos a 99designs</h3>
-      <p>99designs é o maior mercado de design gráfico online do mundo. Por mais de 5 anos temos conectado designers apaixonados pelo que fazem com clientes que buscam qualidade com preços acessíveis.</p>
+      <p>Somos o maior mercado online de design gráfico do mundo com uma equipe super dedicada a ajudar os clientes a encontrarem o logo perfeito. Criamos o modelo de ‘concurso criativo’, onde os designers competem enviando propostas visuais para ganhar o prêmio em dinheiro, já incluído no pacote. O cliente escolhe o vencedor selecionando o design que mais gostou!</p>
       <span class="company">
         <a href="http://99designs.com.br" target="_blank"><img src="/images/logos/99-designs.png" alt="99designs" /></a>
       </span>
@@ -84,51 +106,13 @@ permalink: 'design-de-logo/'
       <h3>Depoimentos</h3>
       <div id="testimonials_gallery">
         <ul>
-          {% for testimonial in site.mvp.testimonials %}
+          {% for testimonial in page.testimonials %}
           <li>
             <p>"{{ testimonial.description }}"</p>
-            <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
+            <p class="client_name">{{ testimonial.name }}</p>
           </li>
           {% endfor %}
         </ul>
-      </div>
-    </div>
-  </article>
-  <article class="schedule">
-    <div class="grid">
-      <h3>Veja quando seu projeto pode rolar...</h3>
-      <div id="calendar">
-        <table>
-          <tbody>
-            {% for data in site.mvp.schedule.data %}
-              <tr>
-                <th class="day">{{ data.month }} <span>{{ site.mvp.schedule.year }}</span></th>
-                {% for week in data.weeks %}
-                  <td class="{{ week.status }}">
-                    {% if week.date %}
-                      <div class="day">Semana do dia {{ week.date }}</div>
-                    {% endif %}
-                    <div class="day-content">
-                      <strong>
-                        {% if week.status == 'client' %}
-                          {{ week.client }}
-                        {% elsif week.status == 'free' %}
-                          Livre :)
-                        {% elsif week.status == 'reserved' %}
-                          Reservado
-                        {% elsif week.status == 'unavailable' %}
-                          Indisponível
-                        {% else %}
-                          --
-                        {% endif %}
-                      </strong>
-                    </div>
-                  </td>
-                {% endfor %}
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
       </div>
     </div>
   </article>
@@ -136,7 +120,7 @@ permalink: 'design-de-logo/'
     <div class="grid">
       <h3>então, vamos trabalhar juntos?</h3>
       <p>Preencha os seus dados abaixo e nós entramos em contato rapidinho para te atender.</p>
-      <iframe id="frame_contact" src="../mvp-form.html"></iframe>
+      <iframe id="frame_contact" src="../../contact-form/logotipo.html"></iframe>
     </div>
   </article>
 </section>

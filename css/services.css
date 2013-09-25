@@ -1020,6 +1020,29 @@ Startupdev Logo
   background: rgba(240, 107, 44, 0.85);
 }
 
+.logo_page #projects_gallery {
+  padding-top: 24px;
+  background: url('/images/mp/gallery-logo.png') center 7px no-repeat;
+}
+
+.logo_page  #projects_gallery ul {
+  width: 524px;
+}
+.logo_page #projects_gallery ul li img {
+  display: block;
+  margin-bottom: 60px;
+  width: 524px;
+  height: 290px;
+}
+
+
+
+
+
+
+
+
+
 .logo_page .who-we-are .bg-cover {
   background: rgba(240, 107, 44, 0.9);
 }

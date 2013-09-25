@@ -1020,6 +1020,14 @@ Startupdev Logo
   background: rgba(240, 107, 44, 0.85);
 }
 
+.logo_page #landing p {
+  padding: 0;
+}
+
+.logo_page .how-works #steps li.result {
+  background: url('/images/icons/logo.png') center 12px no-repeat;
+}
+
 .logo_page #projects_gallery {
   padding-top: 24px;
   background: url('/images/mp/gallery-logo.png') center 7px no-repeat;

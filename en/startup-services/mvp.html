@@ -134,44 +134,7 @@ schedule:
       </div>
     </div>
   </article>
-  <article class="schedule">
-    <div class="grid">
-      <h3>Check when your project could be started...</h3>
-      <div id="calendar">
-        <table>
-          <tbody>
-            {% for data in site.mvp.schedule_en.data %}
-              <tr>
-                <th class="day">{{ data.month }} <span>{{ site.mvp.schedule.year }}</span></th>
-                {% for week in data.weeks %}
-                  <td class="{{ week.status }}">
-                    {% if week.date %}
-                      <div class="day">Week of day {{ week.date }}</div>
-                    {% endif %}
-                    <div class="day-content">
-                      <strong>
-                        {% if week.status == 'client' %}
-                          {{ week.client }}
-                        {% elsif week.status == 'free' %}
-                          Free :)
-                        {% elsif week.status == 'reserved' %}
-                          Reservado
-                        {% elsif week.status == 'unavailable' %}
-                          Indisponível
-                        {% else %}
-                          --
-                        {% endif %}
-                      </strong>
-                    </div>
-                  </td>
-                {% endfor %}
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </article>
+  {% include page-schedule-en.html %}
   <article class="contact">
     <div class="grid">
       <h3>so, let's work together?</h3>

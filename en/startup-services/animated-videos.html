@@ -6,6 +6,40 @@ title: 'StartupDEV - Animated Videos'
 favicon: '/favicon.png'
 class: 'video_page'
 permalink: 'animated-videos/'
+schedule:
+  year: 2013
+  data:
+    -
+      month: October
+      weeks:
+        -
+          date: 07/10
+          status: free
+        -
+          date: 14/10
+          status: free
+        -
+          date: 21/10
+          status: free
+        -
+          date: 28/10
+          status: free
+
+    -
+      month: November
+      weeks:
+        -
+          date: 04/11
+          status: free
+        -
+          date: 11/11
+          status: free
+        -
+          date: 18/11
+          status: free
+        -
+          date: 25/11
+          status: free
 ---
 
 {% include services_list_en.html %}
@@ -105,45 +139,7 @@ permalink: 'animated-videos/'
     </div>
   </article>
 
-  <article class="schedule">
-    <div class="grid">
-      <h3>Check when your project could be started...</h3>
-      <div id="calendar">
-        <table>
-          <tbody>
-            {% for data in site.video.schedule_en.data %}
-              <tr>
-                <th class="day">{{ data.month }} <span>{{ site.video.schedule_en.year }}</span></th>
-
-                {% for week in data.weeks %}
-                  <td class="{{ week.status }}">
-                    {% if week.date %}
-                      <div class="day">week of {{ week.date }}</div>
-                    {% endif %}
-                    <div class="day-content">
-                      <strong>
-                        {% if week.status == 'client' %}
-                          {{ week.client }}
-                        {% elsif week.status == 'free' %}
-                          Livre :)
-                        {% elsif week.status == 'reserved' %}
-                          Reservado
-                        {% elsif week.status == 'unavailable' %}
-                          Indisponível
-                        {% else %}
-                          --
-                        {% endif %}
-                      </strong>
-                    </div>
-                  </td>
-                {% endfor %}
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </article>
+  {% include page-schedule-en.html %}
 
   <article class="contact">
     <div class="grid">

@@ -441,8 +441,8 @@ a { text-decoration: none; }
   display: none;
 }
 .who-we-are {
-  padding: 70px 0 0;
-  height: 400px;
+  padding: 70px 0 60px;
+  height: auto;
   width: 100%;
   position: relative;
   background: url('/images/mp/mvp/time-he.jpg') center 0 repeat;
@@ -450,7 +450,7 @@ a { text-decoration: none; }
 }
 .who-we-are .bg-cover {
   width: 100%;
-  height: 470px;
+  height: 100%;
   background: #fb0101;
   background: rgba(251,1,1,0.75);
   position: absolute;

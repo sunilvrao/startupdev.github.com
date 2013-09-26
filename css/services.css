@@ -211,7 +211,7 @@ a { text-decoration: none; }
   font-family: 'Lato', Helvetica, sans-serif;
   font-weight: 700;
   text-align: center;
-  padding: 0 50px;
+  padding: 0 0px;
   margin-bottom: 60px;
 }
 #landing .madeby {
@@ -766,173 +766,6 @@ div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underl
 
 
 /*
-Startupdev Landing page
-*/
-
-.landing_page #landing {
-  background: url('/images/mp/sistema-web/sistema_web_background.jpg') center center no-repeat;
-}
-.landing_page #landing .bg-cover {
-  background: rgba(198, 195, 102, 0.9);
-}
-.landing_page .how-works #steps li.time {
-  width: 130px;
-}
-.landing_page .how-works #steps li.result {
-  width: 130px;
-}
-.landing_page .who-we-are {
-  background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
-}
-.landing_page .who-we-are .bg-cover {
-  background: rgba(198, 195, 102, 0.95);
-}
-.landing_page #nav ul {
-  background: #c6c366;
-}
-.landing_page #nav.fxd {
-  background: rgba(198, 195, 102, 0.95);
-}
-
-
-
-/*
-Startupdev Press page
-*/
-
-.press_page #landing {
-  background: url('/images/mp/press/press_background.jpg') center center no-repeat;
-}
-.press_page #landing .bg-cover {
-  background: rgba(69, 35, 59, 0.8);
-}
-
-.press_page .who-we-are {
-  background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
-}
-.press_page .who-we-are .bg-cover {
-  background: rgba(69, 35, 59, 0.9);
-}
-.press_page #nav ul {
-  background: #45233b;
-}
-.press_page #nav.fxd {
-  background: rgba(69, 35, 59, 0.9);
-}
-
-
-/*
-Startupdev App design page
-*/
-
-
-.app_design_page #landing .bg-cover {
-  background: rgba(147, 147, 147, 0.95);
-}
-
-.app_design_page .who-we-are .bg-cover {
-  background: rgba(147, 147, 147, 0.95);
-}
-.app_design_page #nav ul {
-  background: #939393;
-}
-.app_design_page #nav.fxd {
-  background: rgba(147, 147, 147, 0.95);
-}
-
-
-
-/*
-Startupdev Oratory
-*/
-
-
-.oratory_page #landing .bg-cover {
-  background: rgba(169, 6, 45, 0.85);
-}
-
-.oratory_page .who-we-are .bg-cover {
-  background: rgba(169, 6, 45, 0.9);
-}
-
-.oratory_page .how-works #steps li.result {
-  background: url('/images/icons/pitch.png') center 12px no-repeat;
-}
-
-.oratory_page .who-we-are {
-  background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
-}
-.oratory_page #nav ul {
-  background: #a9062d;
-}
-.oratory_page #nav.fxd {
-  background: rgba(169, 6, 45, 0.85);
-}
-
-
-
-
-/*
-Startupdev Logo
-*/
-
-.logo_page #landing {
-  background: url('/images/mp/bg-99.jpg') center center no-repeat;
-}
-
-.logo_page #landing .bg-cover {
-  background: rgba(240, 107, 44, 0.85);
-}
-
-.logo_page #landing p {
-  padding: 0;
-}
-
-.logo_page .how-works #steps li.result {
-  background: url('/images/icons/logo.png') center 12px no-repeat;
-}
-
-.logo_page #projects_gallery {
-  padding-top: 24px;
-  background: url('/images/mp/gallery-logo.png') center 7px no-repeat;
-}
-
-.logo_page  #projects_gallery ul {
-  width: 524px;
-}
-.logo_page #projects_gallery ul li img {
-  display: block;
-  margin-bottom: 60px;
-  width: 524px;
-  height: 290px;
-}
-
-
-
-
-
-
-
-
-
-.logo_page .who-we-are .bg-cover {
-  background: rgba(240, 107, 44, 0.9);
-}
-.logo_page .who-we-are {
-  background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
-}
-.logo_page #nav ul {
-  background: #f06b2c;
-}
-.logo_page #nav.fxd {
-  background: rgba(240, 107, 44, 0.85);
-}
-
-
-
-
-
-/*
 Contatc Sent Page
 */
 article.contact-sent {
@@ -964,4 +797,40 @@ article.contact-sent h1:after {
   margin: 20px auto 0;
   width: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

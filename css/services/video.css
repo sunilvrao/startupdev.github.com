@@ -1,4 +1,5 @@
 /* cover landing */
+
 .video_page #landing {
   background: url('/images/mp/sistema-web/sistema_web_background.jpg')
 }
@@ -9,22 +10,26 @@
 
 
 /* nav bar */
-.video_page #nav.fxd {
-  background: rgba(23, 155, 149, 0.95);
-}
 
 .video_page #nav ul {
   background: #179b95;
 }
 
+.video_page #nav.fxd {
+  background: rgba(23, 155, 149, 0.95);
+}
+
+
 
 /* how works */
+
 .video_page .how-works #steps li.result {
   background: url('/images/mp/video_result_step.png') center 12px no-repeat;
 }
 
 
 /* projects */
+
 .video_page #projects_gallery {
   padding-top: 24px;
   background: url('/images/mp/gallery-video.png') center 7px no-repeat;
@@ -42,6 +47,7 @@
 
 
 /* who we are */
+
 .video_page .who-we-are {
   background: #fff;
 }

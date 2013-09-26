@@ -11,16 +11,18 @@
 
 /* nav bar */
 
-.mvp_page #nav.fxd {
-  background: rgba(206, 4, 0, 0.95);
-}
-
 .mvp_page #nav ul {
   background: #fb0101;
 }
 
+.mvp_page #nav.fxd {
+  background: rgba(206, 4, 0, 0.95);
+}
+
+
 
 /* projects */
+
 .mvp_page #projects_gallery {
   padding-top: 28px;
   background: url('/images/mp/gallery-laptop.png') center 0 no-repeat;

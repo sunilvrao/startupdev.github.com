@@ -1,104 +1,14 @@
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
-* { outline: none; }
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
-}
-body {
-  line-height:1;
-  background: url('/images/mp/chruch.png');
-}
-
+body {line-height:1;background: url('/images/mp/chruch.png');}
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-  display:block;
-}
-nav ul,
-ul {
-  list-style:none;
-}
-blockquote, q {
-  quotes:none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content:'';
-  content:none;
-}
-a {
-  margin:0;
-  padding:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
-}
-/* change colours to suit your needs */
-ins {
-  background-color:#ff9;
-  color:#000;
-  text-decoration:none;
-}
-/* change colours to suit your needs */
-mark {
-  background-color:#ff9;
-  color:#000;
-  font-style:italic;
-  font-weight:bold;
-}
-del {
-  text-decoration: line-through;
-}
-abbr[title], dfn[title] {
-  border-bottom:1px dotted;
-  cursor:help;
-}
-table {
-  border-collapse:collapse;
-  border-spacing:0;
-}
-/* change border colour to suit your needs */
-hr {
-  display:block;
-  height:1px;
-  border:0;
-  border-top:1px solid #cccccc;
-  margin:1em 0;
-  padding:0;
-}
-input, select {
-  vertical-align:middle;
-}
 body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 h1, h2, h3, h4 { font-family: 'Lato', Helvetica, sans-serif;}
 a { text-decoration: none; }
+
 .grid {
   width: 960px;
   margin: 0 auto;
 }
+
 #top {
   background-color: #fff;
   padding: 20px 0;
@@ -214,27 +124,34 @@ a { text-decoration: none; }
 #other-services p {
   text-align: center;
 }
+
+
+
+
+
 #landing {
   width: 100%;
   position: relative;
   height: auto;
   padding: 160px 0 60px;
-  background: url('/images/mp/mvp/mvp_background.jpg') 80% center no-repeat;
   background-clip: cover;
 }
+
 #landing .bg-cover {
   width: 100%;
   height: 100%;
-  background: #fb0101;
-  background: rgba(251,1,1,0.7);
   position: absolute;
   top: 0;
   left: 0;
 }
+
 #landing .grid {
   position: relative;
   z-index: 100;
 }
+
+
+
 #nav  {
   padding: 10px 0 15px;
   text-align: center;
@@ -245,14 +162,14 @@ a { text-decoration: none; }
   z-index: 1001;
   overflow: hidden;
 }
+
 #nav.fxd {
-  background: rgba(206, 4, 0, 0.95);
   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow:    0px 3px 5px rgba(0, 0, 0, 0.5);
   box-shadow:         0px 3px 5px rgba(0, 0, 0, 0.5);
 }
+
 #nav ul {
-  background: #fb0101;
   width: 850px;
   margin: 0 auto;
   padding: 12px 0 14px;
@@ -285,6 +202,8 @@ a { text-decoration: none; }
   padding-bottom: 5px;
   border-bottom: 2px solid #ffae00;
 }
+
+
 #landing p {
   color: #f9f9f9;
   font-size: 48px;
@@ -439,14 +358,17 @@ a { text-decoration: none; }
   font-size: 13px;
   text-decoration: underline;
 }
+
+
+
+
 .projects {
-  padding: 90px 0 0;
+  padding: 90px 0;
 }
 .projects h3 {
   font-size: 40px;
   text-transform: lowercase;
   color: #383838;
-  font-family: 'Lato', Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -458,12 +380,13 @@ a { text-decoration: none; }
   display: block;
   margin: 25px auto 0;
 }
+
+
 #projects_gallery {
-  min-height: 417px;
-  background: url('/images/mp/gallery-laptop.png') center 0 no-repeat;
   position: relative;
-  padding: 28px 0 0;
 }
+
+
 #projects_gallery_next,
 #projects_gallery_prev {
   background: url('/images/mp/gallery-arrows.png') 0 0 no-repeat;
@@ -485,9 +408,8 @@ a { text-decoration: none; }
 #projects_gallery_prev:hover {
   opacity: 0.8;
 }
+
 #projects_gallery ul {
-  width: 527px;
-  height: 500px;
   margin: 0 auto;
 }
 #projects_gallery ul li {
@@ -498,7 +420,6 @@ a { text-decoration: none; }
 }
 #projects_gallery ul li img {
   display: block;
-  margin-bottom: 28px;
 }
 #projects_gallery ul li h6 {
   color: #ff9c00;
@@ -511,29 +432,26 @@ a { text-decoration: none; }
   -moz-text-shadow: 1px 1px 1px #fff;
   text-shadow: 1px 1px 1px #fff;
 }
-#projects_gallery ul li p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #565656;
-  -webkit-text-shadow: 1px 1px 1px #fff;
-  -moz-text-shadow: 1px 1px 1px #fff;
-  text-shadow: 1px 1px 1px #fff;
-  text-align: justify;
-  display: none;
-}
+
+
+
+
+
+
+
+
+
+
 .who-we-are {
-  padding: 70px 0 0;
-  height: 400px;
+  padding: 70px 0;
+  height: 100%;
   width: 100%;
   position: relative;
-  background: url('/images/mp/mvp/time-he.jpg') center 0 repeat;
   text-align: center;
 }
 .who-we-are .bg-cover {
   width: 100%;
-  height: 470px;
-  background: #fb0101;
-  background: rgba(251,1,1,0.75);
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -563,6 +481,11 @@ a { text-decoration: none; }
   padding: 0 100px;
   margin-bottom: 40px;
 }
+
+
+
+
+
 .testimonials {
   padding: 90px 0 80px;
 }
@@ -831,40 +754,9 @@ div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underl
 #footer img {
   margin-left: 10px;
 }
-/*
-Startupdev videos page
-*/
-.video_page #nav ul {
-  background: #179b95;
-}
-.video_page #landing .bg-cover {
-  background: rgba(23, 155, 149, 0.85);
-}
-.video_page #nav.fxd {
-  background: rgba(23, 155, 149, 0.95);
-}
-.video_page .who-we-are {
-  background: #fff;
-}
-.video_page .who-we-are .bg-cover {
-  background: rgba(23, 155, 149, 0.9);
-}
-.video_page .how-works #steps li.result {
-  background: url('/images/mp/video_result_step.png') center 12px no-repeat;
-}
-.video_page #projects_gallery {
-  padding-top: 24px;
-  background: url('/images/mp/gallery-video.png') center 7px no-repeat;
-}
-.video_page #projects_gallery ul {
-  width: 524px;
-}
-.video_page #projects_gallery ul li img {
-  display: block;
-  margin-bottom: 80px;
-  width: 524px;
-  height: 297px;
-}
+
+
+
 #frame_contact {
   width: 100%;
   height: 280px;

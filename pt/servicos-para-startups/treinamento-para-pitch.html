@@ -19,6 +19,41 @@ testimonials:
     name: "Gabriel Rober"
     company: "Diretor de Operações da Silimed"
     description: "A minha posição requer uma enorme habilidade de engajar e convencer pessoas. Para conseguir tal coisa, o Clube da Fala me foi fundamental! Sem o apoio da Dra Laila e equipe, não teria obtido o mesmo sucesso que tive em nosso encontro mundial com fornecedores."
+schedule:
+  year: 2013
+  data:
+    -
+      month: Outubro
+      weeks:
+        -
+          date: 07/10
+          status: free
+        -
+          date: 14/10
+          status: free
+        -
+          date: 21/10
+          status: free
+        -
+          date: 28/10
+          status: free
+
+    -
+      month: Novembro
+      weeks:
+        -
+          date: 04/11
+          status: free
+        -
+          date: 11/11
+          status: free
+        -
+          date: 18/11
+          status: free
+        -
+          date: 25/11
+          status: free
+
 ---
 
 {% include services_list.html %}
@@ -94,44 +129,9 @@ testimonials:
       </div>
     </div>
   </article>
-  <article class="schedule">
-    <div class="grid">
-      <h3>Veja quando seu projeto pode rolar...</h3>
-      <div id="calendar">
-        <table>
-          <tbody>
-            {% for data in site.video.schedule.data %}
-              <tr>
-                <th class="day">{{ data.month }} <span>{{ site.mvp.schedule.year }}</span></th>
-                {% for week in data.weeks %}
-                  <td class="{{ week.status }}">
-                    {% if week.date %}
-                      <div class="day">Semana do dia {{ week.date }}</div>
-                    {% endif %}
-                    <div class="day-content">
-                      <strong>
-                        {% if week.status == 'client' %}
-                          {{ week.client }}
-                        {% elsif week.status == 'free' %}
-                          Livre :)
-                        {% elsif week.status == 'reserved' %}
-                          Reservado
-                        {% elsif week.status == 'unavailable' %}
-                          Indisponível
-                        {% else %}
-                          --
-                        {% endif %}
-                      </strong>
-                    </div>
-                  </td>
-                {% endfor %}
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </article>
+
+  {% include page-schedule.html %}
+
   <article class="contact">
     <div class="grid">
       <h3>então, vamos trabalhar juntos?</h3>

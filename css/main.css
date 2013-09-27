@@ -257,7 +257,6 @@ Cover Landing
 
 
 
-
 /* ====================
 How Works
 ==================== */
@@ -307,15 +306,15 @@ How Works
 .how-works #steps li.last-child { margin-right: 0; }
 .how-works #steps li.idea {
   width: 130px;
-  background: url('/images/mp/mvp/mvp_idea_step.png') center 0 no-repeat;
+  background: url('/images/mp/mvp/mvp_idea_step.png') center 8px no-repeat;
 }
 .how-works #steps li.staff {
   width: 120px;
-  background: url('/images/mp/mvp/mvp_staff_step.png') center 0 no-repeat;
+  background: url('/images/mp/mvp/mvp_staff_step.png') center 6px no-repeat;
 }
 .how-works #steps li.time {
   width: 110px;
-  background: url('/images/mp/mvp/mvp_time_step.png') center 0 no-repeat;
+  background: url('/images/mp/mvp/mvp_time_step.png') center 6px no-repeat;
 }
 .how-works #steps li.money {
   width: 110px;
@@ -323,7 +322,7 @@ How Works
 }
 .how-works #steps li.result {
   width: 100px;
-  background: url('/images/mp/mvp/mvp_result_step.png') center 10px no-repeat;
+  background: url('/images/mp/mvp/mvp_result_step.png') center 9px no-repeat;
 }
 .how-works #steps li.plus:after {
   width: 22px;

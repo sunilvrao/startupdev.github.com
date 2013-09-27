@@ -19,12 +19,6 @@ html, body {
 }
 
 
-
-.grid {
-  width: 960px;
-  margin: 0 auto;
-}
-
 header {
   background: url('/images/mp/chruch.png');
   border-top: 4px solid #FFAE00;
@@ -191,11 +185,6 @@ footer h5 {
 
 
 
-
-
-
-
-
 /*
 Max Width, 960px
 Media Queries for Tablets
@@ -296,12 +285,3 @@ Media Queries with more adjustments for Smartphones
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-

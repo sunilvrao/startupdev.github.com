@@ -1,4 +1,6 @@
-/* cover landing */
+/* ====================
+Cover Landing
+==================== */
 
 .video_page #landing {
   background: url('/images/mp/sistema-web/sistema_web_background.jpg')
@@ -9,7 +11,10 @@
 }
 
 
-/* nav bar */
+
+/* ====================
+Nav Bar
+==================== */
 
 .video_page #nav ul {
   background: #179b95;
@@ -21,14 +26,19 @@
 
 
 
-/* how works */
+/* ====================
+How Works
+==================== */
 
 .video_page .how-works #steps li.result {
   background: url('/images/mp/video_result_step.png') center 12px no-repeat;
 }
 
 
-/* projects */
+
+/* ====================
+Projects
+==================== */
 
 .video_page #projects_gallery {
   padding-top: 24px;
@@ -46,7 +56,10 @@
 }
 
 
-/* who we are */
+
+/* ====================
+Who we are
+==================== */
 
 .video_page .who-we-are {
   background: #fff;
@@ -54,4 +67,14 @@
 
 .video_page .who-we-are .bg-cover {
   background: rgba(23, 155, 149, 0.9);
+}
+
+
+
+/* ====================
+Calendar
+==================== */
+
+.video_page #calendar table tr th {
+  background:  #179b95;
 }

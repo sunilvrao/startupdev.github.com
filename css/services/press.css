@@ -1,4 +1,6 @@
-/* cover landing */
+/* ====================
+Cover Landing
+==================== */
 
 .press_page #landing {
   background: url('/images/mp/press/press_background.jpg') center center no-repeat;
@@ -9,7 +11,10 @@
 }
 
 
-/* nav bar */
+
+/* ====================
+Nav Bar
+==================== */
 
 .press_page #nav ul {
   background: #45233b;
@@ -21,7 +26,9 @@
 
 
 
-/* projects */
+/* ====================
+Projects
+==================== */
 
 .press_page #projects_gallery {
   padding-top: 28px;
@@ -37,7 +44,10 @@
 }
 
 
-/* who we are */
+
+/* ====================
+Who we are
+==================== */
 
 .press_page .who-we-are {
   background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
@@ -45,4 +55,14 @@
 
 .press_page .who-we-are .bg-cover {
   background: rgba(69, 35, 59, 0.9);
+}
+
+
+
+/* ====================
+Calendar
+==================== */
+
+.press_page #calendar table tr th {
+  background:  #45233b;
 }

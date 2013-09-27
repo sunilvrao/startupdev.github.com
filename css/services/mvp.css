@@ -1,4 +1,6 @@
-/* cover landing */
+/* ====================
+Cover Landing
+==================== */
 
 .mvp_page #landing {
   background: url('/images/mp/mvp/mvp_background.jpg') 80% center no-repeat;
@@ -9,7 +11,10 @@
 }
 
 
-/* nav bar */
+
+/* ====================
+Nav Bar
+==================== */
 
 .mvp_page #nav ul {
   background: #fb0101;
@@ -21,7 +26,9 @@
 
 
 
-/* projects */
+/* ====================
+Projects
+==================== */
 
 .mvp_page #projects_gallery {
   padding-top: 28px;
@@ -37,12 +44,25 @@
 }
 
 
-/* who we are */
+
+/* ====================
+Who we are
+==================== */
 
 .mvp_page .who-we-are {
   background: url('/images/mp/mvp/time-he.jpg') center 0 repeat;
 }
 
 .mvp_page .who-we-are .bg-cover {
-  background: rgba(251,1,1,0.75);
+  background: rgba(251,1,1,0.8);
+}
+
+
+
+/* ====================
+Calendar
+==================== */
+
+.mvp_page #calendar table tr th {
+  background:  #fb0101;
 }

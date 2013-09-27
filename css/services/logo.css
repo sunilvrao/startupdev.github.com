@@ -1,4 +1,6 @@
-/* cover landing */
+/* ====================
+Cover Landing
+==================== */
 
 .logo_page #landing {
   background: url('/images/mp/bg-99.jpg') center center no-repeat;
@@ -9,7 +11,10 @@
 }
 
 
-/* nav bar */
+
+/* ====================
+Nav Bar
+==================== */
 
 .logo_page #nav ul {
   background: #f06b2c;
@@ -20,14 +25,20 @@
 }
 
 
-/* how works */
+
+/* ====================
+How Works
+==================== */
 
 .logo_page .how-works #steps li.result {
   background: url('/images/icons/logo.png') center 12px no-repeat;
 }
 
 
-/* projects */
+
+/* ====================
+Projects
+==================== */
 
 .logo_page #projects_gallery {
   padding-top: 24px;
@@ -45,7 +56,10 @@
 }
 
 
-/* who we are */
+
+/* ====================
+Who we are
+==================== */
 
 .logo_page .who-we-are .bg-cover {
   background: rgba(240, 107, 44, 0.9);
@@ -53,4 +67,14 @@
 
 .logo_page .who-we-are {
   background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
+}
+
+
+
+/* ====================
+Calendar
+==================== */
+
+.logo_page #calendar table tr th {
+  background:  #f06b2c;
 }

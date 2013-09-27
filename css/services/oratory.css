@@ -1,4 +1,6 @@
-/* cover landing */
+/* ====================
+Cover Landing
+==================== */
 
 .oratory_page #landing {
   background: url('/images/mp/mvp/mvp_background.jpg') 80% center no-repeat;
@@ -9,7 +11,10 @@
 }
 
 
-/* nav bar */
+
+/* ====================
+Nav Bar
+==================== */
 
 .oratory_page #nav ul {
   background: #a9062d;
@@ -20,7 +25,10 @@
 }
 
 
-/* how works */
+
+/* ====================
+How Works
+==================== */
 
 .oratory_page .how-works #steps li.result {
   background: url('/images/icons/pitch.png') center 12px no-repeat;
@@ -28,7 +36,9 @@
 
 
 
-/* who we are */
+/* ====================
+Who we are
+==================== */
 
 .oratory_page .who-we-are .bg-cover {
   background: rgba(169, 6, 45, 0.9);
@@ -36,4 +46,14 @@
 
 .oratory_page .who-we-are {
   background: url('/images/mp/who-we-are-bg.png') center 0 repeat;
+}
+
+
+
+/* ====================
+Calendar
+==================== */
+
+.oratory_page #calendar table tr th {
+  background:  #a9062d;
 }

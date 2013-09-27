@@ -285,7 +285,7 @@ How Works
 
 .how-works #steps {
   overflow: hidden;
-  margin: 80px 0 100px;
+  margin: 60px 0 80px;
   text-align: center;
 }
 
@@ -318,11 +318,11 @@ How Works
 }
 .how-works #steps li.money {
   width: 110px;
-  background: url('/images/mp/mvp/mvp_money_step.png') center 10px no-repeat;
+  background: url('/images/mp/mvp/mvp_money_step.png') center 13px no-repeat;
 }
 .how-works #steps li.result {
   width: 100px;
-  background: url('/images/mp/mvp/mvp_result_step.png') center 9px no-repeat;
+  background: url('/images/mp/mvp/mvp_result_step.png') center 12px no-repeat;
 }
 .how-works #steps li.plus:after {
   width: 22px;

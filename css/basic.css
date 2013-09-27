@@ -1,16 +1,5 @@
 
-body {
-  line-height:1;
-  background: url('/images/mp/chruch.png');
-}
-
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-
-
-body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-h1, h2, h3, h4 { font-family: 'Lato', Helvetica, sans-serif;}
-a { text-decoration: none; }
-
+body { background: url('/images/mp/chruch.png'); }
 
 /* Viewport */
 

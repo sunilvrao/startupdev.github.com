@@ -668,18 +668,15 @@ article.schedule h3:after {
 
 
 
-
-
-
-
-
-
-
+/* ====================
+Contact
+==================== */
 
 .contact {
   background: url('/images/mp/blackmamba.png');
-  padding: 80px 0 100px;
+  padding: 90px 0;
 }
+
 .contact h3  {
   color: #fff;
   font-weight: 900;
@@ -687,23 +684,112 @@ article.schedule h3:after {
   text-align: center;
   font-size: 40px;
 }
+
 .contact h3:after {
-  width: 500px;
+  width: 400px;
   height: 4px;
   background-color: #ffae00;
   content: '';
   display: block;
   margin: 15px auto 0;
 }
+
 .contact p  {
-  color: #d2dbea;
+  color: #fff;
   text-align: center;
   font-weight: normal;
   font-size: 14px;
-  letter-spacing: 0.03em;
   margin-top: 30px;
-  margin-bottom: 50px;
 }
+
+#frame_contact {
+  width: 100%;
+  height: 280px;
+  margin-top: 60px;
+}
+
+
+/* Contatc Sent Page */
+
+article.contact-sent {
+  width: 70%;
+  margin: 100px auto 0;
+}
+
+article.contact-sent h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #383838;
+}
+
+article.contact-sent h1:after {
+  background-color: #FFAE00;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 20px auto 0;
+  width: 50%;
+}
+
+article.contact-sent h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+article.contact-sent p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+
+/* ====================
+Footer
+==================== */
+
+#footer {
+  background: #fff;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#footer .share {
+  float: left;
+  margin-top: 8px;
+}
+
+#footer h4 {
+  float: right;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 10px;
+  color: #929292;
+}
+
+#footer span {
+  float: left;
+  display: block;
+  margin: 11px 10px 0 0;
+  line-height: 14px;
+}
+
+#footer img {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* ====================
+Modal
+==================== */
+
 #sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
 #sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none;}
 #sb-overlay{position:relative;height:100%;width:100%;}
@@ -734,108 +820,3 @@ article.schedule h3:after {
 #sb-counter a.sb-counter-current{text-decoration:underline;}
 div.sb-message{font-size:12px;padding:10px;text-align:center;}
 div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
-#footer {
-  background: #fff;
-  padding: 20px;
-  overflow: hidden;
-}
-#footer .share {
-  float: left;
-  margin-top: 8px;
-}
-#footer h4 {
-  float: right;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 10px;
-  color: #929292;
-}
-#footer span {
-  float: left;
-  display: block;
-  margin: 11px 10px 0 0;
-  line-height: 14px;
-}
-#footer img {
-  margin-left: 10px;
-}
-
-
-
-#frame_contact {
-  width: 100%;
-  height: 280px;
-}
-
-
-
-
-/*
-Contatc Sent Page
-*/
-article.contact-sent {
-  width: 70%;
-  margin: 100px auto 0;
-}
-
-article.contact-sent h1 {
-  text-align: center;
-  font-size: 40px;
-  color: #383838;
-}
-
-article.contact-sent h2 {
-  margin-top: 30px;
-  text-align: center;
-}
-
-article.contact-sent p {
-  margin-top: 30px;
-  text-align: center;
-}
-
-article.contact-sent h1:after {
-  background-color: #FFAE00;
-  content: "";
-  display: block;
-  height: 3px;
-  margin: 20px auto 0;
-  width: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

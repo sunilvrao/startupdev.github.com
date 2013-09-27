@@ -268,33 +268,29 @@ How Works
 }
 
 .how-works  h3  {
-  color: #fff;
+  font-size: 40px;
+  color: #ffffff;
   font-weight: 700;
-  letter-spacing: 0.08em;
   text-align: center;
-  text-transform: uppercase;
-  font-size: 28px;
-  width: 475px;
-  margin: 0 auto 80px;
   position: relative;
 }
-.how-works  h3:after,
-.how-works  h3:before {
-  background-color: #ffae00;
+
+.how-works h3:after {
+  width: 200px;
   height: 4px;
-  width: 100px;
-  position: absolute;
-  top: 50%;
+  background-color: #ffae00;
   content: '';
   display: block;
+  margin: 15px auto 0;
 }
-.how-works  h3:after { right: -10px; }
-.how-works  h3:before { left: -10px; }
+
 .how-works #steps {
   overflow: hidden;
-  margin-bottom: 80px;
+  margin: 80px 0 100px;
   text-align: center;
 }
+
+
 .how-works #steps li {
   padding-top: 100px;
   font-size: 14px;
@@ -393,12 +389,6 @@ How Works
   font-size: 13px;
   text-decoration: underline;
 }
-
-
-
-
-
-
 
 
 
@@ -513,7 +503,7 @@ Who we are
 }
 
 .who-we-are h3:after {
-  width: 400px;
+  width: 300px;
   height: 4px;
   background-color: #ffae00;
   content: '';

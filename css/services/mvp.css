@@ -1,3 +1,6 @@
+/* color #ff2211 */
+
+
 /* ====================
 Cover Landing
 ==================== */
@@ -7,7 +10,7 @@ Cover Landing
 }
 
 .mvp_page #landing .bg-cover {
-  background: rgba(251,1,1,0.7);
+  background: rgba(255, 34, 17, 0.8);
 }
 
 
@@ -17,11 +20,11 @@ Nav Bar
 ==================== */
 
 .mvp_page #nav ul {
-  background: #fb0101;
+  background: #ff2211;
 }
 
 .mvp_page #nav.fxd {
-  background: rgba(206, 4, 0, 0.95);
+  background: rgba(255, 34, 17, 0.9);
 }
 
 
@@ -54,7 +57,7 @@ Who we are
 }
 
 .mvp_page .who-we-are .bg-cover {
-  background: rgba(251,1,1,0.8);
+  background: rgba(255, 34, 17, 0.85);
 }
 
 
@@ -64,5 +67,5 @@ Calendar
 ==================== */
 
 .mvp_page #calendar table tr th {
-  background:  #fb0101;
+  background:  #ff2211;
 }

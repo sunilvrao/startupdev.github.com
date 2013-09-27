@@ -406,7 +406,7 @@ a { text-decoration: none; }
 }
 #projects_gallery_next:hover,
 #projects_gallery_prev:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 #projects_gallery ul {

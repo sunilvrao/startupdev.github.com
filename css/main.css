@@ -98,6 +98,10 @@ Other Services
 #other-services ul {
   overflow: hidden;
   margin: 20px auto 0;
+  width: 540px;
+}
+
+#other-services ul.en {
   width: 340px;
 }
 
@@ -135,6 +139,9 @@ Other Services
 }
 #other-services a.video-service {
   background: url('/images/icons/video-s.png') center center no-repeat;
+}
+#other-services a.pitch-service {
+  background: url('/images/icons/pitch-s.png') center center no-repeat;
 }
 #other-services a:hover {
   opacity: 0.8;

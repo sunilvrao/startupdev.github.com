@@ -6,6 +6,20 @@ title: 'Produção de vídeo animado e storytelling para Startups - StartupDEV V
 favicon: '/favicon.png'
 class: 'video_page'
 permalink: 'videos-animados/'
+testimonials:
+  -
+    name: "Louise Kinane"
+    company: "Piriform"
+    description: "Foi um prazer trabalhar com a Chili Gum e nós estamos muito contentes com o resultado! O trabalho deles é de alta qualidade, foi entregue dentro do prazo e eles foram super flexíveis em relação às mudanças que pedimos. Espero que possamos trabalhar juntos de novo e não hesito em recomenda-los para outras pessoas."
+  -
+    name: "Rodrigo Paolucci"
+    company: "Samba Ads"
+    description: "Foi fantástico trabalhar com a Chiligum Videos! Equipe competente, profissional e atendimento diferenciado! Criamos um vídeo explicativo do nosso serviço e a recepção foi a melhor possível, de fácil compreensão e com certeza tem sido um diferencial na venda. Recomendo para qualquer um que queira contar sua história em vídeo, eles sabem fazer como poucos!"
+  -
+    name: "Mauro"
+    company: "RBM Solutions"
+    description: "O trabalho da Chili Gum Videos nos agradou muito. Desde o primeiro contato tivemos um ótimo atendimento e tudo que foi combinado foi feito de forma impecável. Os prazos foram cumpridos e toda alteração necessária era comunicada com antecedência. O mais satisfatório foi a qualidade do trabalho entregue, muito superior às expectativas. Recomendo à todos."
+
 schedule:
   year: 2013
   data:
@@ -129,7 +143,7 @@ schedule:
       <h3>Depoimentos</h3>
       <div id="testimonials_gallery">
         <ul>
-          {% for testimonial in site.video.testimonials %}
+          {% for testimonial in page.testimonials %}
           <li>
             <p>"{{ testimonial.description }}"</p>
             <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>

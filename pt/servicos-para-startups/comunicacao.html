@@ -10,7 +10,15 @@ permalink: 'comunicacao/'
 {% include services_list.html %}
 {% include live_chat.html %}
 <header id="top">
-  {% include main_nav_pt.html %}
+  <nav id="nav">
+    <ul>
+      <li><a href="#" id="how-works">Como funciona</a></li>
+      <li><a href="#" id="projects">Clientes atendidos</a></li>
+      <li><a href="#" id="who-we-are">Quem somos</a></li>
+      <li><a href="#" id="testimonials">Depoimentos</a></li>
+      <li><a href="#" id="contact">Contratar</a></li>
+    </ul>
+  </nav>
   <div class="grid">
     <h1>
       <a href="/">
@@ -53,7 +61,7 @@ permalink: 'comunicacao/'
   </article>
   <article class="projects">
     <div class="grid">
-      <h3>+ de {{ site.mvp.number_of_projects }} projetos entregues com sucesso!</h3>
+      <h3>+ de 30 clientes atendidos!</h3>
       <div id="projects_gallery">
         <ul>
           {% for project in site.mvp.projects %}
@@ -90,44 +98,6 @@ permalink: 'comunicacao/'
           </li>
           {% endfor %}
         </ul>
-      </div>
-    </div>
-  </article>
-  <article class="schedule">
-    <div class="grid">
-      <h3>Veja quando seu projeto pode rolar...</h3>
-      <div id="calendar">
-        <table>
-          <tbody>
-            {% for data in site.mvp.schedule.data %}
-              <tr>
-                <th class="day">{{ data.month }} <span>{{ site.mvp.schedule.year }}</span></th>
-                {% for week in data.weeks %}
-                  <td class="{{ week.status }}">
-                    {% if week.date %}
-                      <div class="day">Semana do dia {{ week.date }}</div>
-                    {% endif %}
-                    <div class="day-content">
-                      <strong>
-                        {% if week.status == 'client' %}
-                          {{ week.client }}
-                        {% elsif week.status == 'free' %}
-                          Livre :)
-                        {% elsif week.status == 'reserved' %}
-                          Reservado
-                        {% elsif week.status == 'unavailable' %}
-                          Indisponível
-                        {% else %}
-                          --
-                        {% endif %}
-                      </strong>
-                    </div>
-                  </td>
-                {% endfor %}
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
       </div>
     </div>
   </article>

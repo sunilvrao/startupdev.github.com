@@ -284,7 +284,7 @@ Cover Landing
   min-height: 300px;
 }
 
-#landing .grid p {
+#landing .grid .desc p {
   color: #fff;
   font-size: 1.1em;
   font-weight: normal;

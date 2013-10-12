@@ -6,6 +6,52 @@ title: 'Comunicação Estratégica para Startups - StartupDEV Comunicação'
 favicon: '/favicon.png'
 class: 'press_page'
 permalink: 'comunicacao/'
+clients:
+  -
+    name: Camiseteria
+    url: "http://www.camiseteria.com.br"
+    image: /images/comunicacao/clients/camiseteria.png
+  -
+    name: Eventick
+    url: "http://www.eventick.com.br"
+    image: /images/comunicacao/clients/eventick.png
+  -
+    name: Easy Aula
+    url: "http://www.easyaula.com.br"
+    image: /images/comunicacao/clients/easyaula.png
+  -
+    name: Endeavor
+    url: "http://www.endeavor.com.br"
+    image: /images/comunicacao/clients/endeavor.png
+  -
+    name: Billy the Grill
+    url: "http://www.grupobtg.com.br/"
+    image: /images/comunicacao/clients/billythegrill.png
+  -
+    name: Mola
+    url: "http://www.mola.com/pt/"
+    image: /images/comunicacao/clients/mola.png
+  -
+    name: Tangerina
+    url: "http://www.tangerina.com.br/"
+    image: /images/comunicacao/clients/tangerina.png
+  -
+    name: Pto de Contato
+    url: "http://www.ptodecontato.com.br"
+    image: /images/comunicacao/clients/pto-contato.png
+  -
+    name: Instaquadros
+    url: "http://www.instaquadros.com.br"
+    image: /images/comunicacao/clients/instaquadros.png
+  -
+    name: WeDoLogos
+    url: "http://www.wedologos.com.br/"
+    image: /images/comunicacao/clients/wedologos.png
+  -
+    name: Moby Prints
+    url: "http://www.mobyprints.com.br/"
+    image: /images/comunicacao/clients/mobyprints.png
+
 ---
 {% include services_list.html %}
 {% include live_chat.html %}
@@ -55,22 +101,21 @@ permalink: 'comunicacao/'
       </ul>
       <div class="more">
         <a href="#contact" class="bt">Contratar agora</a>
-        <!--span><a rel="shadowbox;height=540;width=960" href="http://embed.videolog.tv/v/index.php?id_video=796308&amp;related=&amp;hd=&amp;color1=00C6DA&amp;color2=ffffff&amp;color3=&amp;slideshow=&amp;config_url=&amp;">ou assista nosso video de apresentação</a></span-->
       </div>
     </div>
   </article>
   <article class="projects">
     <div class="grid">
-      <h3>+ de 30 clientes atendidos!</h3>
+      <h3>Clientes atendidos!</h3>
       <div id="projects_gallery">
         <ul>
-          {% for project in site.mvp.projects %}
+          {% for client in page.clients %}
           <li>
-            <a href="{{ project.url }}" title="{{ project.name }}" target="_blank" rel="nofollow" class="photo">
-              <img src="{{ project.image }}" width="527" height="330" alt="{{  project.name }}" />
+            <a href="{{ client.url }}" title="{{ client.name }}" target="_blank" rel="nofollow" class="photo">
+              <img src="{{ client.image }}" width="527" height="330" alt="{{ client.name }}" />
             </a>
-            <h6>{{ project.name }}</h6>
-            <p>{{ project.description }}</p>
+            <h6>{{ client.name }}</h6>
+            <p>{{ client.description }}</p>
           </li>
           {% endfor %}
         </ul>

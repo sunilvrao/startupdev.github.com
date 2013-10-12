@@ -52,6 +52,12 @@ clients:
     url: "http://www.mobyprints.com.br/"
     image: /images/comunicacao/clients/mobyprints.png
 
+testimonials:
+  -
+    name: ""
+    company: "Instaquadros"
+    description: "Através da Tagarela, sonhos como ver nossa empresa na Globo, Folha de São Paulo, Veja, em grandes colunistas, passaram a ser realidade. Muito mais do que uma assessoria a Tagarela veste a camisa de sua empresa, com uma equipe de profissionais de primeira ao seu lado, seu negócio estará mais próximo ao sucesso. O Instaquadros recomenda!"
+
 ---
 {% include services_list.html %}
 {% include live_chat.html %}
@@ -136,7 +142,7 @@ clients:
       <h3>Depoimentos</h3>
       <div id="testimonials_gallery">
         <ul>
-          {% for testimonial in site.mvp.testimonials %}
+          {% for testimonial in page.testimonials %}
           <li>
             <p>"{{ testimonial.description }}"</p>
             <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>

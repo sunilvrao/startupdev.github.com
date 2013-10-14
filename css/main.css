@@ -344,6 +344,10 @@ How Works
   width: 130px;
   background: url('/images/mp/mvp/mvp_idea_step.png') center 8px no-repeat;
 }
+.how-works #steps li.product {
+  width: 130px;
+  background: url('/images/mp/comunicacao/step1.png') center 8px no-repeat;
+}
 .how-works #steps li.staff {
   width: 120px;
   background: url('/images/mp/mvp/mvp_staff_step.png') center 6px no-repeat;
@@ -360,6 +364,12 @@ How Works
   width: 100px;
   background: url('/images/mp/mvp/mvp_result_step.png') center 12px no-repeat;
 }
+
+.how-works #steps li.product_result {
+  width: 100px;
+  background: url('/images/mp/comunicacao/comunicacao.png') center 12px no-repeat;
+}
+
 .how-works #steps li.plus:after {
   width: 22px;
   height: 22px;

@@ -110,10 +110,11 @@ ul.services-list {
 
 ul.services-list li {
   float: left;
-  width: 30%;
+  width: 45%;
   border: 1px solid #d5d9d9;
   text-align: center;
   margin-right: 4%;
+  margin-bottom: 20px;
   border-radius: 3px 3px 3px 3px;
   padding: 20px 0 30px;
   background: url('/images/mp/denim.png');

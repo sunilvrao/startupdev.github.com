@@ -98,17 +98,21 @@ Other Services
 #other-services ul {
   overflow: hidden;
   margin: 20px auto 0;
-  width: 540px;
-}
-
-#other-services ul.en {
-  width: 340px;
+  width: 100%;
 }
 
 #other-services ul li {
   float: left;
-  width: 140px;
-  margin-right: 60px;
+  width: 25%;
+}
+
+#other-services ul.en {
+  width: 540px;
+}
+
+#other-services ul.en li {
+  float: left;
+  width: 50%;
 }
 
 #other-services ul li:last-child {
@@ -142,6 +146,9 @@ Other Services
 }
 #other-services a.pitch-service {
   background: url('/images/icons/pitch-s.png') center center no-repeat;
+}
+#other-services a.media-service {
+  background: url('/images/icons/comunicacao-s.png') center center no-repeat;
 }
 #other-services a:hover {
   opacity: 0.8;

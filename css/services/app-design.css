@@ -7,7 +7,7 @@ Cover Landing
 }
 
 .app_design_page #landing .bg-cover {
-  background: rgba(147, 147, 147, 0.95);
+  background: rgba(255, 68, 102, 0.8);
 }
 
 
@@ -17,11 +17,16 @@ Nav Bar
 ==================== */
 
 .app_design_page #nav ul {
-  background: #939393;
+  background: #ff4163;
+}
+
+.app_design_page #nav li a:hover,
+.app_design_page #nav li a.active {
+  color: #852338;
 }
 
 .app_design_page #nav.fxd {
-  background: rgba(147, 147, 147, 0.95);
+  background: rgba(255, 68, 102, 0.9);
 }
 
 
@@ -31,16 +36,15 @@ Projects
 ==================== */
 
 .app_design_page #projects_gallery {
-  padding-top: 28px;
-  background: url('/images/mp/gallery-laptop.png') center 0 no-repeat;
+  padding-top: 20px;
 }
 
 .app_design_page #projects_gallery ul {
-  width: 527px;
+  width: 580px;
 }
 
 .app_design_page #projects_gallery ul li img {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -54,7 +58,7 @@ Who we are
 }
 
 .app_design_page .who-we-are .bg-cover {
-  background: rgba(147, 147, 147, 0.95);
+  background: rgba(255, 68, 102, 0.85);
 }
 
 
@@ -64,5 +68,5 @@ Calendar
 ==================== */
 
 .app_design_page #calendar table tr th {
-  background:  #939393;
+  background:  #ff4466;
 }

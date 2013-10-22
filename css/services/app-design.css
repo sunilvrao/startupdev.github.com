@@ -7,7 +7,7 @@ Cover Landing
 }
 
 .app_design_page #landing .bg-cover {
-  background: rgba(255, 68, 102, 0.8);
+  background: rgba(13, 168, 191, 0.8);
 }
 
 
@@ -17,16 +17,16 @@ Nav Bar
 ==================== */
 
 .app_design_page #nav ul {
-  background: #ff4163;
+  background: rgba(13, 168, 191, 1.0);
 }
 
 .app_design_page #nav li a:hover,
 .app_design_page #nav li a.active {
-  color: #852338;
+  color: #f4b809;
 }
 
 .app_design_page #nav.fxd {
-  background: rgba(255, 68, 102, 0.9);
+  background: rgba(13, 168, 191, 0.9);
 }
 
 
@@ -58,7 +58,7 @@ Who we are
 }
 
 .app_design_page .who-we-are .bg-cover {
-  background: rgba(255, 68, 102, 0.85);
+  background: rgba(13, 168, 191, 0.8);
 }
 
 
@@ -68,5 +68,5 @@ Calendar
 ==================== */
 
 .app_design_page #calendar table tr th {
-  background:  #ff4466;
+  background: rgba(13, 168, 191, 1.0);
 }

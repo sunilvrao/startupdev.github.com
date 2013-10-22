@@ -372,10 +372,18 @@ How Works
   background: url('/images/mp/mvp/mvp_result_step.png') center 12px no-repeat;
 }
 
+.how-works #steps li.result.mobile {
+  width: 100px;
+  background: url('/images/mp/mobile/mvp_result_step1.png') center 12px no-repeat;
+
+
+}
 .how-works #steps li.product_result {
   width: 100px;
   background: url('/images/mp/comunicacao/comunicacao.png') center 12px no-repeat;
 }
+
+
 
 .how-works #steps li.plus:after {
   width: 22px;

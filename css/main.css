@@ -150,6 +150,9 @@ Other Services
 #other-services a.media-service {
   background: url('/images/icons/comunicacao-s.png') center center no-repeat;
 }
+#other-services a.mobile-service {
+  background: url('/images/icons/mobileapp-s.png') center center no-repeat;
+}
 #other-services a:hover {
   opacity: 0.8;
 }

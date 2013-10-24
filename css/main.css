@@ -103,7 +103,7 @@ Other Services
 
 #other-services ul li {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 #other-services ul.en {
@@ -112,7 +112,7 @@ Other Services
 
 #other-services ul.en li {
   float: left;
-  width: 50%;
+  width: 33%;
 }
 
 #other-services ul li:last-child {

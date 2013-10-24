@@ -65,8 +65,8 @@ header ul li a:hover {
 .cover {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  background: url('/images/mp/blue-pattern.png');
-  padding: 80px 0;
+  background: url('/images/mp/blackmamba.png') 0 0 repeat;
+  padding: 120px 0;
 }
 
 .cover h2 {
@@ -79,6 +79,15 @@ header ul li a:hover {
   text-transform: uppercase;
   line-height: 80px;
   text-shadow: 1px 1px 1px #234257;
+}
+
+.cover h2:after {
+  width: 75%;
+  height: 4px;
+  background-color: #ffae00;
+  content: '';
+  display: block;
+  margin: 15px auto 0;
 }
 
 #choose-service {

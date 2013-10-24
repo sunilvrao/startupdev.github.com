@@ -148,10 +148,42 @@ schedule:
   {% include page-schedule-en.html %}
 
   <article class="contact">
+    <link href="/css/form-2.css" media="all" rel="stylesheet" />
     <div class="grid">
       <h3>So, let's work together?</h3>
       <p>Fill in your details below and we'll contact you.</p>
-      <iframe id="frame_contact" src="../contact-form/video.html"></iframe>
+
+      <form id="form_contact" name="form7" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+            action="https://startupdev.wufoo.eu/forms/pbogxzn0h8fp6u/#public">
+
+        <div class="form-div name">
+            <label for="Field1">First Name</label>
+            <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1" placeholder="First Name" required />
+            <label for="Field2">Last Name</label>
+            <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" placeholder="Last Name" required />
+          </span>
+        </div>
+
+        <div class="form-div email">
+          <label for="email">Email</label>
+          <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" placeholder="Email" required />
+        </div>
+
+        <div class="form-div tel">
+          <label for="tel">Phone Number</label>
+          <input id="Field4" class="field text medium" name="Field4" tabindex="4" required  type="tel" maxlength="255" value="" placeholder="Phone Number" />
+        </div>
+
+        <div class="submit-div">
+          <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Contact Us" />
+        </div>
+
+        <div class="hide">
+          <label for="comment">Do Not Fill This Out</label>
+          <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+          <input type="hidden" id="idstamp" name="idstamp" value="mdXEsb5ZHrs1mbCFYFsKe7a9oNZOJnRuFe/+WSJX7uo=" />
+        </div>
+      </form>
     </div>
   </article>
 </section>

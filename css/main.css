@@ -153,6 +153,11 @@ Other Services
 #other-services a.mobile-service {
   background: url('/images/icons/mobileapp-s.png') center center no-repeat;
 }
+
+#other-services a.vulnerabilidade-service {
+  background: url('/images/icons/vulnerabilidade-s.png') center center no-repeat;
+}
+
 #other-services a:hover {
   opacity: 0.8;
 }
@@ -371,6 +376,11 @@ How Works
 .how-works #steps li.result {
   width: 100px;
   background: url('/images/mp/mvp/mvp_result_step.png') center 12px no-repeat;
+}
+
+.how-works #steps li.result.vulnerability {
+  width: 110px;
+  background: url('/images/mp/vulnerabilidade/mvp_result_step0.png') center 12px no-repeat;
 }
 
 .how-works #steps li.result.mobile {

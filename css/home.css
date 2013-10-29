@@ -151,6 +151,7 @@ ul.services-list li .icon {
 }
 
 ul.services-list li h4 {
+  margin-top:2em;
   text-transform: uppercase;
   font-weight: 700;
   color: #fda51f;

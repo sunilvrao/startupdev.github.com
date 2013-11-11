@@ -32,6 +32,18 @@ $(document).on('ready', function() {
 		'next': '#testimonials_gallery_next'
 	});
 
+	$('#howitwork_gallery ul')
+	.after('<a href="#" id="howitwork_gallery_prev"></a>')
+	.after('<a href="#" id="howitwork_gallery_next"></a>')
+	.cycle({
+		'pause': 1,
+		'timeout': 8000,
+		'prev': '#howitwork_gallery_prev',
+		'next': '#howitwork_gallery_next'
+	});
+
+
+
 
 	$('.other-services').click(function(e) {
 		e.preventDefault();
@@ -64,4 +76,25 @@ $(document).on('ready', function() {
     }
   }).trigger('focusout');
 
+  // cycle for how it works
+	$('#how-it-works-gallery-layers')
+	.before('<div id="how-it-works-gallery-steps"></div>')
+	.before('<a href="#" id="how-it-works-gallery-prev" class="arrow"></a>')
+	.before('<a href="#" id="how-it-works-gallery-next" class="arrow"></a>')
+	.cycle({
+		'pager': '#how-it-works-gallery-steps',
+		'next': '#how-it-works-gallery-next',
+		'prev': '#how-it-works-gallery-prev',
+		'pause': 1,
+		'timeout': 0,
+		'fx': 'scrollHorz'
+	});
+
+	$('#how-it-works-gallery-steps a').each(function() {
+		var step = $(this).text();
+		$(this).append('<span>Step ' + step + '</span>')
+	});
+
 });
+
+

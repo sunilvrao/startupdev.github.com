@@ -19,53 +19,21 @@ testimonials:
     name: "Mauro"
     company: "RBM Solutions"
     description: "O trabalho da Chili Gum Videos nos agradou muito. Desde o primeiro contato tivemos um ótimo atendimento e tudo que foi combinado foi feito de forma impecável. Os prazos foram cumpridos e toda alteração necessária era comunicada com antecedência. O mais satisfatório foi a qualidade do trabalho entregue, muito superior às expectativas. Recomendo à todos."
-
-schedule:
-  year: 2013
-  data:
-    -
-      month: Novembro
-      weeks:
-        -
-          date: 05/11
-          status: unavailable
-        -
-          date: 12/11
-          status: unavailable
-        -
-          date: 19/11
-          status: free
-        -
-          date: 26/09
-          status: free
-        -
-          date:
-          status:
-    -
-      month: Dezembro
-      weeks:
-        -
-          date: 03/12
-          status: free
-        -
-          date: 10/12
-          status: free
-        -
-          date: 17/12
-          status: free
-        -
-          date: 24/12
-          status: unavailable
-        -
-          date: 31/12
-          status: unavailable
 ---
 
 {% include services_list.html %}
 {% include live_chat.html %}
 
 <header id="top">
-  {% include main_nav_pt.html %}
+  <nav id="nav">
+    <ul>
+      <li><a href="#" id="how-works">Como funciona</a></li>
+      <li><a href="#" id="projects">Projetos entregues</a></li>
+      <li><a href="#" id="who-we-are">Quem somos</a></li>
+      <li><a href="#" id="testimonials">Depoimentos</a></li>
+      <li><a href="#" id="contact">Contratar</a></li>
+    </ul>
+  </nav>
   <div class="grid">
     <h1>
       <a href="/">
@@ -163,8 +131,6 @@ schedule:
       </div>
     </div>
   </article>
-
-  {% include page-schedule.html %}
 
   <article class="contact">
     <div class="grid">
